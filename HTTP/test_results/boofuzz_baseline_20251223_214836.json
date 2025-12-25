@@ -1,0 +1,13 @@
+{
+  "iterations": 0,
+  "crashes": 0,
+  "cve_triggers": {},
+  "seeds_generated": 0,
+  "mutations_performed": 0,
+  "errors": 0,
+  "timeouts": 0,
+  "pool_updates": 0,
+  "seed_pool_size": 10,
+  "mutation_pool_size": 10,
+  "update_interval": 10
+}

@@ -1,0 +1,73 @@
+# HyFuzz-v3 Configuration File
+
+# Target Server Configuration
+target:
+  host: "127.0.0.1"
+  port: 8080
+  restart_delay: 1.0  # seconds to wait before restart
+  max_restarts: 100   # maximum number of automatic restarts
+
+# Logging Configuration
+logging:
+  crash_log_dir: "logs/crashes"
+  cve_log_dir: "logs/cve_triggers"
+  fuzzer_log_dir: "logs/fuzzer"
+  log_level: "INFO"
+
+# LLM Configuration (Ollama)
+llm:
+  base_url: "http://localhost:11434"
+  model: "qwen3:8b"
+  timeout: 120  # seconds (increased for slower hardware)
+  max_retries: 3
+  temperature: 0.7
+  max_tokens: 512  # reduced for faster generation
+  keep_alive: "5m"  # keep model loaded in memory
+
+# Fuzzer Configuration
+fuzzer:
+  # Connection settings
+  connection_timeout: 5.0
+  recv_timeout: 2.0
+
+  # Fuzzing parameters
+  max_iterations: 10000
+  crash_threshold: 5  # consecutive crashes to pause
+
+  # Seed generation
+  seed_pool_size: 100
+
+  # Mutation parameters
+  mutation_rate: 0.3
+  max_mutations_per_seed: 10
+
+# Ablation Study Configuration
+ablation:
+  # Number of iterations per fuzzer variant
+  iterations_per_variant: 1000
+
+  # Results output
+  results_dir: "results"
+
+  # Variants to test
+  variants:
+    - "boofuzz_baseline"
+    - "llm_seed"
+    - "llm_mutation"
+    - "llm_full"
+    - "llm_feedback"
+
+# CVE Simulation Configuration
+cve_simulation:
+  # Enable/disable specific CVE simulations
+  enabled_cves:
+    - "CVE-2021-44228"  # Log4Shell - Header injection
+    - "CVE-2023-44487"  # HTTP/2 Rapid Reset
+    - "CVE-2023-25690"  # Apache mod_proxy request splitting
+    - "CVE-2022-22720"  # Apache request smuggling
+    - "CVE-2021-40438"  # Apache mod_proxy SSRF
+    - "CVE-2021-41773"  # Apache path traversal
+    - "CVE-2023-27522"  # Apache mod_proxy_uwsgi
+    - "CVE-2022-31813"  # Apache X-Forwarded-* bypass
+    - "CVE-2022-26377"  # Apache mod_proxy_ajp smuggling
+    - "CVE-2021-33193"  # Apache HTTP/2 method confusion

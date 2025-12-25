@@ -1,0 +1,37 @@
+# FTP Fuzzing Framework Requirements
+# Core fuzzing library
+boofuzz>=0.4.1
+
+# Ollama client for LLM integration
+ollama>=0.1.0
+
+# FTP server implementation
+pyftpdlib>=1.5.7
+
+# Async support
+asyncio-throttle>=1.0.2
+
+# Data handling
+pydantic>=2.0.0
+
+# Logging and monitoring
+rich>=13.0.0
+loguru>=0.7.0
+
+# Network utilities
+scapy>=2.5.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Metrics and analysis
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Process management
+psutil>=5.9.0
+
+# Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
