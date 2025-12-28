@@ -1,0 +1,22 @@
+{
+  "total_crashes": 24,
+  "unique_cves_triggered": 2,
+  "cve_trigger_counts": {
+    "CVE-2024-4040": 22,
+    "CVE-2024-48651": 2
+  },
+  "crash_type_counts": {
+    "cve_trigger": 24
+  },
+  "first_crash": "2025-12-28T16:16:28.964605",
+  "last_crash": "2025-12-28T16:17:05.165090",
+  "crashes_by_fuzzer": {
+    "vuln_test": {
+      "total": 24,
+      "cves": [
+        "CVE-2024-4040",
+        "CVE-2024-48651"
+      ]
+    }
+  }
+}
