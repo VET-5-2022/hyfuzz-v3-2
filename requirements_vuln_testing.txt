@@ -1,0 +1,51 @@
+# Vulnerability Testing Framework Requirements
+# Combined requirements for testing both FTP and HTTP servers
+
+# Core Fuzzing Framework (Industry Standard)
+boofuzz>=0.4.1
+
+# FTP Server Support
+pyftpdlib>=1.5.7
+
+# HTTP Server Support
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# Rich Terminal Output
+rich>=13.0.0
+
+# Data Handling
+pydantic>=2.0.0
+
+# Configuration
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+
+# Process Management
+psutil>=5.9.0
+
+# Network Utilities
+scapy>=2.5.0
+
+# HTTP Client
+requests>=2.31.0
+httpx>=0.25.0
+
+# Logging
+loguru>=0.7.0
+colorlog>=6.8.0
+
+# Data Analysis and Reporting
+pandas>=2.0.0
+matplotlib>=3.7.0
+python-dateutil>=2.8.2
+
+# Testing (optional, for development)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# LLM Integration (optional, not required for basic vulnerability testing)
+ollama>=0.1.0
+
+# Async Support
+asyncio-throttle>=1.0.2
