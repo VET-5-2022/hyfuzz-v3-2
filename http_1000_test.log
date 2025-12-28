@@ -1,0 +1,44 @@
+╭──────────────────────────────────────────────╮
+│ Professional Vulnerability Testing Framework │
+│ Framework: boofuzz (Industry Standard)       │
+│ Iterations: 1000 per target                  │
+│ Targets: HTTP                                │
+╰──────────────────────────────────────────────╯
+Starting HTTP server on 127.0.0.1:8080...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Server crashed. Restarting (1/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+Server crashed. Restarting (2/100)...
+HTTP server started successfully
+Running 1000 vulnerability tests...
+2025-12-28 16:37:43,729 - HTTP-Tester - ERROR - Error during testing: BaseFuzzer.__init__() got an unexpected keyword argument 'session_name'
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+
+
+╭───────────────────────────────╮
+│ VULNERABILITY TESTING RESULTS │
+╰───────────────────────────────╯
+                              Overall Test Summary                              
+╭──────────────┬────────┬────────┬────────┬────────┬─────────┬────────┬────────╮
+│              │        │   CVEs │  Total │        │    TTFC │   Rate │        │
+│ Target       │ Itera… │  Found │ Trigg… │ Crash… │     (s) │ (req/… │ Errors │
+├──────────────┼────────┼────────┼────────┼────────┼─────────┼────────┼────────┤
+│ HTTP         │      0 │      0 │      0 │      0 │     N/A │   0.00 │      1 │
+╰──────────────┴────────┴────────┴────────┴────────┴─────────┴────────┴────────╯
+
+                          Timing & Performance Metrics                          
+╭──────────────┬────────────┬──────────┬────────────┬────────────┬─────────────╮
+│              │            │          │            │        Avg │             │
+│              │   Duration │          │            │   Response │  Throughput │
+│ Target       │        (s) │ TTFC (s) │ TTFCVE (s) │       (ms) │     (req/s) │
+├──────────────┼────────────┼──────────┼────────────┼────────────┼─────────────┤
+│ HTTP         │       0.00 │      N/A │        N/A │       0.00 │        0.00 │
+╰──────────────┴────────────┴──────────┴────────────┴────────────┴─────────────╯
+
+✓ HTTP results saved to: 
+results/vulnerability_testing/http_vuln_test_20251228_163746.json
+✓ Combined report saved to: 
+results/vulnerability_testing/combined_vuln_test_20251228_163746.json
+

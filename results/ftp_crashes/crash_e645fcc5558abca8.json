@@ -1,6 +1,6 @@
 {
   "crash_id": "e645fcc5558abca8",
-  "timestamp": "2025-12-28T16:16:39.515404",
+  "timestamp": "2025-12-28T16:31:09.098966",
   "crash_type": "cve_trigger",
   "payload": "/home/user/hyfuzz-v3-2/ftp_test_root/%{",
   "payload_hex": "2f686f6d652f757365722f687966757a7a2d76332d322f6674705f746573745f726f6f742f257b",
@@ -14,5 +14,5 @@
   "server_state": {},
   "fuzzer_type": "vuln_test",
   "iteration": 0,
-  "session_id": "1f3c511d"
+  "session_id": "90f1cf3b"
 }

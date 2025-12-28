@@ -1,0 +1,18 @@
+{
+  "crash_id": "2aacfceb3acccce3",
+  "timestamp": "2025-12-28T16:24:00.578512",
+  "crash_type": "cve_trigger",
+  "payload": "/home/user/hyfuzz-v3-2/ftp_test_root/\uffff4294967295",
+  "payload_hex": "2f686f6d652f757365722f687966757a7a2d76332d322f6674705f746573745f726f6f742fefbfbf34323934393637323935",
+  "payload_size": 50,
+  "command": "RETR",
+  "arguments": "/home/user/hyfuzz-v3-2/ftp_test_root/\uffff4294967295",
+  "cve_id": "CVE-2024-4040",
+  "cve_name": "CrushFTP SSTI/RCE",
+  "error_message": "Template injection detected - potential RCE",
+  "stack_trace": "",
+  "server_state": {},
+  "fuzzer_type": "vuln_test",
+  "iteration": 0,
+  "session_id": "90f1cf3b"
+}
