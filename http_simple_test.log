@@ -1,0 +1,28 @@
+======================================================================
+HTTP Vulnerability Test - 1000 Iterations
+Using boofuzz baseline fuzzer
+======================================================================
+
+[1/3] Starting HTTP server on 127.0.0.1:8080...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Server crashed. Restarting (1/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+Server crashed. Restarting (2/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+✓ HTTP server started successfully
+
+[2/3] Initializing boofuzz fuzzer...
+2025-12-28 17:27:32,522 - root - ERROR - Test failed: BaseFuzzer.__init__() got an unexpected keyword argument 'update_interval'
+Traceback (most recent call last):
+  File "/home/user/hyfuzz-v3-2/run_http_test_simple.py", line 43, in main
+    fuzzer = BoofuzzBaseline(
+             ^^^^^^^^^^^^^^^^
+  File "/home/user/hyfuzz-v3-2/HTTP/fuzzer/boofuzz_baseline.py", line 632, in __init__
+    super().__init__(target_host=target_host, target_port=target_port, **kwargs)
+TypeError: BaseFuzzer.__init__() got an unexpected keyword argument 'update_interval'
+
+Stopping HTTP server...
+✓ Server stopped
+
