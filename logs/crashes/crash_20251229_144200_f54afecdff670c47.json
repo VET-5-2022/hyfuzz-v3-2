@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:42:11.008775",
+  "crash_type": "segfault",
+  "payload": "PUT /..%2f..%2f..%2fetc/passwd?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '0'}",
+  "payload_hash": "f54afecdff670c47",
+  "request_method": "PUT",
+  "request_path": "/..%2f..%2f..%2fetc/passwd?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 222
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-12-29T14:42:23.106744",
+  "crash_type": "segfault",
+  "payload": "HEAD /..%2f..%2f..%2fetc/passwd?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080'}",
+  "payload_hash": "cb3b7b2c89ab9624",
+  "request_method": "HEAD",
+  "request_path": "/..%2f..%2f..%2fetc/passwd?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 746
+}

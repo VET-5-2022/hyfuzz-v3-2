@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:18.725589",
+  "crash_type": "segfault",
+  "payload": "GET /upload.action?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'A\\x00B', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data'}",
+  "payload_hash": "24c5af703ab8b3a2",
+  "request_method": "GET",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "A\u0000B",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 664
+}

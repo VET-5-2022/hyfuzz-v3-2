@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:17.469631",
+  "crash_type": "segfault",
+  "payload": "PUT /upload.action?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Rewrite-Url': '%n%n%n%n%n%n%n%n%n%n', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '13'}\nBody: field=%.2048d",
+  "payload_hash": "4aca2b6b80e38236",
+  "request_method": "PUT",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Rewrite-Url": "%n%n%n%n%n%n%n%n%n%n",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "13"
+  },
+  "request_body": "field=%.2048d",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 505
+}

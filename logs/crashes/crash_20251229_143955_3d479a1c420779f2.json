@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:40:01.837062",
+  "crash_type": "null_byte_injection",
+  "payload": "TRACE /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': '4294967296', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '<script>alert(1)</script>'}",
+  "payload_hash": "3d479a1c420779f2",
+  "request_method": "TRACE",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "4294967296",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "<script>alert(1)</script>"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 232
+}

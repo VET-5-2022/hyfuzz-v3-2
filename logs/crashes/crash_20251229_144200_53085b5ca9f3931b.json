@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:07.116935",
+  "crash_type": "unhandled_exception",
+  "payload": "HEAD /config\r\nSet-Cookie: evil=true?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': '; ls -la', 'X-Http-Method-Override': '../../../etc/passwd', 'Accept-Language': '%.2048d', 'Referer': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'}",
+  "payload_hash": "53085b5ca9f3931b",
+  "request_method": "HEAD",
+  "request_path": "/config\r\nSet-Cookie: evil=true",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "; ls -la",
+    "X-Http-Method-Override": "../../../etc/passwd",
+    "Accept-Language": "%.2048d",
+    "Referer": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  "request_body": "",
+  "error_message": "404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.",
+  "stack_trace": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 891, in dispatch_request\n    self.raise_routing_exception(req)\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 500, in raise_routing_exception\n    raise request.routing_exception  # type: ignore[misc]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/flask/ctx.py\", line 362, in match_request\n    result = self.url_adapter.match(return_rule=True)  # type: ignore\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/werkzeug/routing/map.py\", line 629, in match\n    raise NotFound() from None\nwerkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\n",
+  "fuzzer_variant": null,
+  "iteration": 96
+}

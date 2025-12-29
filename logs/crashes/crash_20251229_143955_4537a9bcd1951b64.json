@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:40:16.130089",
+  "crash_type": "segfault",
+  "payload": "POST /upload.action?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Accept-Language': '<script>alert(1)</script>', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '267'}\nBody: {\"key\": \"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\"}",
+  "payload_hash": "4537a9bcd1951b64",
+  "request_method": "POST",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Accept-Language": "<script>alert(1)</script>",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "267"
+  },
+  "request_body": "{\"key\": \"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\"}",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 502
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:39:58.194244",
+  "crash_type": "segfault",
+  "payload": "TRACE /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '0'}",
+  "payload_hash": "6d78ba73bc6b2967",
+  "request_method": "TRACE",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 1
+}

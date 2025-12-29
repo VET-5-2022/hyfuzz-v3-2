@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:17.339703",
+  "crash_type": "segfault",
+  "payload": "GET /upload.action?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Cookie': '\\x00', 'X-Forwarded-Host': '..\\\\..\\\\..\\\\windows\\\\system32\\\\config\\\\sam', 'Content-Type': 'multipart/form-data', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"'}",
+  "payload_hash": "eade6481a89fdda9",
+  "request_method": "GET",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Cookie": "\u0000",
+    "X-Forwarded-Host": "..\\..\\..\\windows\\system32\\config\\sam",
+    "Content-Type": "multipart/form-data",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\""
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 497
+}

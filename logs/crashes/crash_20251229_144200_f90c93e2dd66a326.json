@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:42:06.560529",
+  "crash_type": "segfault",
+  "payload": "PATCH /upload.action?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': '4294967296', 'X-Http-Method-Override': '-2147483648', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '0'}",
+  "payload_hash": "f90c93e2dd66a326",
+  "request_method": "PATCH",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "4294967296",
+    "X-Http-Method-Override": "-2147483648",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 58
+}

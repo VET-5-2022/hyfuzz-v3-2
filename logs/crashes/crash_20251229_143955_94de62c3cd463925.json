@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:00.035921",
+  "crash_type": "null_byte_injection",
+  "payload": "OPTIONS /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB', 'Content-Length': '0'}",
+  "payload_hash": "94de62c3cd463925",
+  "request_method": "OPTIONS",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 116
+}

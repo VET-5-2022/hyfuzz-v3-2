@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:40:20.018160",
+  "crash_type": "segfault",
+  "payload": "POST /upload.action?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Transfer-Encoding': '..%c0%af..%c0%af', 'Content-Length': '12', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data'}\nBody: @/etc/passwd",
+  "payload_hash": "2943768290b03ec6",
+  "request_method": "POST",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Transfer-Encoding": "..%c0%af..%c0%af",
+    "Content-Length": "12",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data"
+  },
+  "request_body": "@/etc/passwd",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 747
+}

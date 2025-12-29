@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:17.511638",
+  "crash_type": "segfault",
+  "payload": "PUT /latest/meta-data/?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '\\x00\\x00\\x00\\x00', 'X-Forwarded-Host': '169.254.169.254'}",
+  "payload_hash": "4360107a96f703d0",
+  "request_method": "PUT",
+  "request_path": "/latest/meta-data/?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "\u0000\u0000\u0000\u0000",
+    "X-Forwarded-Host": "169.254.169.254"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 586
+}

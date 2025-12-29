@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:17.617863",
+  "crash_type": "segfault",
+  "payload": "PATCH /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': '%n%n%n%n%n%n%n%n%n%n', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Host': 'http://metadata.google.internal', 'Content-Length': '13'}\nBody: field=%.1024d",
+  "payload_hash": "3114ecdb5acff5e2",
+  "request_method": "PATCH",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "%n%n%n%n%n%n%n%n%n%n",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Host": "http://metadata.google.internal",
+    "Content-Length": "13"
+  },
+  "request_body": "field=%.1024d",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 593
+}

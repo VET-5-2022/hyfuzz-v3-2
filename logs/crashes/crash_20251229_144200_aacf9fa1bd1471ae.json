@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:11.665999",
+  "crash_type": "null_byte_injection",
+  "payload": "PATCH /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Authorization': '\\x00', 'X-Rewrite-Url': 'http://[::1]', 'Content-Length': '18'}\nBody: {\"key\": \"%.2048d\"}",
+  "payload_hash": "aacf9fa1bd1471ae",
+  "request_method": "PATCH",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Authorization": "\u0000",
+    "X-Rewrite-Url": "http://[::1]",
+    "Content-Length": "18"
+  },
+  "request_body": "{\"key\": \"%.2048d\"}",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 264
+}

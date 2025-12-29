@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-12-29T14:40:15.997609",
+  "crash_type": "segfault",
+  "payload": "POST /upload.action?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': '%n%n%n%n%n%n%n%n%n%n', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Accept-Language': '-n -d auto_prepend_file=php://input', 'Transfer-Encoding': '2147483648', 'X-Forwarded-Proto': '%p%p%p%p%p%p%p%p%p%p', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '18'}\nBody: file:///etc/passwd",
+  "payload_hash": "50c5cd6a5f6972dc",
+  "request_method": "POST",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "%n%n%n%n%n%n%n%n%n%n",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Accept-Language": "-n -d auto_prepend_file=php://input",
+    "Transfer-Encoding": "2147483648",
+    "X-Forwarded-Proto": "%p%p%p%p%p%p%p%p%p%p",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "18"
+  },
+  "request_body": "file:///etc/passwd",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 493
+}
