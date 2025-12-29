@@ -4,230 +4,261 @@ Framework: boofuzz (Industry Standard)
 ======================================================================
 
 [Step 1/3] Starting HTTP server on 127.0.0.1:8080...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Server crashed. Restarting (1/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+Server crashed. Restarting (2/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
 ✓ HTTP server started successfully
 
 [Step 2/3] Initializing boofuzz baseline fuzzer...
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10[0m
-2025-12-29 14:39:58,186 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10
+[32m2025-12-28 17:30:24 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10[0m
+2025-12-28 17:30:24,936 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10
 ✓ Fuzzer initialized with 1000 iterations
 
 [Step 3/3] Running 1000 iterations of HTTP fuzzing...
 This will take approximately 10-15 minutes...
 ----------------------------------------------------------------------
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations[0m
-2025-12-29 14:39:58,187 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [10/1000] crashes=3, CVEs=5, rate=68.80/s, elapsed=0s[0m
-2025-12-29 14:39:58,332 - BoofuzzBaseline - INFO - [10/1000] crashes=3, CVEs=5, rate=68.80/s, elapsed=0s
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [20/1000] crashes=4, CVEs=10, rate=72.11/s, elapsed=0s[0m
-2025-12-29 14:39:58,464 - BoofuzzBaseline - INFO - [20/1000] crashes=4, CVEs=10, rate=72.11/s, elapsed=0s
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [30/1000] crashes=4, CVEs=15, rate=73.98/s, elapsed=0s[0m
-2025-12-29 14:39:58,592 - BoofuzzBaseline - INFO - [30/1000] crashes=4, CVEs=15, rate=73.98/s, elapsed=0s
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [40/1000] crashes=4, CVEs=22, rate=74.55/s, elapsed=1s[0m
-2025-12-29 14:39:58,723 - BoofuzzBaseline - INFO - [40/1000] crashes=4, CVEs=22, rate=74.55/s, elapsed=1s
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [50/1000] crashes=5, CVEs=26, rate=75.71/s, elapsed=1s[0m
-2025-12-29 14:39:58,847 - BoofuzzBaseline - INFO - [50/1000] crashes=5, CVEs=26, rate=75.71/s, elapsed=1s
-[32m2025-12-29 14:39:58 - BoofuzzBaseline - INFO - [60/1000] crashes=8, CVEs=35, rate=75.39/s, elapsed=1s[0m
-2025-12-29 14:39:58,983 - BoofuzzBaseline - INFO - [60/1000] crashes=8, CVEs=35, rate=75.39/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [70/1000] crashes=10, CVEs=41, rate=75.34/s, elapsed=1s[0m
-2025-12-29 14:39:59,116 - BoofuzzBaseline - INFO - [70/1000] crashes=10, CVEs=41, rate=75.34/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [80/1000] crashes=10, CVEs=50, rate=75.58/s, elapsed=1s[0m
-2025-12-29 14:39:59,245 - BoofuzzBaseline - INFO - [80/1000] crashes=10, CVEs=50, rate=75.58/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [90/1000] crashes=12, CVEs=57, rate=75.65/s, elapsed=1s[0m
-2025-12-29 14:39:59,376 - BoofuzzBaseline - INFO - [90/1000] crashes=12, CVEs=57, rate=75.65/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [100/1000] crashes=13, CVEs=65, rate=75.80/s, elapsed=1s[0m
-2025-12-29 14:39:59,506 - BoofuzzBaseline - INFO - [100/1000] crashes=13, CVEs=65, rate=75.80/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [110/1000] crashes=15, CVEs=70, rate=75.93/s, elapsed=1s[0m
-2025-12-29 14:39:59,635 - BoofuzzBaseline - INFO - [110/1000] crashes=15, CVEs=70, rate=75.93/s, elapsed=1s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [120/1000] crashes=16, CVEs=76, rate=76.18/s, elapsed=2s[0m
-2025-12-29 14:39:59,762 - BoofuzzBaseline - INFO - [120/1000] crashes=16, CVEs=76, rate=76.18/s, elapsed=2s
-[32m2025-12-29 14:39:59 - BoofuzzBaseline - INFO - [130/1000] crashes=18, CVEs=84, rate=76.14/s, elapsed=2s[0m
-2025-12-29 14:39:59,894 - BoofuzzBaseline - INFO - [130/1000] crashes=18, CVEs=84, rate=76.14/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [140/1000] crashes=21, CVEs=91, rate=76.24/s, elapsed=2s[0m
-2025-12-29 14:40:00,023 - BoofuzzBaseline - INFO - [140/1000] crashes=21, CVEs=91, rate=76.24/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [150/1000] crashes=24, CVEs=98, rate=76.20/s, elapsed=2s[0m
-2025-12-29 14:40:00,155 - BoofuzzBaseline - INFO - [150/1000] crashes=24, CVEs=98, rate=76.20/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [160/1000] crashes=27, CVEs=106, rate=75.99/s, elapsed=2s[0m
-2025-12-29 14:40:00,292 - BoofuzzBaseline - INFO - [160/1000] crashes=27, CVEs=106, rate=75.99/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [170/1000] crashes=28, CVEs=111, rate=75.79/s, elapsed=2s[0m
-2025-12-29 14:40:00,430 - BoofuzzBaseline - INFO - [170/1000] crashes=28, CVEs=111, rate=75.79/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [180/1000] crashes=29, CVEs=117, rate=75.69/s, elapsed=2s[0m
-2025-12-29 14:40:00,565 - BoofuzzBaseline - INFO - [180/1000] crashes=29, CVEs=117, rate=75.69/s, elapsed=2s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [190/1000] crashes=30, CVEs=124, rate=75.62/s, elapsed=3s[0m
-2025-12-29 14:40:00,699 - BoofuzzBaseline - INFO - [190/1000] crashes=30, CVEs=124, rate=75.62/s, elapsed=3s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [200/1000] crashes=30, CVEs=129, rate=75.48/s, elapsed=3s[0m
-2025-12-29 14:40:00,836 - BoofuzzBaseline - INFO - [200/1000] crashes=30, CVEs=129, rate=75.48/s, elapsed=3s
-[32m2025-12-29 14:40:00 - BoofuzzBaseline - INFO - [210/1000] crashes=32, CVEs=133, rate=75.37/s, elapsed=3s[0m
-2025-12-29 14:40:00,973 - BoofuzzBaseline - INFO - [210/1000] crashes=32, CVEs=133, rate=75.37/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [220/1000] crashes=35, CVEs=138, rate=74.96/s, elapsed=3s[0m
-2025-12-29 14:40:01,122 - BoofuzzBaseline - INFO - [220/1000] crashes=35, CVEs=138, rate=74.96/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [230/1000] crashes=35, CVEs=143, rate=74.91/s, elapsed=3s[0m
-2025-12-29 14:40:01,257 - BoofuzzBaseline - INFO - [230/1000] crashes=35, CVEs=143, rate=74.91/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [240/1000] crashes=37, CVEs=154, rate=74.68/s, elapsed=3s[0m
-2025-12-29 14:40:01,401 - BoofuzzBaseline - INFO - [240/1000] crashes=37, CVEs=154, rate=74.68/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [250/1000] crashes=38, CVEs=161, rate=74.52/s, elapsed=3s[0m
-2025-12-29 14:40:01,542 - BoofuzzBaseline - INFO - [250/1000] crashes=38, CVEs=161, rate=74.52/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [260/1000] crashes=40, CVEs=170, rate=74.37/s, elapsed=3s[0m
-2025-12-29 14:40:01,683 - BoofuzzBaseline - INFO - [260/1000] crashes=40, CVEs=170, rate=74.37/s, elapsed=3s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [270/1000] crashes=43, CVEs=175, rate=74.25/s, elapsed=4s[0m
-2025-12-29 14:40:01,823 - BoofuzzBaseline - INFO - [270/1000] crashes=43, CVEs=175, rate=74.25/s, elapsed=4s
-[32m2025-12-29 14:40:01 - BoofuzzBaseline - INFO - [280/1000] crashes=45, CVEs=181, rate=74.23/s, elapsed=4s[0m
-2025-12-29 14:40:01,959 - BoofuzzBaseline - INFO - [280/1000] crashes=45, CVEs=181, rate=74.23/s, elapsed=4s
-[32m2025-12-29 14:40:02 - BoofuzzBaseline - INFO - [290/1000] crashes=47, CVEs=186, rate=74.13/s, elapsed=4s[0m
-2025-12-29 14:40:02,099 - BoofuzzBaseline - INFO - [290/1000] crashes=47, CVEs=186, rate=74.13/s, elapsed=4s
-[32m2025-12-29 14:40:04 - BoofuzzBaseline - INFO - [300/1000] crashes=48, CVEs=195, rate=49.57/s, elapsed=6s[0m
-2025-12-29 14:40:04,238 - BoofuzzBaseline - INFO - [300/1000] crashes=48, CVEs=195, rate=49.57/s, elapsed=6s
-[32m2025-12-29 14:40:04 - BoofuzzBaseline - INFO - [310/1000] crashes=50, CVEs=197, rate=50.12/s, elapsed=6s[0m
-2025-12-29 14:40:04,372 - BoofuzzBaseline - INFO - [310/1000] crashes=50, CVEs=197, rate=50.12/s, elapsed=6s
-[32m2025-12-29 14:40:04 - BoofuzzBaseline - INFO - [320/1000] crashes=52, CVEs=204, rate=50.63/s, elapsed=6s[0m
-2025-12-29 14:40:04,508 - BoofuzzBaseline - INFO - [320/1000] crashes=52, CVEs=204, rate=50.63/s, elapsed=6s
-[32m2025-12-29 14:40:04 - BoofuzzBaseline - INFO - [330/1000] crashes=53, CVEs=208, rate=51.17/s, elapsed=6s[0m
-2025-12-29 14:40:04,636 - BoofuzzBaseline - INFO - [330/1000] crashes=53, CVEs=208, rate=51.17/s, elapsed=6s
-[32m2025-12-29 14:40:04 - BoofuzzBaseline - INFO - [340/1000] crashes=55, CVEs=213, rate=51.67/s, elapsed=7s[0m
-2025-12-29 14:40:04,766 - BoofuzzBaseline - INFO - [340/1000] crashes=55, CVEs=213, rate=51.67/s, elapsed=7s
-[32m2025-12-29 14:40:06 - BoofuzzBaseline - INFO - [350/1000] crashes=58, CVEs=219, rate=40.19/s, elapsed=9s[0m
-2025-12-29 14:40:06,895 - BoofuzzBaseline - INFO - [350/1000] crashes=58, CVEs=219, rate=40.19/s, elapsed=9s
-[32m2025-12-29 14:40:07 - BoofuzzBaseline - INFO - [360/1000] crashes=58, CVEs=225, rate=40.75/s, elapsed=9s[0m
-2025-12-29 14:40:07,022 - BoofuzzBaseline - INFO - [360/1000] crashes=58, CVEs=225, rate=40.75/s, elapsed=9s
-[32m2025-12-29 14:40:07 - BoofuzzBaseline - INFO - [370/1000] crashes=59, CVEs=230, rate=41.28/s, elapsed=9s[0m
-2025-12-29 14:40:07,150 - BoofuzzBaseline - INFO - [370/1000] crashes=59, CVEs=230, rate=41.28/s, elapsed=9s
-[32m2025-12-29 14:40:07 - BoofuzzBaseline - INFO - [380/1000] crashes=62, CVEs=237, rate=41.78/s, elapsed=9s[0m
-2025-12-29 14:40:07,283 - BoofuzzBaseline - INFO - [380/1000] crashes=62, CVEs=237, rate=41.78/s, elapsed=9s
-[32m2025-12-29 14:40:09 - BoofuzzBaseline - INFO - [390/1000] crashes=64, CVEs=247, rate=34.73/s, elapsed=11s[0m
-2025-12-29 14:40:09,418 - BoofuzzBaseline - INFO - [390/1000] crashes=64, CVEs=247, rate=34.73/s, elapsed=11s
-[32m2025-12-29 14:40:09 - BoofuzzBaseline - INFO - [400/1000] crashes=65, CVEs=254, rate=35.20/s, elapsed=11s[0m
-2025-12-29 14:40:09,549 - BoofuzzBaseline - INFO - [400/1000] crashes=65, CVEs=254, rate=35.20/s, elapsed=11s
-[32m2025-12-29 14:40:09 - BoofuzzBaseline - INFO - [410/1000] crashes=65, CVEs=257, rate=35.68/s, elapsed=11s[0m
-2025-12-29 14:40:09,678 - BoofuzzBaseline - INFO - [410/1000] crashes=65, CVEs=257, rate=35.68/s, elapsed=11s
-[32m2025-12-29 14:40:09 - BoofuzzBaseline - INFO - [420/1000] crashes=65, CVEs=264, rate=36.17/s, elapsed=12s[0m
-2025-12-29 14:40:09,799 - BoofuzzBaseline - INFO - [420/1000] crashes=65, CVEs=264, rate=36.17/s, elapsed=12s
-[32m2025-12-29 14:40:11 - BoofuzzBaseline - INFO - [430/1000] crashes=67, CVEs=271, rate=31.27/s, elapsed=14s[0m
-2025-12-29 14:40:11,937 - BoofuzzBaseline - INFO - [430/1000] crashes=67, CVEs=271, rate=31.27/s, elapsed=14s
-[32m2025-12-29 14:40:12 - BoofuzzBaseline - INFO - [440/1000] crashes=69, CVEs=275, rate=31.71/s, elapsed=14s[0m
-2025-12-29 14:40:12,063 - BoofuzzBaseline - INFO - [440/1000] crashes=69, CVEs=275, rate=31.71/s, elapsed=14s
-[32m2025-12-29 14:40:12 - BoofuzzBaseline - INFO - [450/1000] crashes=71, CVEs=282, rate=32.14/s, elapsed=14s[0m
-2025-12-29 14:40:12,189 - BoofuzzBaseline - INFO - [450/1000] crashes=71, CVEs=282, rate=32.14/s, elapsed=14s
-[32m2025-12-29 14:40:12 - BoofuzzBaseline - INFO - [460/1000] crashes=71, CVEs=287, rate=32.55/s, elapsed=14s[0m
-2025-12-29 14:40:12,318 - BoofuzzBaseline - INFO - [460/1000] crashes=71, CVEs=287, rate=32.55/s, elapsed=14s
-[32m2025-12-29 14:40:14 - BoofuzzBaseline - INFO - [470/1000] crashes=72, CVEs=293, rate=28.90/s, elapsed=16s[0m
-2025-12-29 14:40:14,449 - BoofuzzBaseline - INFO - [470/1000] crashes=72, CVEs=293, rate=28.90/s, elapsed=16s
-[32m2025-12-29 14:40:14 - BoofuzzBaseline - INFO - [480/1000] crashes=74, CVEs=300, rate=29.28/s, elapsed=16s[0m
-2025-12-29 14:40:14,582 - BoofuzzBaseline - INFO - [480/1000] crashes=74, CVEs=300, rate=29.28/s, elapsed=16s
-[32m2025-12-29 14:40:14 - BoofuzzBaseline - INFO - [490/1000] crashes=74, CVEs=304, rate=29.65/s, elapsed=17s[0m
-2025-12-29 14:40:14,711 - BoofuzzBaseline - INFO - [490/1000] crashes=74, CVEs=304, rate=29.65/s, elapsed=17s
-[32m2025-12-29 14:40:14 - BoofuzzBaseline - INFO - [500/1000] crashes=75, CVEs=312, rate=30.02/s, elapsed=17s[0m
-2025-12-29 14:40:14,841 - BoofuzzBaseline - INFO - [500/1000] crashes=75, CVEs=312, rate=30.02/s, elapsed=17s
-[32m2025-12-29 14:40:14 - BoofuzzBaseline - INFO - [510/1000] crashes=75, CVEs=316, rate=30.38/s, elapsed=17s[0m
-2025-12-29 14:40:14,973 - BoofuzzBaseline - INFO - [510/1000] crashes=75, CVEs=316, rate=30.38/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [520/1000] crashes=78, CVEs=320, rate=30.73/s, elapsed=17s[0m
-2025-12-29 14:40:15,108 - BoofuzzBaseline - INFO - [520/1000] crashes=78, CVEs=320, rate=30.73/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [530/1000] crashes=79, CVEs=325, rate=31.07/s, elapsed=17s[0m
-2025-12-29 14:40:15,242 - BoofuzzBaseline - INFO - [530/1000] crashes=79, CVEs=325, rate=31.07/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [540/1000] crashes=80, CVEs=331, rate=31.41/s, elapsed=17s[0m
-2025-12-29 14:40:15,377 - BoofuzzBaseline - INFO - [540/1000] crashes=80, CVEs=331, rate=31.41/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [550/1000] crashes=82, CVEs=339, rate=31.75/s, elapsed=17s[0m
-2025-12-29 14:40:15,508 - BoofuzzBaseline - INFO - [550/1000] crashes=82, CVEs=339, rate=31.75/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [560/1000] crashes=85, CVEs=346, rate=32.07/s, elapsed=17s[0m
-2025-12-29 14:40:15,646 - BoofuzzBaseline - INFO - [560/1000] crashes=85, CVEs=346, rate=32.07/s, elapsed=17s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [570/1000] crashes=86, CVEs=352, rate=32.41/s, elapsed=18s[0m
-2025-12-29 14:40:15,774 - BoofuzzBaseline - INFO - [570/1000] crashes=86, CVEs=352, rate=32.41/s, elapsed=18s
-[32m2025-12-29 14:40:15 - BoofuzzBaseline - INFO - [580/1000] crashes=86, CVEs=355, rate=32.73/s, elapsed=18s[0m
-2025-12-29 14:40:15,907 - BoofuzzBaseline - INFO - [580/1000] crashes=86, CVEs=355, rate=32.73/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [590/1000] crashes=88, CVEs=361, rate=33.05/s, elapsed=18s[0m
-2025-12-29 14:40:16,040 - BoofuzzBaseline - INFO - [590/1000] crashes=88, CVEs=361, rate=33.05/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [600/1000] crashes=91, CVEs=368, rate=33.37/s, elapsed=18s[0m
-2025-12-29 14:40:16,167 - BoofuzzBaseline - INFO - [600/1000] crashes=91, CVEs=368, rate=33.37/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [610/1000] crashes=94, CVEs=374, rate=33.68/s, elapsed=18s[0m
-2025-12-29 14:40:16,298 - BoofuzzBaseline - INFO - [610/1000] crashes=94, CVEs=374, rate=33.68/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [620/1000] crashes=95, CVEs=379, rate=33.98/s, elapsed=18s[0m
-2025-12-29 14:40:16,430 - BoofuzzBaseline - INFO - [620/1000] crashes=95, CVEs=379, rate=33.98/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [630/1000] crashes=96, CVEs=384, rate=34.29/s, elapsed=18s[0m
-2025-12-29 14:40:16,561 - BoofuzzBaseline - INFO - [630/1000] crashes=96, CVEs=384, rate=34.29/s, elapsed=18s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [640/1000] crashes=97, CVEs=390, rate=34.58/s, elapsed=19s[0m
-2025-12-29 14:40:16,693 - BoofuzzBaseline - INFO - [640/1000] crashes=97, CVEs=390, rate=34.58/s, elapsed=19s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [650/1000] crashes=98, CVEs=395, rate=34.89/s, elapsed=19s[0m
-2025-12-29 14:40:16,819 - BoofuzzBaseline - INFO - [650/1000] crashes=98, CVEs=395, rate=34.89/s, elapsed=19s
-[32m2025-12-29 14:40:16 - BoofuzzBaseline - INFO - [660/1000] crashes=103, CVEs=401, rate=35.17/s, elapsed=19s[0m
-2025-12-29 14:40:16,955 - BoofuzzBaseline - INFO - [660/1000] crashes=103, CVEs=401, rate=35.17/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [670/1000] crashes=103, CVEs=403, rate=35.48/s, elapsed=19s[0m
-2025-12-29 14:40:17,073 - BoofuzzBaseline - INFO - [670/1000] crashes=103, CVEs=403, rate=35.48/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [680/1000] crashes=106, CVEs=410, rate=35.75/s, elapsed=19s[0m
-2025-12-29 14:40:17,206 - BoofuzzBaseline - INFO - [680/1000] crashes=106, CVEs=410, rate=35.75/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [690/1000] crashes=109, CVEs=416, rate=36.03/s, elapsed=19s[0m
-2025-12-29 14:40:17,335 - BoofuzzBaseline - INFO - [690/1000] crashes=109, CVEs=416, rate=36.03/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [700/1000] crashes=113, CVEs=423, rate=36.30/s, elapsed=19s[0m
-2025-12-29 14:40:17,473 - BoofuzzBaseline - INFO - [700/1000] crashes=113, CVEs=423, rate=36.30/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [710/1000] crashes=116, CVEs=430, rate=36.56/s, elapsed=19s[0m
-2025-12-29 14:40:17,604 - BoofuzzBaseline - INFO - [710/1000] crashes=116, CVEs=430, rate=36.56/s, elapsed=19s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [720/1000] crashes=117, CVEs=436, rate=36.84/s, elapsed=20s[0m
-2025-12-29 14:40:17,733 - BoofuzzBaseline - INFO - [720/1000] crashes=117, CVEs=436, rate=36.84/s, elapsed=20s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [730/1000] crashes=117, CVEs=442, rate=37.11/s, elapsed=20s[0m
-2025-12-29 14:40:17,859 - BoofuzzBaseline - INFO - [730/1000] crashes=117, CVEs=442, rate=37.11/s, elapsed=20s
-[32m2025-12-29 14:40:17 - BoofuzzBaseline - INFO - [740/1000] crashes=118, CVEs=450, rate=37.37/s, elapsed=20s[0m
-2025-12-29 14:40:17,989 - BoofuzzBaseline - INFO - [740/1000] crashes=118, CVEs=450, rate=37.37/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [750/1000] crashes=119, CVEs=455, rate=37.63/s, elapsed=20s[0m
-2025-12-29 14:40:18,117 - BoofuzzBaseline - INFO - [750/1000] crashes=119, CVEs=455, rate=37.63/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [760/1000] crashes=122, CVEs=463, rate=37.88/s, elapsed=20s[0m
-2025-12-29 14:40:18,250 - BoofuzzBaseline - INFO - [760/1000] crashes=122, CVEs=463, rate=37.88/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [770/1000] crashes=122, CVEs=465, rate=38.15/s, elapsed=20s[0m
-2025-12-29 14:40:18,369 - BoofuzzBaseline - INFO - [770/1000] crashes=122, CVEs=465, rate=38.15/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [780/1000] crashes=125, CVEs=471, rate=38.39/s, elapsed=20s[0m
-2025-12-29 14:40:18,505 - BoofuzzBaseline - INFO - [780/1000] crashes=125, CVEs=471, rate=38.39/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [790/1000] crashes=126, CVEs=478, rate=38.64/s, elapsed=20s[0m
-2025-12-29 14:40:18,633 - BoofuzzBaseline - INFO - [790/1000] crashes=126, CVEs=478, rate=38.64/s, elapsed=20s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [800/1000] crashes=128, CVEs=485, rate=38.87/s, elapsed=21s[0m
-2025-12-29 14:40:18,767 - BoofuzzBaseline - INFO - [800/1000] crashes=128, CVEs=485, rate=38.87/s, elapsed=21s
-[32m2025-12-29 14:40:18 - BoofuzzBaseline - INFO - [810/1000] crashes=130, CVEs=492, rate=39.11/s, elapsed=21s[0m
-2025-12-29 14:40:18,898 - BoofuzzBaseline - INFO - [810/1000] crashes=130, CVEs=492, rate=39.11/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [820/1000] crashes=131, CVEs=499, rate=39.34/s, elapsed=21s[0m
-2025-12-29 14:40:19,029 - BoofuzzBaseline - INFO - [820/1000] crashes=131, CVEs=499, rate=39.34/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [830/1000] crashes=132, CVEs=505, rate=39.59/s, elapsed=21s[0m
-2025-12-29 14:40:19,153 - BoofuzzBaseline - INFO - [830/1000] crashes=132, CVEs=505, rate=39.59/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [840/1000] crashes=133, CVEs=513, rate=39.82/s, elapsed=21s[0m
-2025-12-29 14:40:19,282 - BoofuzzBaseline - INFO - [840/1000] crashes=133, CVEs=513, rate=39.82/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [850/1000] crashes=134, CVEs=519, rate=40.05/s, elapsed=21s[0m
-2025-12-29 14:40:19,411 - BoofuzzBaseline - INFO - [850/1000] crashes=134, CVEs=519, rate=40.05/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [860/1000] crashes=136, CVEs=526, rate=40.28/s, elapsed=21s[0m
-2025-12-29 14:40:19,536 - BoofuzzBaseline - INFO - [860/1000] crashes=136, CVEs=526, rate=40.28/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [870/1000] crashes=140, CVEs=536, rate=40.50/s, elapsed=21s[0m
-2025-12-29 14:40:19,667 - BoofuzzBaseline - INFO - [870/1000] crashes=140, CVEs=536, rate=40.50/s, elapsed=21s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [880/1000] crashes=141, CVEs=546, rate=40.72/s, elapsed=22s[0m
-2025-12-29 14:40:19,796 - BoofuzzBaseline - INFO - [880/1000] crashes=141, CVEs=546, rate=40.72/s, elapsed=22s
-[32m2025-12-29 14:40:19 - BoofuzzBaseline - INFO - [890/1000] crashes=144, CVEs=552, rate=40.94/s, elapsed=22s[0m
-2025-12-29 14:40:19,928 - BoofuzzBaseline - INFO - [890/1000] crashes=144, CVEs=552, rate=40.94/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [900/1000] crashes=146, CVEs=559, rate=41.15/s, elapsed=22s[0m
-2025-12-29 14:40:20,058 - BoofuzzBaseline - INFO - [900/1000] crashes=146, CVEs=559, rate=41.15/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [910/1000] crashes=149, CVEs=566, rate=41.36/s, elapsed=22s[0m
-2025-12-29 14:40:20,188 - BoofuzzBaseline - INFO - [910/1000] crashes=149, CVEs=566, rate=41.36/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [920/1000] crashes=149, CVEs=572, rate=41.57/s, elapsed=22s[0m
-2025-12-29 14:40:20,317 - BoofuzzBaseline - INFO - [920/1000] crashes=149, CVEs=572, rate=41.57/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [930/1000] crashes=151, CVEs=580, rate=41.77/s, elapsed=22s[0m
-2025-12-29 14:40:20,449 - BoofuzzBaseline - INFO - [930/1000] crashes=151, CVEs=580, rate=41.77/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [940/1000] crashes=151, CVEs=586, rate=41.97/s, elapsed=22s[0m
-2025-12-29 14:40:20,582 - BoofuzzBaseline - INFO - [940/1000] crashes=151, CVEs=586, rate=41.97/s, elapsed=22s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [950/1000] crashes=153, CVEs=594, rate=42.17/s, elapsed=23s[0m
-2025-12-29 14:40:20,715 - BoofuzzBaseline - INFO - [950/1000] crashes=153, CVEs=594, rate=42.17/s, elapsed=23s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [960/1000] crashes=154, CVEs=604, rate=42.37/s, elapsed=23s[0m
-2025-12-29 14:40:20,846 - BoofuzzBaseline - INFO - [960/1000] crashes=154, CVEs=604, rate=42.37/s, elapsed=23s
-[32m2025-12-29 14:40:20 - BoofuzzBaseline - INFO - [970/1000] crashes=154, CVEs=609, rate=42.58/s, elapsed=23s[0m
-2025-12-29 14:40:20,965 - BoofuzzBaseline - INFO - [970/1000] crashes=154, CVEs=609, rate=42.58/s, elapsed=23s
-[32m2025-12-29 14:40:21 - BoofuzzBaseline - INFO - [980/1000] crashes=156, CVEs=613, rate=42.78/s, elapsed=23s[0m
-2025-12-29 14:40:21,094 - BoofuzzBaseline - INFO - [980/1000] crashes=156, CVEs=613, rate=42.78/s, elapsed=23s
-[32m2025-12-29 14:40:21 - BoofuzzBaseline - INFO - [990/1000] crashes=157, CVEs=619, rate=42.98/s, elapsed=23s[0m
-2025-12-29 14:40:21,223 - BoofuzzBaseline - INFO - [990/1000] crashes=157, CVEs=619, rate=42.98/s, elapsed=23s
-[32m2025-12-29 14:40:21 - BoofuzzBaseline - INFO - [1000/1000] crashes=158, CVEs=628, rate=43.16/s, elapsed=23s[0m
-2025-12-29 14:40:21,355 - BoofuzzBaseline - INFO - [1000/1000] crashes=158, CVEs=628, rate=43.16/s, elapsed=23s
+[32m2025-12-28 17:30:24 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations[0m
+2025-12-28 17:30:24,937 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations
+Server crashed. Restarting (3/100)...
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [10/1000] crashes=9, CVEs=0, rate=93.17/s, elapsed=0s[0m
+2025-12-28 17:30:25,044 - BoofuzzBaseline - INFO - [10/1000] crashes=9, CVEs=0, rate=93.17/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [20/1000] crashes=17, CVEs=0, rate=89.41/s, elapsed=0s[0m
+2025-12-28 17:30:25,160 - BoofuzzBaseline - INFO - [20/1000] crashes=17, CVEs=0, rate=89.41/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [30/1000] crashes=26, CVEs=0, rate=87.66/s, elapsed=0s[0m
+2025-12-28 17:30:25,279 - BoofuzzBaseline - INFO - [30/1000] crashes=26, CVEs=0, rate=87.66/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [40/1000] crashes=36, CVEs=0, rate=86.97/s, elapsed=0s[0m
+2025-12-28 17:30:25,397 - BoofuzzBaseline - INFO - [40/1000] crashes=36, CVEs=0, rate=86.97/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [50/1000] crashes=43, CVEs=0, rate=86.75/s, elapsed=1s[0m
+2025-12-28 17:30:25,513 - BoofuzzBaseline - INFO - [50/1000] crashes=43, CVEs=0, rate=86.75/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [60/1000] crashes=51, CVEs=0, rate=86.35/s, elapsed=1s[0m
+2025-12-28 17:30:25,631 - BoofuzzBaseline - INFO - [60/1000] crashes=51, CVEs=0, rate=86.35/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [70/1000] crashes=59, CVEs=0, rate=86.16/s, elapsed=1s[0m
+2025-12-28 17:30:25,749 - BoofuzzBaseline - INFO - [70/1000] crashes=59, CVEs=0, rate=86.16/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [80/1000] crashes=67, CVEs=0, rate=85.93/s, elapsed=1s[0m
+2025-12-28 17:30:25,868 - BoofuzzBaseline - INFO - [80/1000] crashes=67, CVEs=0, rate=85.93/s, elapsed=1s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [90/1000] crashes=75, CVEs=0, rate=85.78/s, elapsed=1s[0m
+2025-12-28 17:30:25,986 - BoofuzzBaseline - INFO - [90/1000] crashes=75, CVEs=0, rate=85.78/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [100/1000] crashes=82, CVEs=0, rate=85.80/s, elapsed=1s[0m
+2025-12-28 17:30:26,102 - BoofuzzBaseline - INFO - [100/1000] crashes=82, CVEs=0, rate=85.80/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [110/1000] crashes=91, CVEs=0, rate=85.65/s, elapsed=1s[0m
+2025-12-28 17:30:26,221 - BoofuzzBaseline - INFO - [110/1000] crashes=91, CVEs=0, rate=85.65/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [120/1000] crashes=100, CVEs=0, rate=85.61/s, elapsed=1s[0m
+2025-12-28 17:30:26,338 - BoofuzzBaseline - INFO - [120/1000] crashes=100, CVEs=0, rate=85.61/s, elapsed=1s
+Server crashed. Restarting (4/100)...
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [130/1000] crashes=110, CVEs=0, rate=85.56/s, elapsed=2s[0m
+2025-12-28 17:30:26,456 - BoofuzzBaseline - INFO - [130/1000] crashes=110, CVEs=0, rate=85.56/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [140/1000] crashes=118, CVEs=0, rate=85.55/s, elapsed=2s[0m
+2025-12-28 17:30:26,573 - BoofuzzBaseline - INFO - [140/1000] crashes=118, CVEs=0, rate=85.55/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [150/1000] crashes=126, CVEs=0, rate=85.54/s, elapsed=2s[0m
+2025-12-28 17:30:26,690 - BoofuzzBaseline - INFO - [150/1000] crashes=126, CVEs=0, rate=85.54/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [160/1000] crashes=134, CVEs=0, rate=85.52/s, elapsed=2s[0m
+2025-12-28 17:30:26,807 - BoofuzzBaseline - INFO - [160/1000] crashes=134, CVEs=0, rate=85.52/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [170/1000] crashes=144, CVEs=0, rate=85.47/s, elapsed=2s[0m
+2025-12-28 17:30:26,926 - BoofuzzBaseline - INFO - [170/1000] crashes=144, CVEs=0, rate=85.47/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [180/1000] crashes=153, CVEs=0, rate=85.46/s, elapsed=2s[0m
+2025-12-28 17:30:27,043 - BoofuzzBaseline - INFO - [180/1000] crashes=153, CVEs=0, rate=85.46/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [190/1000] crashes=161, CVEs=0, rate=85.51/s, elapsed=2s[0m
+2025-12-28 17:30:27,159 - BoofuzzBaseline - INFO - [190/1000] crashes=161, CVEs=0, rate=85.51/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [200/1000] crashes=171, CVEs=0, rate=85.44/s, elapsed=2s[0m
+2025-12-28 17:30:27,278 - BoofuzzBaseline - INFO - [200/1000] crashes=171, CVEs=0, rate=85.44/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [210/1000] crashes=181, CVEs=0, rate=85.42/s, elapsed=2s[0m
+2025-12-28 17:30:27,395 - BoofuzzBaseline - INFO - [210/1000] crashes=181, CVEs=0, rate=85.42/s, elapsed=2s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [220/1000] crashes=186, CVEs=0, rate=85.56/s, elapsed=3s[0m
+2025-12-28 17:30:27,508 - BoofuzzBaseline - INFO - [220/1000] crashes=186, CVEs=0, rate=85.56/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [230/1000] crashes=196, CVEs=0, rate=85.55/s, elapsed=3s[0m
+2025-12-28 17:30:27,625 - BoofuzzBaseline - INFO - [230/1000] crashes=196, CVEs=0, rate=85.55/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [240/1000] crashes=204, CVEs=0, rate=85.52/s, elapsed=3s[0m
+2025-12-28 17:30:27,743 - BoofuzzBaseline - INFO - [240/1000] crashes=204, CVEs=0, rate=85.52/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [250/1000] crashes=214, CVEs=0, rate=85.48/s, elapsed=3s[0m
+2025-12-28 17:30:27,861 - BoofuzzBaseline - INFO - [250/1000] crashes=214, CVEs=0, rate=85.48/s, elapsed=3s
+Server crashed. Restarting (5/100)...
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [260/1000] crashes=222, CVEs=0, rate=85.45/s, elapsed=3s[0m
+2025-12-28 17:30:27,979 - BoofuzzBaseline - INFO - [260/1000] crashes=222, CVEs=0, rate=85.45/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [270/1000] crashes=231, CVEs=0, rate=85.42/s, elapsed=3s[0m
+2025-12-28 17:30:28,098 - BoofuzzBaseline - INFO - [270/1000] crashes=231, CVEs=0, rate=85.42/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [280/1000] crashes=240, CVEs=0, rate=85.40/s, elapsed=3s[0m
+2025-12-28 17:30:28,215 - BoofuzzBaseline - INFO - [280/1000] crashes=240, CVEs=0, rate=85.40/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [290/1000] crashes=249, CVEs=0, rate=85.39/s, elapsed=3s[0m
+2025-12-28 17:30:28,333 - BoofuzzBaseline - INFO - [290/1000] crashes=249, CVEs=0, rate=85.39/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [300/1000] crashes=256, CVEs=0, rate=85.43/s, elapsed=4s[0m
+2025-12-28 17:30:28,448 - BoofuzzBaseline - INFO - [300/1000] crashes=256, CVEs=0, rate=85.43/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [310/1000] crashes=266, CVEs=0, rate=85.40/s, elapsed=4s[0m
+2025-12-28 17:30:28,567 - BoofuzzBaseline - INFO - [310/1000] crashes=266, CVEs=0, rate=85.40/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [320/1000] crashes=275, CVEs=0, rate=85.42/s, elapsed=4s[0m
+2025-12-28 17:30:28,683 - BoofuzzBaseline - INFO - [320/1000] crashes=275, CVEs=0, rate=85.42/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [330/1000] crashes=281, CVEs=0, rate=85.49/s, elapsed=4s[0m
+2025-12-28 17:30:28,797 - BoofuzzBaseline - INFO - [330/1000] crashes=281, CVEs=0, rate=85.49/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [340/1000] crashes=290, CVEs=0, rate=85.45/s, elapsed=4s[0m
+2025-12-28 17:30:28,915 - BoofuzzBaseline - INFO - [340/1000] crashes=290, CVEs=0, rate=85.45/s, elapsed=4s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [350/1000] crashes=299, CVEs=0, rate=85.38/s, elapsed=4s[0m
+2025-12-28 17:30:29,036 - BoofuzzBaseline - INFO - [350/1000] crashes=299, CVEs=0, rate=85.38/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [360/1000] crashes=309, CVEs=0, rate=85.33/s, elapsed=4s[0m
+2025-12-28 17:30:29,156 - BoofuzzBaseline - INFO - [360/1000] crashes=309, CVEs=0, rate=85.33/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [370/1000] crashes=318, CVEs=0, rate=85.34/s, elapsed=4s[0m
+2025-12-28 17:30:29,272 - BoofuzzBaseline - INFO - [370/1000] crashes=318, CVEs=0, rate=85.34/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [380/1000] crashes=328, CVEs=0, rate=85.30/s, elapsed=4s[0m
+2025-12-28 17:30:29,392 - BoofuzzBaseline - INFO - [380/1000] crashes=328, CVEs=0, rate=85.30/s, elapsed=4s
+Server crashed. Restarting (6/100)...
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [390/1000] crashes=336, CVEs=0, rate=85.26/s, elapsed=5s[0m
+2025-12-28 17:30:29,511 - BoofuzzBaseline - INFO - [390/1000] crashes=336, CVEs=0, rate=85.26/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [400/1000] crashes=343, CVEs=0, rate=85.27/s, elapsed=5s[0m
+2025-12-28 17:30:29,628 - BoofuzzBaseline - INFO - [400/1000] crashes=343, CVEs=0, rate=85.27/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [410/1000] crashes=350, CVEs=0, rate=85.29/s, elapsed=5s[0m
+2025-12-28 17:30:29,744 - BoofuzzBaseline - INFO - [410/1000] crashes=350, CVEs=0, rate=85.29/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [420/1000] crashes=358, CVEs=0, rate=85.33/s, elapsed=5s[0m
+2025-12-28 17:30:29,859 - BoofuzzBaseline - INFO - [420/1000] crashes=358, CVEs=0, rate=85.33/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [430/1000] crashes=367, CVEs=0, rate=85.16/s, elapsed=5s[0m
+2025-12-28 17:30:29,986 - BoofuzzBaseline - INFO - [430/1000] crashes=367, CVEs=0, rate=85.16/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [440/1000] crashes=376, CVEs=0, rate=85.14/s, elapsed=5s[0m
+2025-12-28 17:30:30,105 - BoofuzzBaseline - INFO - [440/1000] crashes=376, CVEs=0, rate=85.14/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [450/1000] crashes=386, CVEs=0, rate=85.12/s, elapsed=5s[0m
+2025-12-28 17:30:30,223 - BoofuzzBaseline - INFO - [450/1000] crashes=386, CVEs=0, rate=85.12/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [460/1000] crashes=392, CVEs=0, rate=85.14/s, elapsed=5s[0m
+2025-12-28 17:30:30,339 - BoofuzzBaseline - INFO - [460/1000] crashes=392, CVEs=0, rate=85.14/s, elapsed=5s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [470/1000] crashes=400, CVEs=0, rate=85.13/s, elapsed=6s[0m
+2025-12-28 17:30:30,457 - BoofuzzBaseline - INFO - [470/1000] crashes=400, CVEs=0, rate=85.13/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [480/1000] crashes=410, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:30,576 - BoofuzzBaseline - INFO - [480/1000] crashes=410, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [490/1000] crashes=417, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:30,694 - BoofuzzBaseline - INFO - [490/1000] crashes=417, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [500/1000] crashes=425, CVEs=0, rate=85.13/s, elapsed=6s[0m
+2025-12-28 17:30:30,810 - BoofuzzBaseline - INFO - [500/1000] crashes=425, CVEs=0, rate=85.13/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [510/1000] crashes=433, CVEs=0, rate=85.12/s, elapsed=6s[0m
+2025-12-28 17:30:30,928 - BoofuzzBaseline - INFO - [510/1000] crashes=433, CVEs=0, rate=85.12/s, elapsed=6s
+Server crashed. Restarting (7/100)...
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [520/1000] crashes=442, CVEs=0, rate=85.10/s, elapsed=6s[0m
+2025-12-28 17:30:31,047 - BoofuzzBaseline - INFO - [520/1000] crashes=442, CVEs=0, rate=85.10/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [530/1000] crashes=449, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:31,164 - BoofuzzBaseline - INFO - [530/1000] crashes=449, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [540/1000] crashes=458, CVEs=0, rate=85.08/s, elapsed=6s[0m
+2025-12-28 17:30:31,283 - BoofuzzBaseline - INFO - [540/1000] crashes=458, CVEs=0, rate=85.08/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [550/1000] crashes=464, CVEs=0, rate=85.09/s, elapsed=6s[0m
+2025-12-28 17:30:31,400 - BoofuzzBaseline - INFO - [550/1000] crashes=464, CVEs=0, rate=85.09/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [560/1000] crashes=472, CVEs=0, rate=85.08/s, elapsed=7s[0m
+2025-12-28 17:30:31,518 - BoofuzzBaseline - INFO - [560/1000] crashes=472, CVEs=0, rate=85.08/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [570/1000] crashes=479, CVEs=0, rate=85.10/s, elapsed=7s[0m
+2025-12-28 17:30:31,635 - BoofuzzBaseline - INFO - [570/1000] crashes=479, CVEs=0, rate=85.10/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [580/1000] crashes=488, CVEs=0, rate=85.09/s, elapsed=7s[0m
+2025-12-28 17:30:31,753 - BoofuzzBaseline - INFO - [580/1000] crashes=488, CVEs=0, rate=85.09/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [590/1000] crashes=497, CVEs=0, rate=85.10/s, elapsed=7s[0m
+2025-12-28 17:30:31,870 - BoofuzzBaseline - INFO - [590/1000] crashes=497, CVEs=0, rate=85.10/s, elapsed=7s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [600/1000] crashes=504, CVEs=0, rate=85.13/s, elapsed=7s[0m
+2025-12-28 17:30:31,984 - BoofuzzBaseline - INFO - [600/1000] crashes=504, CVEs=0, rate=85.13/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [610/1000] crashes=512, CVEs=0, rate=85.13/s, elapsed=7s[0m
+2025-12-28 17:30:32,102 - BoofuzzBaseline - INFO - [610/1000] crashes=512, CVEs=0, rate=85.13/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [620/1000] crashes=520, CVEs=0, rate=85.14/s, elapsed=7s[0m
+2025-12-28 17:30:32,218 - BoofuzzBaseline - INFO - [620/1000] crashes=520, CVEs=0, rate=85.14/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [630/1000] crashes=529, CVEs=0, rate=85.15/s, elapsed=7s[0m
+2025-12-28 17:30:32,335 - BoofuzzBaseline - INFO - [630/1000] crashes=529, CVEs=0, rate=85.15/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [640/1000] crashes=539, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,454 - BoofuzzBaseline - INFO - [640/1000] crashes=539, CVEs=0, rate=85.14/s, elapsed=8s
+Server crashed. Restarting (8/100)...
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [650/1000] crashes=548, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,571 - BoofuzzBaseline - INFO - [650/1000] crashes=548, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [660/1000] crashes=557, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,689 - BoofuzzBaseline - INFO - [660/1000] crashes=557, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [670/1000] crashes=566, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:32,807 - BoofuzzBaseline - INFO - [670/1000] crashes=566, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [680/1000] crashes=575, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:32,924 - BoofuzzBaseline - INFO - [680/1000] crashes=575, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [690/1000] crashes=583, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:33,042 - BoofuzzBaseline - INFO - [690/1000] crashes=583, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [700/1000] crashes=588, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:33,158 - BoofuzzBaseline - INFO - [700/1000] crashes=588, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [710/1000] crashes=594, CVEs=0, rate=85.15/s, elapsed=8s[0m
+2025-12-28 17:30:33,275 - BoofuzzBaseline - INFO - [710/1000] crashes=594, CVEs=0, rate=85.15/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [720/1000] crashes=602, CVEs=0, rate=85.16/s, elapsed=8s[0m
+2025-12-28 17:30:33,392 - BoofuzzBaseline - INFO - [720/1000] crashes=602, CVEs=0, rate=85.16/s, elapsed=8s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [730/1000] crashes=610, CVEs=0, rate=85.14/s, elapsed=9s[0m
+2025-12-28 17:30:33,511 - BoofuzzBaseline - INFO - [730/1000] crashes=610, CVEs=0, rate=85.14/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [740/1000] crashes=619, CVEs=0, rate=85.14/s, elapsed=9s[0m
+2025-12-28 17:30:33,628 - BoofuzzBaseline - INFO - [740/1000] crashes=619, CVEs=0, rate=85.14/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [750/1000] crashes=628, CVEs=0, rate=85.13/s, elapsed=9s[0m
+2025-12-28 17:30:33,746 - BoofuzzBaseline - INFO - [750/1000] crashes=628, CVEs=0, rate=85.13/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [760/1000] crashes=636, CVEs=0, rate=85.11/s, elapsed=9s[0m
+2025-12-28 17:30:33,867 - BoofuzzBaseline - INFO - [760/1000] crashes=636, CVEs=0, rate=85.11/s, elapsed=9s
+Server crashed. Restarting (9/100)...
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [770/1000] crashes=644, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:33,984 - BoofuzzBaseline - INFO - [770/1000] crashes=644, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [780/1000] crashes=653, CVEs=0, rate=85.09/s, elapsed=9s[0m
+2025-12-28 17:30:34,103 - BoofuzzBaseline - INFO - [780/1000] crashes=653, CVEs=0, rate=85.09/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [790/1000] crashes=660, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:34,220 - BoofuzzBaseline - INFO - [790/1000] crashes=660, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [800/1000] crashes=669, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:34,338 - BoofuzzBaseline - INFO - [800/1000] crashes=669, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [810/1000] crashes=677, CVEs=0, rate=85.11/s, elapsed=10s[0m
+2025-12-28 17:30:34,454 - BoofuzzBaseline - INFO - [810/1000] crashes=677, CVEs=0, rate=85.11/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [820/1000] crashes=684, CVEs=0, rate=85.11/s, elapsed=10s[0m
+2025-12-28 17:30:34,571 - BoofuzzBaseline - INFO - [820/1000] crashes=684, CVEs=0, rate=85.11/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [830/1000] crashes=693, CVEs=0, rate=85.10/s, elapsed=10s[0m
+2025-12-28 17:30:34,690 - BoofuzzBaseline - INFO - [830/1000] crashes=693, CVEs=0, rate=85.10/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [840/1000] crashes=701, CVEs=0, rate=85.09/s, elapsed=10s[0m
+2025-12-28 17:30:34,809 - BoofuzzBaseline - INFO - [840/1000] crashes=701, CVEs=0, rate=85.09/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [850/1000] crashes=710, CVEs=0, rate=85.07/s, elapsed=10s[0m
+2025-12-28 17:30:34,928 - BoofuzzBaseline - INFO - [850/1000] crashes=710, CVEs=0, rate=85.07/s, elapsed=10s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [860/1000] crashes=719, CVEs=0, rate=85.04/s, elapsed=10s[0m
+2025-12-28 17:30:35,050 - BoofuzzBaseline - INFO - [860/1000] crashes=719, CVEs=0, rate=85.04/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [870/1000] crashes=729, CVEs=0, rate=85.02/s, elapsed=10s[0m
+2025-12-28 17:30:35,169 - BoofuzzBaseline - INFO - [870/1000] crashes=729, CVEs=0, rate=85.02/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [880/1000] crashes=739, CVEs=0, rate=85.01/s, elapsed=10s[0m
+2025-12-28 17:30:35,288 - BoofuzzBaseline - INFO - [880/1000] crashes=739, CVEs=0, rate=85.01/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [890/1000] crashes=747, CVEs=0, rate=85.02/s, elapsed=10s[0m
+2025-12-28 17:30:35,404 - BoofuzzBaseline - INFO - [890/1000] crashes=747, CVEs=0, rate=85.02/s, elapsed=10s
+Server crashed. Restarting (10/100)...
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [900/1000] crashes=757, CVEs=0, rate=85.01/s, elapsed=11s[0m
+2025-12-28 17:30:35,523 - BoofuzzBaseline - INFO - [900/1000] crashes=757, CVEs=0, rate=85.01/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [910/1000] crashes=765, CVEs=0, rate=85.01/s, elapsed=11s[0m
+2025-12-28 17:30:35,641 - BoofuzzBaseline - INFO - [910/1000] crashes=765, CVEs=0, rate=85.01/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [920/1000] crashes=773, CVEs=0, rate=85.02/s, elapsed=11s[0m
+2025-12-28 17:30:35,758 - BoofuzzBaseline - INFO - [920/1000] crashes=773, CVEs=0, rate=85.02/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [930/1000] crashes=779, CVEs=0, rate=85.03/s, elapsed=11s[0m
+2025-12-28 17:30:35,874 - BoofuzzBaseline - INFO - [930/1000] crashes=779, CVEs=0, rate=85.03/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [940/1000] crashes=786, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:35,990 - BoofuzzBaseline - INFO - [940/1000] crashes=786, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [950/1000] crashes=794, CVEs=0, rate=85.05/s, elapsed=11s[0m
+2025-12-28 17:30:36,107 - BoofuzzBaseline - INFO - [950/1000] crashes=794, CVEs=0, rate=85.05/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [960/1000] crashes=801, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:36,226 - BoofuzzBaseline - INFO - [960/1000] crashes=801, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [970/1000] crashes=809, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:36,342 - BoofuzzBaseline - INFO - [970/1000] crashes=809, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [980/1000] crashes=818, CVEs=0, rate=85.04/s, elapsed=12s[0m
+2025-12-28 17:30:36,460 - BoofuzzBaseline - INFO - [980/1000] crashes=818, CVEs=0, rate=85.04/s, elapsed=12s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [990/1000] crashes=828, CVEs=0, rate=85.02/s, elapsed=12s[0m
+2025-12-28 17:30:36,580 - BoofuzzBaseline - INFO - [990/1000] crashes=828, CVEs=0, rate=85.02/s, elapsed=12s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [1000/1000] crashes=833, CVEs=0, rate=85.05/s, elapsed=12s[0m
+2025-12-28 17:30:36,694 - BoofuzzBaseline - INFO - [1000/1000] crashes=833, CVEs=0, rate=85.05/s, elapsed=12s
 ----------------------------------------------------------------------
 
 ✓ Test completed!
-Duration: 23.2 seconds (0.4 minutes)
+Duration: 11.8 seconds (0.2 minutes)
 
 ======================================================================
 HTTP VULNERABILITY TEST RESULTS
 ======================================================================
 
-2025-12-29 14:40:21,367 - root - ERROR - Test failed: 'FuzzingResult' object has no attribute 'iterations'
+2025-12-28 17:30:36,706 - root - ERROR - Test failed: 'FuzzingResult' object has no attribute 'iterations'
 Traceback (most recent call last):
-  File "/home/user/hyfuzz-v3-2/run_http_1000.py", line 73, in main
+  File "/home/user/hyfuzz-v3-2/run_http_1000.py", line 74, in main
     print(f"Iterations Completed: {result.iterations}")
                                    ^^^^^^^^^^^^^^^^^
 AttributeError: 'FuzzingResult' object has no attribute 'iterations'
