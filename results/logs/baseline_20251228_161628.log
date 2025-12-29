@@ -1,0 +1,75 @@
+2025-12-28 16:16:28,959 - INFO - Generated 319 seeds from boofuzz
+2025-12-28 16:16:28,962 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:16:28,963 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 550)
+2025-12-28 16:16:28,966 - DEBUG - State: AUTHENTICATED --[MKD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:28,966 - WARNING - [2] CRASH: MKD | Payload: b'MKD \\\\\r\n'... | Error: 
+2025-12-28 16:16:30,473 - DEBUG - State: AUTHENTICATED --[NLST]--> AUTHENTICATED (valid: False, code: 0)
+2025-12-28 16:16:30,474 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 0)
+2025-12-28 16:16:30,474 - WARNING - [5] CRASH: SITE | Payload: b'SITE 65535\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:16:31,978 - DEBUG - State: AUTHENTICATED --[USER]--> CONNECTED (valid: True, code: 500)
+2025-12-28 16:16:31,978 - DEBUG - State: CONNECTED --[CWD]--> AUTHENTICATED (valid: False, code: 500)
+2025-12-28 16:16:31,982 - DEBUG - State: AUTHENTICATED --[USER]--> CONNECTED (valid: True, code: 599)
+2025-12-28 16:16:31,982 - WARNING - [8] CRASH: USER | Payload: b'USER \r\n\r\n'... | Error: 
+2025-12-28 16:16:33,489 - DEBUG - State: AUTHENTICATED --[MLSD]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:33,489 - WARNING - [9] CRASH: MLSD | Payload: b'MLSD /1\r\n'... | Error: 
+2025-12-28 16:16:34,996 - DEBUG - State: AUTHENTICATED --[RETR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:34,996 - WARNING - [10] CRASH: RETR | Payload: b'RETR file"\\\r\n'... | Error: 
+2025-12-28 16:16:36,503 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:36,503 - WARNING - [11] CRASH: CWD | Payload: b'CWD ..\\\r\n'... | Error: 
+2025-12-28 16:16:38,008 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:16:38,011 - DEBUG - State: AUTHENTICATED --[DELE]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:38,011 - WARNING - [13] CRASH: DELE | Payload: b'DELE /home/../${user}\r\n'... | Error: 
+2025-12-28 16:16:39,517 - DEBUG - State: AUTHENTICATED --[MKD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:39,517 - WARNING - [14] CRASH: MKD | Payload: b'MKD %{\r\n'... | Error: 
+2025-12-28 16:16:41,021 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 550)
+2025-12-28 16:16:41,025 - DEBUG - State: AUTHENTICATED --[STOR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:41,025 - WARNING - [16] CRASH: STOR | Payload: b'STOR <INCLUDE>\r\n'... | Error: 
+2025-12-28 16:16:42,533 - DEBUG - State: AUTHENTICATED --[STOR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:42,533 - WARNING - [17] CRASH: STOR | Payload: b'STOR 4294967296%n%n%n%n%n%n%n%n\r\n'... | Error: 
+2025-12-28 16:16:44,039 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:16:44,040 - DEBUG - State: AUTHENTICATED --[QUIT]--> DISCONNECTED (valid: True, code: 501)
+2025-12-28 16:16:44,041 - DEBUG - State: DISCONNECTED --[SITE]--> AUTHENTICATED (valid: False, code: 500)
+2025-12-28 16:16:44,044 - DEBUG - State: AUTHENTICATED --[USER]--> CONNECTED (valid: True, code: 599)
+2025-12-28 16:16:44,044 - WARNING - [21] CRASH: USER | Payload: b"USER root'--\r\n"... | Error: 
+2025-12-28 16:16:45,553 - DEBUG - State: AUTHENTICATED --[STOR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:45,553 - WARNING - [22] CRASH: STOR | Payload: b'STOR /tmp/file\\\r\n'... | Error: 
+2025-12-28 16:16:47,060 - DEBUG - State: AUTHENTICATED --[RETR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:47,061 - WARNING - [23] CRASH: RETR | Payload: b'RETR ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:16:48,568 - DEBUG - State: AUTHENTICATED --[LIST]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:48,568 - WARNING - [24] CRASH: LIST | Payload: b'LIST\r\n'... | Error: 
+2025-12-28 16:16:50,075 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:50,076 - WARNING - [25] CRASH: CWD | Payload: b'CWD COM1\r\n'... | Error: 
+2025-12-28 16:16:51,579 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:16:51,580 - DEBUG - State: AUTHENTICATED --[PASS]--> CONNECTED (valid: False, code: 503)
+2025-12-28 16:16:51,580 - DEBUG - State: CONNECTED --[USER]--> CONNECTED (valid: True, code: 500)
+2025-12-28 16:16:51,584 - DEBUG - State: CONNECTED --[RMD]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:51,584 - WARNING - [29] CRASH: RMD | Payload: b'RMD \\\\server\\share\r\n'... | Error: 
+2025-12-28 16:16:53,089 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 214)
+2025-12-28 16:16:53,089 - DEBUG - State: AUTHENTICATED --[MKD]--> AUTHENTICATED (valid: True, code: 214)
+2025-12-28 16:16:53,095 - DEBUG - State: AUTHENTICATED --[RETR]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:16:53,095 - WARNING - [32] CRASH: RETR | Payload: b'RETR \x00\x00\x00\x00A\x00B\r\n'... | Error: 
+2025-12-28 16:16:54,603 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:54,603 - WARNING - [33] CRASH: CWD | Payload: b'CWD /./\r\n'... | Error: 
+2025-12-28 16:16:56,107 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:16:56,111 - DEBUG - State: AUTHENTICATED --[RMD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:56,111 - WARNING - [35] CRASH: RMD | Payload: b'RMD %{\r\n'... | Error: 
+2025-12-28 16:16:57,621 - DEBUG - State: AUTHENTICATED --[MKD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:16:57,621 - WARNING - [36] CRASH: MKD | Payload: b'MKD /../\r\n'... | Error: 
+2025-12-28 16:16:59,124 - DEBUG - State: AUTHENTICATED --[PASS]--> CONNECTED (valid: False, code: 503)
+2025-12-28 16:16:59,126 - DEBUG - State: CONNECTED --[SITE]--> AUTHENTICATED (valid: False, code: 550)
+2025-12-28 16:16:59,130 - DEBUG - State: AUTHENTICATED --[PASS]--> CONNECTED (valid: False, code: 599)
+2025-12-28 16:16:59,130 - WARNING - [39] CRASH: PASS | Payload: b'PASS {{config}}\r\n'... | Error: 
+2025-12-28 16:17:00,635 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:17:00,640 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:17:00,640 - WARNING - [41] CRASH: CWD | Payload: b'CWD ....//....//....//#{\r\n'... | Error: 
+2025-12-28 16:17:02,149 - DEBUG - State: AUTHENTICATED --[MKD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:17:02,149 - WARNING - [42] CRASH: MKD | Payload: b'MKD >\r\n'... | Error: 
+2025-12-28 16:17:03,653 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:17:03,659 - DEBUG - State: AUTHENTICATED --[CWD]--> AUTHENTICATED (valid: True, code: 599)
+2025-12-28 16:17:03,659 - WARNING - [44] CRASH: CWD | Payload: b'CWD 65535\r\n'... | Error: 
+2025-12-28 16:17:05,163 - DEBUG - State: AUTHENTICATED --[SITE]--> AUTHENTICATED (valid: True, code: 500)
+2025-12-28 16:17:05,169 - DEBUG - State: AUTHENTICATED --[NLST]--> AUTHENTICATED (valid: False, code: 599)
+2025-12-28 16:17:05,169 - WARNING - [46] CRASH: NLST | Payload: b'NLST %.65535s\r\n'... | Error: 
+2025-12-28 16:17:06,674 - DEBUG - State: AUTHENTICATED --[QUIT]--> DISCONNECTED (valid: True, code: 221)
+2025-12-28 16:17:06,674 - DEBUG - State: DISCONNECTED --[SITE]--> AUTHENTICATED (valid: False, code: 0)
+2025-12-28 16:17:06,675 - WARNING - [49] CRASH: SITE | Payload: b"SITE CPFR admin'--\r\n"... | Error: [Errno 32] Broken pipe

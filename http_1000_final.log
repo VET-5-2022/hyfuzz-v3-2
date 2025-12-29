@@ -1,0 +1,270 @@
+======================================================================
+HTTP Vulnerability Test - 1000 Iterations
+Framework: boofuzz (Industry Standard)
+======================================================================
+
+[Step 1/3] Starting HTTP server on 127.0.0.1:8080...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Server crashed. Restarting (1/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+Server crashed. Restarting (2/100)...
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+✓ HTTP server started successfully
+
+[Step 2/3] Initializing boofuzz baseline fuzzer...
+[32m2025-12-28 17:30:24 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10[0m
+2025-12-28 17:30:24,936 - BoofuzzBaseline - INFO - Initialized BoofuzzBaseline: pool_size=10, refresh_interval=10
+✓ Fuzzer initialized with 1000 iterations
+
+[Step 3/3] Running 1000 iterations of HTTP fuzzing...
+This will take approximately 10-15 minutes...
+----------------------------------------------------------------------
+[32m2025-12-28 17:30:24 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations[0m
+2025-12-28 17:30:24,937 - BoofuzzBaseline - INFO - Starting boofuzz_baseline fuzzing session with 1000 iterations
+Server crashed. Restarting (3/100)...
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [10/1000] crashes=9, CVEs=0, rate=93.17/s, elapsed=0s[0m
+2025-12-28 17:30:25,044 - BoofuzzBaseline - INFO - [10/1000] crashes=9, CVEs=0, rate=93.17/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [20/1000] crashes=17, CVEs=0, rate=89.41/s, elapsed=0s[0m
+2025-12-28 17:30:25,160 - BoofuzzBaseline - INFO - [20/1000] crashes=17, CVEs=0, rate=89.41/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [30/1000] crashes=26, CVEs=0, rate=87.66/s, elapsed=0s[0m
+2025-12-28 17:30:25,279 - BoofuzzBaseline - INFO - [30/1000] crashes=26, CVEs=0, rate=87.66/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [40/1000] crashes=36, CVEs=0, rate=86.97/s, elapsed=0s[0m
+2025-12-28 17:30:25,397 - BoofuzzBaseline - INFO - [40/1000] crashes=36, CVEs=0, rate=86.97/s, elapsed=0s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [50/1000] crashes=43, CVEs=0, rate=86.75/s, elapsed=1s[0m
+2025-12-28 17:30:25,513 - BoofuzzBaseline - INFO - [50/1000] crashes=43, CVEs=0, rate=86.75/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [60/1000] crashes=51, CVEs=0, rate=86.35/s, elapsed=1s[0m
+2025-12-28 17:30:25,631 - BoofuzzBaseline - INFO - [60/1000] crashes=51, CVEs=0, rate=86.35/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [70/1000] crashes=59, CVEs=0, rate=86.16/s, elapsed=1s[0m
+2025-12-28 17:30:25,749 - BoofuzzBaseline - INFO - [70/1000] crashes=59, CVEs=0, rate=86.16/s, elapsed=1s
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [80/1000] crashes=67, CVEs=0, rate=85.93/s, elapsed=1s[0m
+2025-12-28 17:30:25,868 - BoofuzzBaseline - INFO - [80/1000] crashes=67, CVEs=0, rate=85.93/s, elapsed=1s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:25 - BoofuzzBaseline - INFO - [90/1000] crashes=75, CVEs=0, rate=85.78/s, elapsed=1s[0m
+2025-12-28 17:30:25,986 - BoofuzzBaseline - INFO - [90/1000] crashes=75, CVEs=0, rate=85.78/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [100/1000] crashes=82, CVEs=0, rate=85.80/s, elapsed=1s[0m
+2025-12-28 17:30:26,102 - BoofuzzBaseline - INFO - [100/1000] crashes=82, CVEs=0, rate=85.80/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [110/1000] crashes=91, CVEs=0, rate=85.65/s, elapsed=1s[0m
+2025-12-28 17:30:26,221 - BoofuzzBaseline - INFO - [110/1000] crashes=91, CVEs=0, rate=85.65/s, elapsed=1s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [120/1000] crashes=100, CVEs=0, rate=85.61/s, elapsed=1s[0m
+2025-12-28 17:30:26,338 - BoofuzzBaseline - INFO - [120/1000] crashes=100, CVEs=0, rate=85.61/s, elapsed=1s
+Server crashed. Restarting (4/100)...
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [130/1000] crashes=110, CVEs=0, rate=85.56/s, elapsed=2s[0m
+2025-12-28 17:30:26,456 - BoofuzzBaseline - INFO - [130/1000] crashes=110, CVEs=0, rate=85.56/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [140/1000] crashes=118, CVEs=0, rate=85.55/s, elapsed=2s[0m
+2025-12-28 17:30:26,573 - BoofuzzBaseline - INFO - [140/1000] crashes=118, CVEs=0, rate=85.55/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [150/1000] crashes=126, CVEs=0, rate=85.54/s, elapsed=2s[0m
+2025-12-28 17:30:26,690 - BoofuzzBaseline - INFO - [150/1000] crashes=126, CVEs=0, rate=85.54/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [160/1000] crashes=134, CVEs=0, rate=85.52/s, elapsed=2s[0m
+2025-12-28 17:30:26,807 - BoofuzzBaseline - INFO - [160/1000] crashes=134, CVEs=0, rate=85.52/s, elapsed=2s
+[32m2025-12-28 17:30:26 - BoofuzzBaseline - INFO - [170/1000] crashes=144, CVEs=0, rate=85.47/s, elapsed=2s[0m
+2025-12-28 17:30:26,926 - BoofuzzBaseline - INFO - [170/1000] crashes=144, CVEs=0, rate=85.47/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [180/1000] crashes=153, CVEs=0, rate=85.46/s, elapsed=2s[0m
+2025-12-28 17:30:27,043 - BoofuzzBaseline - INFO - [180/1000] crashes=153, CVEs=0, rate=85.46/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [190/1000] crashes=161, CVEs=0, rate=85.51/s, elapsed=2s[0m
+2025-12-28 17:30:27,159 - BoofuzzBaseline - INFO - [190/1000] crashes=161, CVEs=0, rate=85.51/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [200/1000] crashes=171, CVEs=0, rate=85.44/s, elapsed=2s[0m
+2025-12-28 17:30:27,278 - BoofuzzBaseline - INFO - [200/1000] crashes=171, CVEs=0, rate=85.44/s, elapsed=2s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [210/1000] crashes=181, CVEs=0, rate=85.42/s, elapsed=2s[0m
+2025-12-28 17:30:27,395 - BoofuzzBaseline - INFO - [210/1000] crashes=181, CVEs=0, rate=85.42/s, elapsed=2s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [220/1000] crashes=186, CVEs=0, rate=85.56/s, elapsed=3s[0m
+2025-12-28 17:30:27,508 - BoofuzzBaseline - INFO - [220/1000] crashes=186, CVEs=0, rate=85.56/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [230/1000] crashes=196, CVEs=0, rate=85.55/s, elapsed=3s[0m
+2025-12-28 17:30:27,625 - BoofuzzBaseline - INFO - [230/1000] crashes=196, CVEs=0, rate=85.55/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [240/1000] crashes=204, CVEs=0, rate=85.52/s, elapsed=3s[0m
+2025-12-28 17:30:27,743 - BoofuzzBaseline - INFO - [240/1000] crashes=204, CVEs=0, rate=85.52/s, elapsed=3s
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [250/1000] crashes=214, CVEs=0, rate=85.48/s, elapsed=3s[0m
+2025-12-28 17:30:27,861 - BoofuzzBaseline - INFO - [250/1000] crashes=214, CVEs=0, rate=85.48/s, elapsed=3s
+Server crashed. Restarting (5/100)...
+[32m2025-12-28 17:30:27 - BoofuzzBaseline - INFO - [260/1000] crashes=222, CVEs=0, rate=85.45/s, elapsed=3s[0m
+2025-12-28 17:30:27,979 - BoofuzzBaseline - INFO - [260/1000] crashes=222, CVEs=0, rate=85.45/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [270/1000] crashes=231, CVEs=0, rate=85.42/s, elapsed=3s[0m
+2025-12-28 17:30:28,098 - BoofuzzBaseline - INFO - [270/1000] crashes=231, CVEs=0, rate=85.42/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [280/1000] crashes=240, CVEs=0, rate=85.40/s, elapsed=3s[0m
+2025-12-28 17:30:28,215 - BoofuzzBaseline - INFO - [280/1000] crashes=240, CVEs=0, rate=85.40/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [290/1000] crashes=249, CVEs=0, rate=85.39/s, elapsed=3s[0m
+2025-12-28 17:30:28,333 - BoofuzzBaseline - INFO - [290/1000] crashes=249, CVEs=0, rate=85.39/s, elapsed=3s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [300/1000] crashes=256, CVEs=0, rate=85.43/s, elapsed=4s[0m
+2025-12-28 17:30:28,448 - BoofuzzBaseline - INFO - [300/1000] crashes=256, CVEs=0, rate=85.43/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [310/1000] crashes=266, CVEs=0, rate=85.40/s, elapsed=4s[0m
+2025-12-28 17:30:28,567 - BoofuzzBaseline - INFO - [310/1000] crashes=266, CVEs=0, rate=85.40/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [320/1000] crashes=275, CVEs=0, rate=85.42/s, elapsed=4s[0m
+2025-12-28 17:30:28,683 - BoofuzzBaseline - INFO - [320/1000] crashes=275, CVEs=0, rate=85.42/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [330/1000] crashes=281, CVEs=0, rate=85.49/s, elapsed=4s[0m
+2025-12-28 17:30:28,797 - BoofuzzBaseline - INFO - [330/1000] crashes=281, CVEs=0, rate=85.49/s, elapsed=4s
+[32m2025-12-28 17:30:28 - BoofuzzBaseline - INFO - [340/1000] crashes=290, CVEs=0, rate=85.45/s, elapsed=4s[0m
+2025-12-28 17:30:28,915 - BoofuzzBaseline - INFO - [340/1000] crashes=290, CVEs=0, rate=85.45/s, elapsed=4s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [350/1000] crashes=299, CVEs=0, rate=85.38/s, elapsed=4s[0m
+2025-12-28 17:30:29,036 - BoofuzzBaseline - INFO - [350/1000] crashes=299, CVEs=0, rate=85.38/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [360/1000] crashes=309, CVEs=0, rate=85.33/s, elapsed=4s[0m
+2025-12-28 17:30:29,156 - BoofuzzBaseline - INFO - [360/1000] crashes=309, CVEs=0, rate=85.33/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [370/1000] crashes=318, CVEs=0, rate=85.34/s, elapsed=4s[0m
+2025-12-28 17:30:29,272 - BoofuzzBaseline - INFO - [370/1000] crashes=318, CVEs=0, rate=85.34/s, elapsed=4s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [380/1000] crashes=328, CVEs=0, rate=85.30/s, elapsed=4s[0m
+2025-12-28 17:30:29,392 - BoofuzzBaseline - INFO - [380/1000] crashes=328, CVEs=0, rate=85.30/s, elapsed=4s
+Server crashed. Restarting (6/100)...
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [390/1000] crashes=336, CVEs=0, rate=85.26/s, elapsed=5s[0m
+2025-12-28 17:30:29,511 - BoofuzzBaseline - INFO - [390/1000] crashes=336, CVEs=0, rate=85.26/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [400/1000] crashes=343, CVEs=0, rate=85.27/s, elapsed=5s[0m
+2025-12-28 17:30:29,628 - BoofuzzBaseline - INFO - [400/1000] crashes=343, CVEs=0, rate=85.27/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [410/1000] crashes=350, CVEs=0, rate=85.29/s, elapsed=5s[0m
+2025-12-28 17:30:29,744 - BoofuzzBaseline - INFO - [410/1000] crashes=350, CVEs=0, rate=85.29/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [420/1000] crashes=358, CVEs=0, rate=85.33/s, elapsed=5s[0m
+2025-12-28 17:30:29,859 - BoofuzzBaseline - INFO - [420/1000] crashes=358, CVEs=0, rate=85.33/s, elapsed=5s
+[32m2025-12-28 17:30:29 - BoofuzzBaseline - INFO - [430/1000] crashes=367, CVEs=0, rate=85.16/s, elapsed=5s[0m
+2025-12-28 17:30:29,986 - BoofuzzBaseline - INFO - [430/1000] crashes=367, CVEs=0, rate=85.16/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [440/1000] crashes=376, CVEs=0, rate=85.14/s, elapsed=5s[0m
+2025-12-28 17:30:30,105 - BoofuzzBaseline - INFO - [440/1000] crashes=376, CVEs=0, rate=85.14/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [450/1000] crashes=386, CVEs=0, rate=85.12/s, elapsed=5s[0m
+2025-12-28 17:30:30,223 - BoofuzzBaseline - INFO - [450/1000] crashes=386, CVEs=0, rate=85.12/s, elapsed=5s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [460/1000] crashes=392, CVEs=0, rate=85.14/s, elapsed=5s[0m
+2025-12-28 17:30:30,339 - BoofuzzBaseline - INFO - [460/1000] crashes=392, CVEs=0, rate=85.14/s, elapsed=5s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [470/1000] crashes=400, CVEs=0, rate=85.13/s, elapsed=6s[0m
+2025-12-28 17:30:30,457 - BoofuzzBaseline - INFO - [470/1000] crashes=400, CVEs=0, rate=85.13/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [480/1000] crashes=410, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:30,576 - BoofuzzBaseline - INFO - [480/1000] crashes=410, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [490/1000] crashes=417, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:30,694 - BoofuzzBaseline - INFO - [490/1000] crashes=417, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [500/1000] crashes=425, CVEs=0, rate=85.13/s, elapsed=6s[0m
+2025-12-28 17:30:30,810 - BoofuzzBaseline - INFO - [500/1000] crashes=425, CVEs=0, rate=85.13/s, elapsed=6s
+[32m2025-12-28 17:30:30 - BoofuzzBaseline - INFO - [510/1000] crashes=433, CVEs=0, rate=85.12/s, elapsed=6s[0m
+2025-12-28 17:30:30,928 - BoofuzzBaseline - INFO - [510/1000] crashes=433, CVEs=0, rate=85.12/s, elapsed=6s
+Server crashed. Restarting (7/100)...
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [520/1000] crashes=442, CVEs=0, rate=85.10/s, elapsed=6s[0m
+2025-12-28 17:30:31,047 - BoofuzzBaseline - INFO - [520/1000] crashes=442, CVEs=0, rate=85.10/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [530/1000] crashes=449, CVEs=0, rate=85.11/s, elapsed=6s[0m
+2025-12-28 17:30:31,164 - BoofuzzBaseline - INFO - [530/1000] crashes=449, CVEs=0, rate=85.11/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [540/1000] crashes=458, CVEs=0, rate=85.08/s, elapsed=6s[0m
+2025-12-28 17:30:31,283 - BoofuzzBaseline - INFO - [540/1000] crashes=458, CVEs=0, rate=85.08/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [550/1000] crashes=464, CVEs=0, rate=85.09/s, elapsed=6s[0m
+2025-12-28 17:30:31,400 - BoofuzzBaseline - INFO - [550/1000] crashes=464, CVEs=0, rate=85.09/s, elapsed=6s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [560/1000] crashes=472, CVEs=0, rate=85.08/s, elapsed=7s[0m
+2025-12-28 17:30:31,518 - BoofuzzBaseline - INFO - [560/1000] crashes=472, CVEs=0, rate=85.08/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [570/1000] crashes=479, CVEs=0, rate=85.10/s, elapsed=7s[0m
+2025-12-28 17:30:31,635 - BoofuzzBaseline - INFO - [570/1000] crashes=479, CVEs=0, rate=85.10/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [580/1000] crashes=488, CVEs=0, rate=85.09/s, elapsed=7s[0m
+2025-12-28 17:30:31,753 - BoofuzzBaseline - INFO - [580/1000] crashes=488, CVEs=0, rate=85.09/s, elapsed=7s
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [590/1000] crashes=497, CVEs=0, rate=85.10/s, elapsed=7s[0m
+2025-12-28 17:30:31,870 - BoofuzzBaseline - INFO - [590/1000] crashes=497, CVEs=0, rate=85.10/s, elapsed=7s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:31 - BoofuzzBaseline - INFO - [600/1000] crashes=504, CVEs=0, rate=85.13/s, elapsed=7s[0m
+2025-12-28 17:30:31,984 - BoofuzzBaseline - INFO - [600/1000] crashes=504, CVEs=0, rate=85.13/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [610/1000] crashes=512, CVEs=0, rate=85.13/s, elapsed=7s[0m
+2025-12-28 17:30:32,102 - BoofuzzBaseline - INFO - [610/1000] crashes=512, CVEs=0, rate=85.13/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [620/1000] crashes=520, CVEs=0, rate=85.14/s, elapsed=7s[0m
+2025-12-28 17:30:32,218 - BoofuzzBaseline - INFO - [620/1000] crashes=520, CVEs=0, rate=85.14/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [630/1000] crashes=529, CVEs=0, rate=85.15/s, elapsed=7s[0m
+2025-12-28 17:30:32,335 - BoofuzzBaseline - INFO - [630/1000] crashes=529, CVEs=0, rate=85.15/s, elapsed=7s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [640/1000] crashes=539, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,454 - BoofuzzBaseline - INFO - [640/1000] crashes=539, CVEs=0, rate=85.14/s, elapsed=8s
+Server crashed. Restarting (8/100)...
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [650/1000] crashes=548, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,571 - BoofuzzBaseline - INFO - [650/1000] crashes=548, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [660/1000] crashes=557, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:32,689 - BoofuzzBaseline - INFO - [660/1000] crashes=557, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [670/1000] crashes=566, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:32,807 - BoofuzzBaseline - INFO - [670/1000] crashes=566, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:32 - BoofuzzBaseline - INFO - [680/1000] crashes=575, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:32,924 - BoofuzzBaseline - INFO - [680/1000] crashes=575, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [690/1000] crashes=583, CVEs=0, rate=85.13/s, elapsed=8s[0m
+2025-12-28 17:30:33,042 - BoofuzzBaseline - INFO - [690/1000] crashes=583, CVEs=0, rate=85.13/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [700/1000] crashes=588, CVEs=0, rate=85.14/s, elapsed=8s[0m
+2025-12-28 17:30:33,158 - BoofuzzBaseline - INFO - [700/1000] crashes=588, CVEs=0, rate=85.14/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [710/1000] crashes=594, CVEs=0, rate=85.15/s, elapsed=8s[0m
+2025-12-28 17:30:33,275 - BoofuzzBaseline - INFO - [710/1000] crashes=594, CVEs=0, rate=85.15/s, elapsed=8s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [720/1000] crashes=602, CVEs=0, rate=85.16/s, elapsed=8s[0m
+2025-12-28 17:30:33,392 - BoofuzzBaseline - INFO - [720/1000] crashes=602, CVEs=0, rate=85.16/s, elapsed=8s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [730/1000] crashes=610, CVEs=0, rate=85.14/s, elapsed=9s[0m
+2025-12-28 17:30:33,511 - BoofuzzBaseline - INFO - [730/1000] crashes=610, CVEs=0, rate=85.14/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [740/1000] crashes=619, CVEs=0, rate=85.14/s, elapsed=9s[0m
+2025-12-28 17:30:33,628 - BoofuzzBaseline - INFO - [740/1000] crashes=619, CVEs=0, rate=85.14/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [750/1000] crashes=628, CVEs=0, rate=85.13/s, elapsed=9s[0m
+2025-12-28 17:30:33,746 - BoofuzzBaseline - INFO - [750/1000] crashes=628, CVEs=0, rate=85.13/s, elapsed=9s
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [760/1000] crashes=636, CVEs=0, rate=85.11/s, elapsed=9s[0m
+2025-12-28 17:30:33,867 - BoofuzzBaseline - INFO - [760/1000] crashes=636, CVEs=0, rate=85.11/s, elapsed=9s
+Server crashed. Restarting (9/100)...
+[32m2025-12-28 17:30:33 - BoofuzzBaseline - INFO - [770/1000] crashes=644, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:33,984 - BoofuzzBaseline - INFO - [770/1000] crashes=644, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [780/1000] crashes=653, CVEs=0, rate=85.09/s, elapsed=9s[0m
+2025-12-28 17:30:34,103 - BoofuzzBaseline - INFO - [780/1000] crashes=653, CVEs=0, rate=85.09/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [790/1000] crashes=660, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:34,220 - BoofuzzBaseline - INFO - [790/1000] crashes=660, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [800/1000] crashes=669, CVEs=0, rate=85.10/s, elapsed=9s[0m
+2025-12-28 17:30:34,338 - BoofuzzBaseline - INFO - [800/1000] crashes=669, CVEs=0, rate=85.10/s, elapsed=9s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [810/1000] crashes=677, CVEs=0, rate=85.11/s, elapsed=10s[0m
+2025-12-28 17:30:34,454 - BoofuzzBaseline - INFO - [810/1000] crashes=677, CVEs=0, rate=85.11/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [820/1000] crashes=684, CVEs=0, rate=85.11/s, elapsed=10s[0m
+2025-12-28 17:30:34,571 - BoofuzzBaseline - INFO - [820/1000] crashes=684, CVEs=0, rate=85.11/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [830/1000] crashes=693, CVEs=0, rate=85.10/s, elapsed=10s[0m
+2025-12-28 17:30:34,690 - BoofuzzBaseline - INFO - [830/1000] crashes=693, CVEs=0, rate=85.10/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [840/1000] crashes=701, CVEs=0, rate=85.09/s, elapsed=10s[0m
+2025-12-28 17:30:34,809 - BoofuzzBaseline - INFO - [840/1000] crashes=701, CVEs=0, rate=85.09/s, elapsed=10s
+[32m2025-12-28 17:30:34 - BoofuzzBaseline - INFO - [850/1000] crashes=710, CVEs=0, rate=85.07/s, elapsed=10s[0m
+2025-12-28 17:30:34,928 - BoofuzzBaseline - INFO - [850/1000] crashes=710, CVEs=0, rate=85.07/s, elapsed=10s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [860/1000] crashes=719, CVEs=0, rate=85.04/s, elapsed=10s[0m
+2025-12-28 17:30:35,050 - BoofuzzBaseline - INFO - [860/1000] crashes=719, CVEs=0, rate=85.04/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [870/1000] crashes=729, CVEs=0, rate=85.02/s, elapsed=10s[0m
+2025-12-28 17:30:35,169 - BoofuzzBaseline - INFO - [870/1000] crashes=729, CVEs=0, rate=85.02/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [880/1000] crashes=739, CVEs=0, rate=85.01/s, elapsed=10s[0m
+2025-12-28 17:30:35,288 - BoofuzzBaseline - INFO - [880/1000] crashes=739, CVEs=0, rate=85.01/s, elapsed=10s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [890/1000] crashes=747, CVEs=0, rate=85.02/s, elapsed=10s[0m
+2025-12-28 17:30:35,404 - BoofuzzBaseline - INFO - [890/1000] crashes=747, CVEs=0, rate=85.02/s, elapsed=10s
+Server crashed. Restarting (10/100)...
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [900/1000] crashes=757, CVEs=0, rate=85.01/s, elapsed=11s[0m
+2025-12-28 17:30:35,523 - BoofuzzBaseline - INFO - [900/1000] crashes=757, CVEs=0, rate=85.01/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [910/1000] crashes=765, CVEs=0, rate=85.01/s, elapsed=11s[0m
+2025-12-28 17:30:35,641 - BoofuzzBaseline - INFO - [910/1000] crashes=765, CVEs=0, rate=85.01/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [920/1000] crashes=773, CVEs=0, rate=85.02/s, elapsed=11s[0m
+2025-12-28 17:30:35,758 - BoofuzzBaseline - INFO - [920/1000] crashes=773, CVEs=0, rate=85.02/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [930/1000] crashes=779, CVEs=0, rate=85.03/s, elapsed=11s[0m
+2025-12-28 17:30:35,874 - BoofuzzBaseline - INFO - [930/1000] crashes=779, CVEs=0, rate=85.03/s, elapsed=11s
+[32m2025-12-28 17:30:35 - BoofuzzBaseline - INFO - [940/1000] crashes=786, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:35,990 - BoofuzzBaseline - INFO - [940/1000] crashes=786, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [950/1000] crashes=794, CVEs=0, rate=85.05/s, elapsed=11s[0m
+2025-12-28 17:30:36,107 - BoofuzzBaseline - INFO - [950/1000] crashes=794, CVEs=0, rate=85.05/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [960/1000] crashes=801, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:36,226 - BoofuzzBaseline - INFO - [960/1000] crashes=801, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [970/1000] crashes=809, CVEs=0, rate=85.04/s, elapsed=11s[0m
+2025-12-28 17:30:36,342 - BoofuzzBaseline - INFO - [970/1000] crashes=809, CVEs=0, rate=85.04/s, elapsed=11s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [980/1000] crashes=818, CVEs=0, rate=85.04/s, elapsed=12s[0m
+2025-12-28 17:30:36,460 - BoofuzzBaseline - INFO - [980/1000] crashes=818, CVEs=0, rate=85.04/s, elapsed=12s
+Failed to start server: 'VulnerableHTTPServer' object has no attribute 'startswith'
+Failed to restart server
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [990/1000] crashes=828, CVEs=0, rate=85.02/s, elapsed=12s[0m
+2025-12-28 17:30:36,580 - BoofuzzBaseline - INFO - [990/1000] crashes=828, CVEs=0, rate=85.02/s, elapsed=12s
+[32m2025-12-28 17:30:36 - BoofuzzBaseline - INFO - [1000/1000] crashes=833, CVEs=0, rate=85.05/s, elapsed=12s[0m
+2025-12-28 17:30:36,694 - BoofuzzBaseline - INFO - [1000/1000] crashes=833, CVEs=0, rate=85.05/s, elapsed=12s
+----------------------------------------------------------------------
+
+✓ Test completed!
+Duration: 11.8 seconds (0.2 minutes)
+
+======================================================================
+HTTP VULNERABILITY TEST RESULTS
+======================================================================
+
+2025-12-28 17:30:36,706 - root - ERROR - Test failed: 'FuzzingResult' object has no attribute 'iterations'
+Traceback (most recent call last):
+  File "/home/user/hyfuzz-v3-2/run_http_1000.py", line 74, in main
+    print(f"Iterations Completed: {result.iterations}")
+                                   ^^^^^^^^^^^^^^^^^
+AttributeError: 'FuzzingResult' object has no attribute 'iterations'
+
+======================================================================
+Stopping HTTP server...
+✓ Server stopped
+======================================================================
+

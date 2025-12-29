@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:22.788674",
+  "crash_type": "segfault",
+  "payload": "OPTIONS /upload.action?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Rewrite-Url': \"'; DROP TABLE users;--\", 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '0'}",
+  "payload_hash": "10ef65ab0e19c0d4",
+  "request_method": "OPTIONS",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Rewrite-Url": "'; DROP TABLE users;--",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 723
+}

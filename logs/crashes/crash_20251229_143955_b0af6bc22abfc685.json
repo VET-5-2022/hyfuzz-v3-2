@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:40:00.182852",
+  "crash_type": "server_crash",
+  "payload": "PUT /jnlpJars/jenkins-cli.jar?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Accept-Language': '2147483648', 'Transfer-Encoding': 'chunked', 'Content-Length': '44'}",
+  "payload_hash": "b0af6bc22abfc685",
+  "request_method": "PUT",
+  "request_path": "/jnlpJars/jenkins-cli.jar?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Accept-Language": "2147483648",
+    "Transfer-Encoding": "chunked",
+    "Content-Length": "44"
+  },
+  "request_body": "",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 126
+}

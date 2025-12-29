@@ -1,0 +1,27 @@
+{
+  "total_crashes": 449,
+  "unique_cves_triggered": 4,
+  "cve_trigger_counts": {
+    "CVE-2024-4040": 376,
+    "CVE-2024-46483": 19,
+    "CVE-2023-51713": 26,
+    "CVE-2024-48651": 22
+  },
+  "crash_type_counts": {
+    "cve_trigger": 443,
+    "protocol_error": 6
+  },
+  "first_crash": "2025-12-28T16:22:39.086592",
+  "last_crash": "2025-12-28T16:34:29.834998",
+  "crashes_by_fuzzer": {
+    "vuln_test": {
+      "total": 449,
+      "cves": [
+        "CVE-2024-48651",
+        "CVE-2024-46483",
+        "CVE-2023-51713",
+        "CVE-2024-4040"
+      ]
+    }
+  }
+}

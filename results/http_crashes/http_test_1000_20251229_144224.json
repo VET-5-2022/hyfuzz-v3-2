@@ -1,0 +1,24 @@
+{
+  "target": "HTTP",
+  "framework": "boofuzz",
+  "iterations": 1000,
+  "duration_seconds": 21.256091117858887,
+  "crashes": 169,
+  "cve_triggers": 630,
+  "unique_cves": 10,
+  "cve_breakdown": {
+    "CVE-2024-53677": 99,
+    "CVE-2024-4577": 91,
+    "CVE-2024-23897": 113,
+    "CVE-2024-50379": 90,
+    "CVE-2025-24813": 88,
+    "CVE-2024-38477": 48,
+    "CVE-2024-38476": 28,
+    "CVE-2024-24795": 36,
+    "CVE-2024-21733": 8,
+    "CVE-2024-27316": 29
+  },
+  "errors": 135,
+  "timeouts": 4,
+  "rate_per_second": 47.04555336250095
+}

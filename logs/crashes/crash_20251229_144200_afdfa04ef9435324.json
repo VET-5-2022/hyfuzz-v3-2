@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:23.865786",
+  "crash_type": "segfault",
+  "payload": "DELETE /download?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-For': '%s%s%s%s%s%s%s%s%s%s', 'Content-Length': '$(`id`)', 'X-Http-Method-Override': '%x%x%x%x%x%x%x%x%x%x'}",
+  "payload_hash": "afdfa04ef9435324",
+  "request_method": "DELETE",
+  "request_path": "/download?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-For": "%s%s%s%s%s%s%s%s%s%s",
+    "Content-Length": "$(`id`)",
+    "X-Http-Method-Override": "%x%x%x%x%x%x%x%x%x%x"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 797
+}

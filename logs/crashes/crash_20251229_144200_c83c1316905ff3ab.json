@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:03.810970",
+  "crash_type": "segfault",
+  "payload": "PATCH /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Cookie': 'http://[::1]', 'X-Forwarded-Host': '%00', 'Content-Length': '13'}\nBody: %c0%ae%c0%ae/",
+  "payload_hash": "c83c1316905ff3ab",
+  "request_method": "PATCH",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Cookie": "http://[::1]",
+    "X-Forwarded-Host": "%00",
+    "Content-Length": "13"
+  },
+  "request_body": "%c0%ae%c0%ae/",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 9
+}

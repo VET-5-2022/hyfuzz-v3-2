@@ -1,0 +1,18 @@
+{
+  "crash_id": "020202c69c20f32a",
+  "timestamp": "2025-12-28T16:29:37.431858",
+  "crash_type": "cve_trigger",
+  "payload": "\n{{",
+  "payload_hex": "0a7b7b",
+  "payload_size": 3,
+  "command": "PASS",
+  "arguments": "\n{{",
+  "cve_id": "CVE-2024-4040",
+  "cve_name": "CrushFTP SSTI/RCE",
+  "error_message": "Template injection detected - potential RCE",
+  "stack_trace": "",
+  "server_state": {},
+  "fuzzer_type": "vuln_test",
+  "iteration": 0,
+  "session_id": "90f1cf3b"
+}

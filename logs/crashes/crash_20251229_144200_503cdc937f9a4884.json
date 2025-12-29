@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:14.185773",
+  "crash_type": "segfault",
+  "payload": "OPTIONS /debug\u560a\u560dSet-Cookie: evil=true?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Rewrite-Url': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', 'Content-Length': 'gopher://localhost:25'}",
+  "payload_hash": "503cdc937f9a4884",
+  "request_method": "OPTIONS",
+  "request_path": "/debug\u560a\u560dSet-Cookie: evil=true?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Rewrite-Url": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "Content-Length": "gopher://localhost:25"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 297
+}

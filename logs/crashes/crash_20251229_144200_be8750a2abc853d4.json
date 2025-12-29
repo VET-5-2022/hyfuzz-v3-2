@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:09.951289",
+  "crash_type": "segfault",
+  "payload": "PATCH /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Referer': '%p%p%p%p%p%p%p%p%p%p', 'X-Forwarded-For': '&& whoami', 'Content-Length': '0'}",
+  "payload_hash": "be8750a2abc853d4",
+  "request_method": "PATCH",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Referer": "%p%p%p%p%p%p%p%p%p%p",
+    "X-Forwarded-For": "&& whoami",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 154
+}

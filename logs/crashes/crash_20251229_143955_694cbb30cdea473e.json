@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:40:14.724245",
+  "crash_type": "segfault",
+  "payload": "POST /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '18'}\nBody: {\"key\": \"%.1024d\"}",
+  "payload_hash": "694cbb30cdea473e",
+  "request_method": "POST",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "18"
+  },
+  "request_body": "{\"key\": \"%.1024d\"}",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 410
+}

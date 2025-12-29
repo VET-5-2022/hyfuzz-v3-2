@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:42:14.768546",
+  "crash_type": "server_crash",
+  "payload": "PATCH /shell.jsp?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Transfer-Encoding': 'chunked', 'X-Http-Method-Override': \"' OR '1'='1\", 'X-Rewrite-Url': 'http://localhost', 'Content-Length': '44', 'X-Original-Url': '2147483648'}",
+  "payload_hash": "03414f05620e8e9a",
+  "request_method": "PATCH",
+  "request_path": "/shell.jsp?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Transfer-Encoding": "chunked",
+    "X-Http-Method-Override": "' OR '1'='1",
+    "X-Rewrite-Url": "http://localhost",
+    "Content-Length": "44",
+    "X-Original-Url": "2147483648"
+  },
+  "request_body": "",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 334
+}

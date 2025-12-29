@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-12-29T14:40:17.433474",
+  "crash_type": "segfault",
+  "payload": "OPTIONS /upload.action?\nHeaders: {'User-Agent': \"' OR '1'='1\", 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Http-Method-Override': '%p%p%p%p%p%p%p%p%p%p', 'X-Forwarded-Proto': '2147483648', 'Content-Disposition': 'form-data; name=\"upload\"; filename=\"../../../shell.jsp\"', 'Content-Type': 'multipart/form-data', 'Content-Length': '0'}",
+  "payload_hash": "cca6bb3365644fa1",
+  "request_method": "OPTIONS",
+  "request_path": "/upload.action?",
+  "request_headers": {
+    "User-Agent": "' OR '1'='1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Http-Method-Override": "%p%p%p%p%p%p%p%p%p%p",
+    "X-Forwarded-Proto": "2147483648",
+    "Content-Disposition": "form-data; name=\"upload\"; filename=\"../../../shell.jsp\"",
+    "Content-Type": "multipart/form-data",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 581
+}

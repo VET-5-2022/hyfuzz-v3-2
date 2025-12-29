@@ -1,0 +1,445 @@
+2025-12-28 16:22:39,083 - INFO - Generated 319 seeds from boofuzz
+2025-12-28 16:22:39,089 - WARNING - [0] CRASH: USER | Payload: b'USER ${\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\n'... | Error: 
+2025-12-28 16:22:40,597 - WARNING - [1] CRASH: CWD | Payload: b'CWD ../\r\n'... | Error: 
+2025-12-28 16:22:42,106 - WARNING - [2] CRASH: CWD | Payload: b'CWD *${env}\r\n'... | Error: 
+2025-12-28 16:22:43,615 - WARNING - [6] CRASH: STOR | Payload: b'STOR %.65535s\r\n'... | Error: 
+2025-12-28 16:22:45,122 - WARNING - [7] CRASH: RETR | Payload: b'RETR /\r\n'... | Error: 
+2025-12-28 16:22:46,629 - WARNING - [8] CRASH: STOR | Payload: b'STOR uploa\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf'... | Error: 
+2025-12-28 16:22:48,135 - WARNING - [9] CRASH: RETR | Payload: b'RETR |\r\n'... | Error: 
+2025-12-28 16:22:49,643 - WARNING - [10] CRASH: LIST | Payload: b'LIST sessions.obj\r\n'... | Error: 
+2025-12-28 16:22:51,151 - WARNING - [11] CRASH: STOR | Payload: b'STOR & ls\r\n'... | Error: 
+2025-12-28 16:22:52,659 - WARNING - [13] CRASH: CWD | Payload: b'CWD .%2e/\r\n'... | Error: 
+2025-12-28 16:22:54,167 - WARNING - [14] CRASH: CWD | Payload: b'CWD \xef\xbf\xbf\r\n'... | Error: 
+2025-12-28 16:22:55,675 - WARNING - [16] CRASH: STOR | Payload: b'STOR /proc/self/cmdline2147483648\r\n'... | Error: 
+2025-12-28 16:22:57,183 - WARNING - [17] CRASH: PASS | Payload: b'PASS users.xml\r\n'... | Error: 
+2025-12-28 16:22:58,691 - WARNING - [18] CRASH: RETR | Payload: b'RETR ../../../etc/shadow\r\n'... | Error: 
+2025-12-28 16:23:00,199 - WARNING - [20] CRASH: STOR | Payload: b"STOR ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:23:01,707 - WARNING - [22] CRASH: CWD | Payload: b"CWD ../'\\ \r\n"... | Error: 
+2025-12-28 16:23:03,215 - WARNING - [23] CRASH: MLSD | Payload: b'MLSD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:23:04,722 - WARNING - [25] CRASH: PASS | Payload: b'PASS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:23:06,230 - WARNING - [26] CRASH: DELE | Payload: b'DELE %n%n%n%n%n%n%n%n%n%n\r\n'... | Error: 
+2025-12-28 16:23:07,738 - WARNING - [28] CRASH: PASS | Payload: b'PASS "\'\'\'\'\'\'\r\n'... | Error: 
+2025-12-28 16:23:09,245 - WARNING - [29] CRASH: RETR | Payload: b'RETR data/sample.dat\r\n'... | Error: 
+2025-12-28 16:23:10,752 - WARNING - [34] CRASH: STOR | Payload: b'STOR %.65535s\r\n'... | Error: [Errno 104] Connection reset by peer
+2025-12-28 16:23:12,261 - WARNING - [35] CRASH: STOR | Payload: b'STOR /home/../${user}\\\r\n'... | Error: 
+2025-12-28 16:23:13,773 - WARNING - [46] CRASH: PASS | Payload: b'PASS \\\r\n'... | Error: 
+2025-12-28 16:23:15,280 - WARNING - [47] CRASH: NLST | Payload: b"NLST \\'\\'\\'\\'\\'\\'\\'\\'\\'\\'\r\n"... | Error: 
+2025-12-28 16:23:16,789 - WARNING - [48] CRASH: LIST | Payload: b'LIST ${dir}\r\n'... | Error: 
+2025-12-28 16:23:18,297 - WARNING - [49] CRASH: CWD | Payload: b'CWD COM1\r\n'... | Error: 
+2025-12-28 16:23:19,805 - WARNING - [50] CRASH: STOR | Payload: b'STOR \\"\\"\\"\\"\\"\\"\\"\\"\\"\\"\r\n'... | Error: 
+2025-12-28 16:23:21,315 - WARNING - [51] CRASH: RETR | Payload: b'RETR /../\r\n'... | Error: 
+2025-12-28 16:23:22,823 - WARNING - [52] CRASH: STOR | Payload: b'STOR 0\r\n'... | Error: 
+2025-12-28 16:23:24,330 - WARNING - [53] CRASH: RETR | Payload: b'RETR .%2e/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:23:25,840 - WARNING - [56] CRASH: PASS | Payload: b'PASS \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbfGID=0\r\n'... | Error: 
+2025-12-28 16:23:27,349 - WARNING - [57] CRASH: MKD | Payload: b'MKD ..\\%2e%2e/\r\n'... | Error: 
+2025-12-28 16:23:28,855 - WARNING - [60] CRASH: CWD | Payload: b"CWD '''''''''''\r\n"... | Error: [Errno 32] Broken pipe
+2025-12-28 16:23:30,362 - WARNING - [61] CRASH: PASS | Payload: b"PASS '\r\n"... | Error: 
+2025-12-28 16:23:31,871 - WARNING - [63] CRASH: CWD | Payload: b'CWD ${../../../etc/passwd}?\r\n'... | Error: 
+2025-12-28 16:23:33,379 - WARNING - [64] CRASH: DELE | Payload: b"DELE ' OR '1'='1\r\n"... | Error: 
+2025-12-28 16:23:34,889 - WARNING - [65] CRASH: DELE | Payload: b'DELE /root\r\n'... | Error: 
+2025-12-28 16:23:36,398 - WARNING - [66] CRASH: MKD | Payload: b'MKD ; ls\\\r\n'... | Error: 
+2025-12-28 16:23:37,909 - WARNING - [67] CRASH: RMD | Payload: b'RMD /etc/shadow; /etc/shadow\r\n'... | Error: 
+2025-12-28 16:23:39,419 - WARNING - [68] CRASH: STOR | Payload: b'STOR ../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..'... | Error: 
+2025-12-28 16:23:40,930 - WARNING - [69] CRASH: RETR | Payload: b'RETR %{\r\n'... | Error: 
+2025-12-28 16:23:42,438 - WARNING - [70] CRASH: PASS | Payload: b'PASS \xc3\x80\xc2\xae${7*7}\r\n'... | Error: 
+2025-12-28 16:23:43,948 - WARNING - [71] CRASH: RETR | Payload: b'RETR /tmp/file\\AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:23:45,461 - WARNING - [72] CRASH: RETR | Payload: b'RETR root\r\n'... | Error: 
+2025-12-28 16:23:46,970 - WARNING - [73] CRASH: CWD | Payload: b'CWD C:\\Windows\r\n'... | Error: 
+2025-12-28 16:23:48,480 - WARNING - [74] CRASH: STOR | Payload: b'STOR /etc/passwd\r\n'... | Error: 
+2025-12-28 16:23:49,989 - WARNING - [77] CRASH: STOR | Payload: b'STOR ..\\\r\n'... | Error: 
+2025-12-28 16:23:51,499 - WARNING - [80] CRASH: STOR | Payload: b'STOR AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:23:53,028 - WARNING - [82] CRASH: CWD | Payload: b'CWD subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdi'... | Error: 
+2025-12-28 16:23:54,538 - WARNING - [83] CRASH: RETR | Payload: b'RETR ..\\\r\n'... | Error: 
+2025-12-28 16:23:56,051 - WARNING - [84] CRASH: RETR | Payload: b'RETR /etc/passwd\r\n'... | Error: 
+2025-12-28 16:23:57,562 - WARNING - [86] CRASH: RMD | Payload: b'RMD LPT1?\r\n'... | Error: 
+2025-12-28 16:23:59,073 - WARNING - [90] CRASH: RETR | Payload: b'RETR {{$(ls)}}\r\n'... | Error: 
+2025-12-28 16:24:00,585 - WARNING - [92] CRASH: RETR | Payload: b'RETR \xef\xbf\xbf4294967295\r\n'... | Error: 
+2025-12-28 16:24:02,095 - WARNING - [93] CRASH: PORT | Payload: b'PORT 127,0,0,1,0,21<INCLUDE>\r\n'... | Error: 
+2025-12-28 16:24:03,608 - WARNING - [94] CRASH: RETR | Payload: b'RETR /dev/null\r\n'... | Error: 
+2025-12-28 16:24:05,119 - WARNING - [96] CRASH: CWD | Payload: b'CWD /etc\r\n'... | Error: 
+2025-12-28 16:24:06,632 - WARNING - [100] CRASH: MKD | Payload: b'MKD a` ls `\r\n'... | Error: 
+2025-12-28 16:24:08,142 - WARNING - [101] CRASH: RETR | Payload: b'RETR \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3'... | Error: 
+2025-12-28 16:24:09,655 - WARNING - [102] CRASH: RMD | Payload: b'RMD PRN\r\n'... | Error: 
+2025-12-28 16:24:11,165 - WARNING - [131] CRASH: USER | Payload: b'USER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: [Errno 104] Connection reset by peer
+2025-12-28 16:24:12,674 - WARNING - [132] CRASH: CWD | Payload: b'CWD \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n'... | Error: 
+2025-12-28 16:24:14,186 - WARNING - [133] CRASH: MLSD | Payload: b'MLSD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:24:15,697 - WARNING - [134] CRASH: MKD | Payload: b'MKD %s%s%s%s%s%s%s%s%s%s\r\n'... | Error: 
+2025-12-28 16:24:17,209 - WARNING - [136] CRASH: RETR | Payload: b'RETR ${\r\n'... | Error: 
+2025-12-28 16:24:18,722 - WARNING - [137] CRASH: RMD | Payload: b"RMD PRN'''''\r\n"... | Error: 
+2025-12-28 16:24:20,234 - WARNING - [138] CRASH: MKD | Payload: b'MKD PRN\\\r\n'... | Error: 
+2025-12-28 16:24:21,747 - WARNING - [139] CRASH: DELE | Payload: b'DELE ..%2f\r\n'... | Error: 
+2025-12-28 16:24:23,259 - WARNING - [140] CRASH: STOR | Payload: b'STOR upload.txt\r\n'... | Error: 
+2025-12-28 16:24:24,773 - WARNING - [141] CRASH: CWD | Payload: b'CWD ../{{config}}${env}\r\n'... | Error: 
+2025-12-28 16:24:26,284 - WARNING - [143] CRASH: USER | Payload: b'USER ../\r\n'... | Error: 
+2025-12-28 16:24:27,797 - WARNING - [147] CRASH: PASS | Payload: b'PASS 655351=1\r\n'... | Error: 
+2025-12-28 16:24:32,316 - WARNING - [164] CRASH: USER | Payload: b'USER file"\\\r\n'... | Error: 
+2025-12-28 16:24:33,829 - WARNING - [165] CRASH: STOR | Payload: b"STOR root'--\r\n"... | Error: 
+2025-12-28 16:24:35,341 - WARNING - [166] CRASH: RETR | Payload: b'RETR 4294967295\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n'... | Error: 
+2025-12-28 16:24:36,853 - WARNING - [167] CRASH: NLST | Payload: b'NLST ${env}\r\n'... | Error: 
+2025-12-28 16:24:38,366 - WARNING - [169] CRASH: RETR | Payload: b'RETR sessions.obj\r\n'... | Error: 
+2025-12-28 16:24:39,898 - WARNING - [170] CRASH: RETR | Payload: b'RETR subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subd'... | Error: 
+2025-12-28 16:24:41,410 - WARNING - [171] CRASH: USER | Payload: b'USER ${T(java.lang.Runtime)}& ls\r\n'... | Error: 
+2025-12-28 16:24:42,923 - WARNING - [172] CRASH: USER | Payload: b"USER admin'--\\\r\n"... | Error: 
+2025-12-28 16:24:44,434 - WARNING - [173] CRASH: PASS | Payload: b"PASS ' OR ''='\r\n"... | Error: 
+2025-12-28 16:24:45,947 - WARNING - [174] CRASH: CWD | Payload: b'CWD sessions.obj\r\n'... | Error: 
+2025-12-28 16:24:47,460 - WARNING - [175] CRASH: MKD | Payload: b'MKD a\r\n'... | Error: 
+2025-12-28 16:24:48,972 - WARNING - [178] CRASH: RETR | Payload: b'RETR /tmp/file\\\r\n'... | Error: 
+2025-12-28 16:24:50,485 - WARNING - [179] CRASH: STOR | Payload: b'STOR \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n'... | Error: 
+2025-12-28 16:24:51,999 - WARNING - [180] CRASH: DELE | Payload: b'DELE COM1\r\n'... | Error: 
+2025-12-28 16:24:53,510 - WARNING - [185] CRASH: STOR | Payload: b'STOR upload.txt\r\n'... | Error: 
+2025-12-28 16:24:55,023 - WARNING - [186] CRASH: STOR | Payload: b'STOR /home/../${user}\r\n'... | Error: 
+2025-12-28 16:24:59,539 - WARNING - [193] CRASH: USER | Payload: b'USER {{7*7}} \r\n'... | Error: 
+2025-12-28 16:25:01,053 - WARNING - [196] CRASH: DELE | Payload: b'DELE COM1\r\n'... | Error: 
+2025-12-28 16:25:02,566 - WARNING - [197] CRASH: DELE | Payload: b'DELE -2147483648\r\n'... | Error: 
+2025-12-28 16:25:04,080 - WARNING - [199] CRASH: STOR | Payload: b'STOR %252e%252e%252f\r\n'... | Error: 
+2025-12-28 16:25:05,595 - WARNING - [200] CRASH: MKD | Payload: b'MKD sessions.obj\r\n'... | Error: 
+2025-12-28 16:25:07,114 - WARNING - [201] CRASH: RETR | Payload: b'RETR ../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..'... | Error: 
+2025-12-28 16:25:08,628 - WARNING - [202] CRASH: CWD | Payload: b'CWD ../{{config}}\\\r\n'... | Error: 
+2025-12-28 16:25:10,143 - WARNING - [203] CRASH: RETR | Payload: b'RETR ../{{config}}\r\n'... | Error: 
+2025-12-28 16:25:11,659 - WARNING - [205] CRASH: CWD | Payload: b'CWD %2e%2e%2f\r\n'... | Error: 
+2025-12-28 16:25:13,172 - WARNING - [207] CRASH: LIST | Payload: b'LIST ${dir}\r\n'... | Error: 
+2025-12-28 16:25:14,686 - WARNING - [213] CRASH: USER | Payload: b'USER <\r\n'... | Error: 
+2025-12-28 16:25:16,202 - WARNING - [214] CRASH: RETR | Payload: b'RETR :\r\n'... | Error: 
+2025-12-28 16:25:17,717 - WARNING - [216] CRASH: MKD | Payload: b"MKD ..%2f' OR ''='\r\n"... | Error: 
+2025-12-28 16:25:19,234 - WARNING - [218] CRASH: CWD | Payload: b'CWD aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'... | Error: 
+2025-12-28 16:25:20,748 - WARNING - [219] CRASH: MKD | Payload: b"MKD root'--\r\n"... | Error: 
+2025-12-28 16:25:25,271 - WARNING - [232] CRASH: PASS | Payload: b'PASS users.xml\r\n'... | Error: 
+2025-12-28 16:25:26,784 - WARNING - [233] CRASH: CWD | Payload: b'CWD :\r\n'... | Error: 
+2025-12-28 16:25:28,298 - WARNING - [234] CRASH: MKD | Payload: b'MKD ../file"\\\r\n'... | Error: 
+2025-12-28 16:25:29,811 - WARNING - [235] CRASH: LIST | Payload: b'LIST ${dir}\r\n'... | Error: 
+2025-12-28 16:25:31,329 - WARNING - [236] CRASH: PASS | Payload: b'PASS 0\\\\\r\n'... | Error: 
+2025-12-28 16:25:32,845 - WARNING - [239] CRASH: MKD | Payload: b"MKD file'\\BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"... | Error: 
+2025-12-28 16:25:34,351 - WARNING - [243] CRASH: RETR | Payload: b'RETR LPT1\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:25:35,865 - WARNING - [244] CRASH: PASS | Payload: b"PASS ' OR '1'='1?\r\n"... | Error: 
+2025-12-28 16:25:37,379 - WARNING - [245] CRASH: MKD | Payload: b'MKD users.xml\r\n'... | Error: 
+2025-12-28 16:25:38,886 - WARNING - [248] CRASH: STOR | Payload: b'STOR subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subd'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:25:43,405 - WARNING - [265] CRASH: SITE | Payload: b'SITE ${?}\r\n'... | Error: 
+2025-12-28 16:25:44,920 - WARNING - [268] CRASH: FEAT | Payload: b'FEAT\r\n'... | Error: 
+2025-12-28 16:25:46,435 - WARNING - [270] CRASH: LIST | Payload: b'LIST {{PATH}}\r\n'... | Error: 
+2025-12-28 16:25:47,951 - WARNING - [271] CRASH: MKD | Payload: b'MKD \\\\\\\\\\\\\r\n'... | Error: 
+2025-12-28 16:25:49,463 - WARNING - [274] CRASH: CWD | Payload: b'CWD {{7*7}}\r\n'... | Error: 
+2025-12-28 16:25:50,979 - WARNING - [275] CRASH: MKD | Payload: b'MKD 0\r\n'... | Error: 
+2025-12-28 16:25:52,493 - WARNING - [277] CRASH: CWD | Payload: b'CWD test\\\r\n'... | Error: 
+2025-12-28 16:25:54,007 - WARNING - [278] CRASH: PASS | Payload: b'PASS users.xml\r\n'... | Error: 
+2025-12-28 16:25:55,523 - WARNING - [279] CRASH: MKD | Payload: b'MKD testdir; testdir\r\n'... | Error: 
+2025-12-28 16:25:57,039 - WARNING - [282] CRASH: PASS | Payload: b'PASS users.xml\r\n'... | Error: 
+2025-12-28 16:25:58,553 - WARNING - [284] CRASH: CWD | Payload: b'CWD GET / HTTP/1.0\r\n\r\n'... | Error: 
+2025-12-28 16:26:00,069 - WARNING - [285] CRASH: USER | Payload: b"USER `'\r\n"... | Error: 
+2025-12-28 16:26:01,584 - WARNING - [289] CRASH: PASS | Payload: b'PASS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:26:03,115 - WARNING - [290] CRASH: RETR | Payload: b'RETR subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subdir/subd'... | Error: 
+2025-12-28 16:26:04,631 - WARNING - [291] CRASH: STOR | Payload: b'STOR PRN\r\n'... | Error: 
+2025-12-28 16:26:06,146 - WARNING - [292] CRASH: MKD | Payload: b'MKD admin0\r\n'... | Error: 
+2025-12-28 16:26:07,653 - WARNING - [295] CRASH: SITE | Payload: b'SITE UTIME file 20230101120000\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:26:09,169 - WARNING - [296] CRASH: CWD | Payload: b'CWD /home/../${user}\r\n'... | Error: 
+2025-12-28 16:26:10,686 - WARNING - [297] CRASH: CWD | Payload: b'CWD \\\\\r\n'... | Error: 
+2025-12-28 16:26:12,203 - WARNING - [301] CRASH: RETR | Payload: b'RETR %{\r\n'... | Error: 
+2025-12-28 16:26:13,720 - WARNING - [303] CRASH: USER | Payload: b'USER {{<}}\r\n'... | Error: 
+2025-12-28 16:26:15,241 - WARNING - [304] CRASH: STOR | Payload: b'STOR /./\r\n'... | Error: 
+2025-12-28 16:26:16,759 - WARNING - [316] CRASH: USER | Payload: b'USER \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3'... | Error: 
+2025-12-28 16:26:18,267 - WARNING - [329] CRASH: DELE | Payload: b'DELE file.txt-1\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:26:19,783 - WARNING - [332] CRASH: NLST | Payload: b'NLST {{\r\n'... | Error: 
+2025-12-28 16:26:21,299 - WARNING - [334] CRASH: CWD | Payload: b'CWD \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n'... | Error: 
+2025-12-28 16:26:22,815 - WARNING - [335] CRASH: STOR | Payload: b'STOR test\\\r\n'... | Error: 
+2025-12-28 16:26:24,332 - WARNING - [338] CRASH: USER | Payload: b"USER admin' UNION SELECT'\\\r\n"... | Error: 
+2025-12-28 16:26:25,847 - WARNING - [339] CRASH: PASS | Payload: b'PASS "\r\n'... | Error: 
+2025-12-28 16:26:27,364 - WARNING - [340] CRASH: STOR | Payload: b"STOR ..\\'\r\n"... | Error: 
+2025-12-28 16:26:28,881 - WARNING - [344] CRASH: NLST | Payload: b"NLST '; DROP TABLE users; --\r\n"... | Error: 
+2025-12-28 16:26:30,398 - WARNING - [345] CRASH: RETR | Payload: b'RETR .%2e/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:26:31,918 - WARNING - [346] CRASH: CWD | Payload: b'CWD /etc/passwd\r\n'... | Error: 
+2025-12-28 16:26:33,436 - WARNING - [347] CRASH: RETR | Payload: b'RETR \\\\server\\share\r\n'... | Error: 
+2025-12-28 16:26:34,955 - WARNING - [349] CRASH: RETR | Payload: b'RETR /tmp/file\\\r\n'... | Error: 
+2025-12-28 16:26:36,473 - WARNING - [350] CRASH: CWD | Payload: b'CWD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:26:37,995 - WARNING - [359] CRASH: PASS | Payload: b"PASS ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:26:39,513 - WARNING - [360] CRASH: PASS | Payload: b'PASS 65535..\\\r\n'... | Error: 
+2025-12-28 16:26:41,036 - WARNING - [362] CRASH: RETR | Payload: b'RETR \xef\xbf\xbf\r\n'... | Error: 
+2025-12-28 16:26:42,557 - WARNING - [363] CRASH: RETR | Payload: b'RETR {{"}}\r\n'... | Error: 
+2025-12-28 16:26:44,064 - WARNING - [366] CRASH: PASS | Payload: b'PASS 3w,Jls]^<#\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:26:45,569 - WARNING - [369] CRASH: RETR | Payload: b"RETR ' UNION SELECT| cat /etc/passwd\r\n"... | Error: [Errno 32] Broken pipe
+2025-12-28 16:26:47,088 - WARNING - [371] CRASH: RMD | Payload: b'RMD \xc3\x80\xc2\xae\r\n'... | Error: 
+2025-12-28 16:26:48,605 - WARNING - [372] CRASH: RETR | Payload: b'RETR >\r\n'... | Error: 
+2025-12-28 16:26:50,123 - WARNING - [373] CRASH: CWD | Payload: b'CWD test\\"\\\r\n'... | Error: 
+2025-12-28 16:26:51,644 - WARNING - [374] CRASH: CWD | Payload: b"CWD \\\\\\\\\\\\' OR '1'='1\r\n"... | Error: 
+2025-12-28 16:26:59,179 - WARNING - [409] CRASH: RMD | Payload: b'RMD com1\r\n'... | Error: 
+2025-12-28 16:27:00,700 - WARNING - [410] CRASH: RETR | Payload: b'RETR /home\r\n'... | Error: 
+2025-12-28 16:27:02,219 - WARNING - [411] CRASH: STOR | Payload: b"STOR ${file}'\r\n"... | Error: 
+2025-12-28 16:27:03,739 - WARNING - [412] CRASH: STOR | Payload: b'STOR ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:27:05,259 - WARNING - [413] CRASH: NLST | Payload: b'NLST /\r\n'... | Error: 
+2025-12-28 16:27:06,777 - WARNING - [414] CRASH: STOR | Payload: b"STOR ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:27:08,296 - WARNING - [415] CRASH: RMD | Payload: b'RMD C:\\Windows\\System32\r\n'... | Error: 
+2025-12-28 16:27:09,816 - WARNING - [416] CRASH: MKD | Payload: b'MKD \t\r\n'... | Error: 
+2025-12-28 16:27:14,342 - WARNING - [440] CRASH: MKD | Payload: b'MKD NUL\r\n'... | Error: 
+2025-12-28 16:27:15,862 - WARNING - [444] CRASH: PASS | Payload: b'PASS {{users.xml}}\r\n'... | Error: 
+2025-12-28 16:27:17,381 - WARNING - [445] CRASH: CWD | Payload: b'CWD /home\r\n'... | Error: 
+2025-12-28 16:27:18,901 - WARNING - [447] CRASH: RETR | Payload: b'RETR q"\'vS_G?72u?vr^73p,P_(}d\t}<xM{g^\r\n'... | Error: 
+2025-12-28 16:27:20,420 - WARNING - [451] CRASH: PASS | Payload: b"PASS \xc3\x80\xc2\xae' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:27:21,939 - WARNING - [452] CRASH: USER | Payload: b'USER \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'... | Error: 
+2025-12-28 16:27:23,462 - WARNING - [453] CRASH: CWD | Payload: b'CWD GET / HTTP/1.0\r\n\r\n'... | Error: 
+2025-12-28 16:27:24,980 - WARNING - [454] CRASH: PASS | Payload: b'PASS """""""""""\r\n'... | Error: 
+2025-12-28 16:27:26,504 - WARNING - [455] CRASH: RETR | Payload: b"RETR ' UNION SELECT${env}\r\n"... | Error: 
+2025-12-28 16:27:28,026 - WARNING - [456] CRASH: CWD | Payload: b"CWD ''\\\r\n"... | Error: 
+2025-12-28 16:27:29,546 - WARNING - [457] CRASH: CWD | Payload: b'CWD users.xml\r\n'... | Error: 
+2025-12-28 16:27:31,067 - WARNING - [458] CRASH: DELE | Payload: b'DELE ..\\\r\n'... | Error: 
+2025-12-28 16:27:32,586 - WARNING - [459] CRASH: CWD | Payload: b'CWD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:27:34,105 - WARNING - [462] CRASH: MKD | Payload: b'MKD ../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../'... | Error: 
+2025-12-28 16:27:35,624 - WARNING - [463] CRASH: MKD | Payload: b'MKD %s%s%s%s%s%s%s%s%s%s\r\n'... | Error: 
+2025-12-28 16:27:37,145 - WARNING - [464] CRASH: PASS | Payload: b'PASS ".%2e/\r\n'... | Error: 
+2025-12-28 16:27:38,665 - WARNING - [467] CRASH: USER | Payload: b'USER ${\r\n'... | Error: 
+2025-12-28 16:27:40,185 - WARNING - [468] CRASH: RETR | Payload: b"RETR ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:27:41,708 - WARNING - [470] CRASH: RETR | Payload: b'RETR AUX\r\n'... | Error: 
+2025-12-28 16:27:43,229 - WARNING - [471] CRASH: DELE | Payload: b'DELE """""""""""\r\n'... | Error: 
+2025-12-28 16:27:44,755 - WARNING - [472] CRASH: DELE | Payload: b'DELE ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:27:46,275 - WARNING - [473] CRASH: STOR | Payload: b'STOR ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:27:47,796 - WARNING - [474] CRASH: RETR | Payload: b'RETR ..%2f& ls\r\n'... | Error: 
+2025-12-28 16:27:49,316 - WARNING - [476] CRASH: DELE | Payload: b'DELE /dev/null\r\n'... | Error: 
+2025-12-28 16:27:50,836 - WARNING - [479] CRASH: MKD | Payload: b'MKD ; cat /etc/passwd\r\n'... | Error: 
+2025-12-28 16:27:52,358 - WARNING - [480] CRASH: CWD | Payload: b'CWD /var${system}\r\n'... | Error: 
+2025-12-28 16:27:53,881 - WARNING - [483] CRASH: RMD | Payload: b'RMD ${/etc}\r\n'... | Error: 
+2025-12-28 16:27:55,400 - WARNING - [484] CRASH: STOR | Payload: b'STOR /proc/self/cmdline\r\n'... | Error: 
+2025-12-28 16:27:56,920 - WARNING - [485] CRASH: RMD | Payload: b'RMD ;\r\n'... | Error: 
+2025-12-28 16:27:58,443 - WARNING - [487] CRASH: MKD | Payload: b'MKD | cat /etc/passwd\r\n'... | Error: 
+2025-12-28 16:27:59,967 - WARNING - [493] CRASH: MKD | Payload: b"MKD ' UNION SELECT' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:28:01,489 - WARNING - [494] CRASH: DELE | Payload: b'DELE \\\\server\\share\r\n'... | Error: 
+2025-12-28 16:28:03,010 - WARNING - [499] CRASH: CWD | Payload: b'CWD users.xmlusers.xml\r\n'... | Error: 
+2025-12-28 16:28:04,516 - WARNING - [504] CRASH: MKD | Payload: b'MKD %s%s%s%s%s%s%s%s%s%s\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:28:06,038 - WARNING - [506] CRASH: CWD | Payload: b'CWD ${../../../etc/passwd}\r\n'... | Error: 
+2025-12-28 16:28:07,564 - WARNING - [507] CRASH: MKD | Payload: b'MKD {{config}}\r\n'... | Error: 
+2025-12-28 16:28:09,087 - WARNING - [509] CRASH: DELE | Payload: b"DELE test'\\\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\r\n"... | Error: 
+2025-12-28 16:28:10,608 - WARNING - [511] CRASH: MKD | Payload: b"MKD \\'\\'\\'\\'\\'\\'\\'\\'\\'\\'\r\n"... | Error: 
+2025-12-28 16:28:12,131 - WARNING - [512] CRASH: DELE | Payload: b'DELE ..\\\r\n'... | Error: 
+2025-12-28 16:28:13,652 - WARNING - [514] CRASH: DELE | Payload: b"DELE \\\\server\\share' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:28:15,175 - WARNING - [517] CRASH: CWD | Payload: b'CWD |\x0c\n\x0b3$.SfVL9Keb)6KtUUz.aUgCd3h5dBz-mdPl#g>1)\r\n'... | Error: 
+2025-12-28 16:28:16,696 - WARNING - [518] CRASH: MKD | Payload: b'MKD OR 1=1| cat /etc/passwd\r\n'... | Error: 
+2025-12-28 16:28:18,220 - WARNING - [519] CRASH: DELE | Payload: b'DELE file\\\r\n'... | Error: 
+2025-12-28 16:28:19,743 - WARNING - [520] CRASH: RETR | Payload: b'RETR ${system}\r\n'... | Error: 
+2025-12-28 16:28:21,265 - WARNING - [521] CRASH: CWD | Payload: b'CWD /...\r\n'... | Error: 
+2025-12-28 16:28:22,789 - WARNING - [523] CRASH: CWD | Payload: b'CWD "\r\n'... | Error: 
+2025-12-28 16:28:24,310 - WARNING - [524] CRASH: PASS | Payload: b'PASS "\r\n'... | Error: 
+2025-12-28 16:28:25,830 - WARNING - [527] CRASH: PASS | Payload: b'PASS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:28:27,351 - WARNING - [528] CRASH: RETR | Payload: b'RETR LPT1\r\n'... | Error: 
+2025-12-28 16:28:28,874 - WARNING - [529] CRASH: USER | Payload: b'USER ${../../../../../../../../../../../../\r\n'... | Error: 
+2025-12-28 16:28:30,394 - WARNING - [530] CRASH: USER | Payload: b'USER \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'... | Error: 
+2025-12-28 16:28:31,920 - WARNING - [531] CRASH: CWD | Payload: b"CWD /etc' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:28:33,445 - WARNING - [532] CRASH: CWD | Payload: b'CWD %s%s%s%s%s%s%s%s%s%s\r\n'... | Error: 
+2025-12-28 16:28:34,969 - WARNING - [533] CRASH: STOR | Payload: b'STOR /home\r\n'... | Error: 
+2025-12-28 16:28:36,494 - WARNING - [535] CRASH: MKD | Payload: b"MKD file'\\\\\r\n"... | Error: 
+2025-12-28 16:28:38,018 - WARNING - [536] CRASH: LIST | Payload: b'LIST ${dir}\r\n'... | Error: 
+2025-12-28 16:28:39,542 - WARNING - [537] CRASH: RETR | Payload: b'RETR root\r\n'... | Error: 
+2025-12-28 16:28:41,068 - WARNING - [540] CRASH: PORT | Payload: b'PORT 0,0,0,0,0,0\r\n'... | Error: 
+2025-12-28 16:28:42,591 - WARNING - [541] CRASH: CWD | Payload: b'CWD ${env}\r\n'... | Error: 
+2025-12-28 16:28:44,116 - WARNING - [542] CRASH: MKD | Payload: b'MKD /home/../${user}\r\n'... | Error: 
+2025-12-28 16:28:45,640 - WARNING - [543] CRASH: LIST | Payload: b'LIST ${dir}\r\n'... | Error: 
+2025-12-28 16:28:47,168 - WARNING - [544] CRASH: USER | Payload: b"USER root'--; root'--\r\n"... | Error: 
+2025-12-28 16:28:48,692 - WARNING - [545] CRASH: MKD | Payload: b"MKD ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:28:50,222 - WARNING - [546] CRASH: DELE | Payload: b'DELE COM1${env}\r\n'... | Error: 
+2025-12-28 16:28:51,751 - WARNING - [547] CRASH: CWD | Payload: b'CWD ${../../../etc/passwd}\r\n'... | Error: 
+2025-12-28 16:28:53,278 - WARNING - [549] CRASH: STOR | Payload: b"STOR & ls' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:28:54,802 - WARNING - [550] CRASH: CWD | Payload: b"CWD ../'\\\r\n"... | Error: 
+2025-12-28 16:28:56,325 - WARNING - [551] CRASH: RETR | Payload: b'RETR ${config}%252e%252e%252f\r\n'... | Error: 
+2025-12-28 16:28:57,855 - WARNING - [552] CRASH: DELE | Payload: b'DELE /\r\n'... | Error: 
+2025-12-28 16:28:59,379 - WARNING - [553] CRASH: STOR | Payload: b'STOR /proc/self/cmdline?\r\n'... | Error: 
+2025-12-28 16:29:00,907 - WARNING - [554] CRASH: PASS | Payload: b"PASS 1''''''''''''\r\n"... | Error: 
+2025-12-28 16:29:02,439 - WARNING - [556] CRASH: MKD | Payload: b'MKD /home%x%x%x%x%x%x%x%x%x%x\r\n'... | Error: 
+2025-12-28 16:29:03,965 - WARNING - [557] CRASH: USER | Payload: b'USER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:29:05,491 - WARNING - [558] CRASH: STOR | Payload: b'STOR \\\\\\\\\\\\\r\n'... | Error: 
+2025-12-28 16:29:07,019 - WARNING - [559] CRASH: USER | Payload: b"USER file'\\\r\n"... | Error: 
+2025-12-28 16:29:08,546 - WARNING - [560] CRASH: CWD | Payload: b'CWD C/sXP|dcOYZR}u.oaQ`d;|\r8\r\n'... | Error: 
+2025-12-28 16:29:10,052 - WARNING - [563] CRASH: MKD | Payload: b"MKD ' UNION SELECT{{\r\n"... | Error: [Errno 32] Broken pipe
+2025-12-28 16:29:11,576 - WARNING - [566] CRASH: RETR | Payload: b'RETR $(ls)\\\r\n'... | Error: 
+2025-12-28 16:29:13,101 - WARNING - [567] CRASH: RETR | Payload: b'RETR C:\\Windows\\System32\r\n'... | Error: 
+2025-12-28 16:29:17,630 - WARNING - [581] CRASH: PASS | Payload: b'PASS OR 1=1\r\n'... | Error: 
+2025-12-28 16:29:19,154 - WARNING - [584] CRASH: USER | Payload: b'USER ${\r\n'... | Error: 
+2025-12-28 16:29:20,683 - WARNING - [585] CRASH: RETR | Payload: b'RETR AUX\\\r\n'... | Error: 
+2025-12-28 16:29:22,210 - WARNING - [586] CRASH: RMD | Payload: b'RMD "\r\n'... | Error: 
+2025-12-28 16:29:23,734 - WARNING - [587] CRASH: CWD | Payload: b'CWD /path"\\\r\n'... | Error: 
+2025-12-28 16:29:25,259 - WARNING - [588] CRASH: MKD | Payload: b'MKD \\\\server\\share\r\n'... | Error: 
+2025-12-28 16:29:26,800 - WARNING - [589] CRASH: STOR | Payload: b'STOR SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBDIR/SUBD'... | Error: 
+2025-12-28 16:29:28,325 - WARNING - [590] CRASH: MLSD | Payload: b'MLSD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:29:29,848 - WARNING - [591] CRASH: MKD | Payload: b'MKD %s%s%s%s%s%s%s%s%s%s\r\n'... | Error: 
+2025-12-28 16:29:31,370 - WARNING - [592] CRASH: RETR | Payload: b'RETR LPT1\r\n'... | Error: 
+2025-12-28 16:29:32,895 - WARNING - [593] CRASH: MKD | Payload: b'MKD /etc/shadow\r\n'... | Error: 
+2025-12-28 16:29:34,402 - WARNING - [596] CRASH: STOR | Payload: b'STOR /dev/null\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:29:35,927 - WARNING - [597] CRASH: MKD | Payload: b'MKD PRN\xc3\x80\xc2\xae\r\n'... | Error: 
+2025-12-28 16:29:37,455 - WARNING - [599] CRASH: PASS | Payload: b'PASS \n{{\r\n'... | Error: 
+2025-12-28 16:29:38,980 - WARNING - [600] CRASH: RETR | Payload: b'RETR /tmp\r\n'... | Error: 
+2025-12-28 16:29:40,507 - WARNING - [601] CRASH: RETR | Payload: b'RETR PRN\r\n'... | Error: 
+2025-12-28 16:29:42,035 - WARNING - [602] CRASH: CWD | Payload: b'CWD /etc/shadow\r\n'... | Error: 
+2025-12-28 16:29:43,563 - WARNING - [603] CRASH: RETR | Payload: b"RETR ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:29:45,089 - WARNING - [606] CRASH: SITE | Payload: b'SITE \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3'... | Error: 
+2025-12-28 16:29:46,615 - WARNING - [607] CRASH: RETR | Payload: b"RETR .%2e/admin'--\r\n"... | Error: 
+2025-12-28 16:29:48,142 - WARNING - [608] CRASH: RETR | Payload: b'RETR PRNOR 1=1\r\n'... | Error: 
+2025-12-28 16:29:49,668 - WARNING - [610] CRASH: RMD | Payload: b"RMD /etc/shadowfile'\\\r\n"... | Error: 
+2025-12-28 16:29:51,197 - WARNING - [611] CRASH: MKD | Payload: b"MKD new'\\../../../../../../../../../../../../\r\n"... | Error: 
+2025-12-28 16:29:52,724 - WARNING - [612] CRASH: CWD | Payload: b'CWD \r\n\r\n'... | Error: 
+2025-12-28 16:29:54,249 - WARNING - [613] CRASH: STOR | Payload: b'STOR ${file}\r\n'... | Error: 
+2025-12-28 16:29:55,776 - WARNING - [615] CRASH: RETR | Payload: b'RETR /.../\r\n'... | Error: 
+2025-12-28 16:29:57,301 - WARNING - [616] CRASH: RETR | Payload: b'RETR  \r\n'... | Error: 
+2025-12-28 16:29:58,827 - WARNING - [617] CRASH: STOR | Payload: b'STOR C:\\Windows\\System32\r\n'... | Error: 
+2025-12-28 16:30:00,351 - WARNING - [618] CRASH: USER | Payload: b'USER \x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3\xbf\x00\xc3'... | Error: 
+2025-12-28 16:30:01,878 - WARNING - [619] CRASH: MKD | Payload: b'MKD .%2e/GET / HTTP/1.0\r\n\r\n'... | Error: 
+2025-12-28 16:30:03,406 - WARNING - [622] CRASH: PORT | Payload: b'PORT ../\r\n'... | Error: 
+2025-12-28 16:30:04,931 - WARNING - [623] CRASH: RETR | Payload: b"RETR :' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:30:06,457 - WARNING - [624] CRASH: RETR | Payload: b'RETR %2e%2e/\r\n'... | Error: 
+2025-12-28 16:30:07,984 - WARNING - [625] CRASH: RETR | Payload: b'RETR LPT1\r\n'... | Error: 
+2025-12-28 16:30:09,510 - WARNING - [628] CRASH: STOR | Payload: b'STOR %x%x%x%x%x%x%x%x%x%x\r\n'... | Error: 
+2025-12-28 16:30:11,037 - WARNING - [629] CRASH: STOR | Payload: b'STOR AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:30:12,564 - WARNING - [630] CRASH: MLSD | Payload: b'MLSD .; .\r\n'... | Error: 
+2025-12-28 16:30:14,094 - WARNING - [632] CRASH: DELE | Payload: b'DELE %{\r\n'... | Error: 
+2025-12-28 16:30:15,599 - WARNING - [635] CRASH: USER | Payload: b"USER test'; DROP TABLE users; --\r\n"... | Error: [Errno 32] Broken pipe
+2025-12-28 16:30:17,127 - WARNING - [637] CRASH: MKD | Payload: b'MKD \\\\server\\share\r\n'... | Error: 
+2025-12-28 16:30:18,656 - WARNING - [638] CRASH: STOR | Payload: b'STOR ../${env}\r\n'... | Error: 
+2025-12-28 16:30:20,187 - WARNING - [639] CRASH: CWD | Payload: b'CWD ${..%2f}\r\n'... | Error: 
+2025-12-28 16:30:21,715 - WARNING - [640] CRASH: CWD | Payload: b'CWD users.xml\r\n'... | Error: 
+2025-12-28 16:30:23,243 - WARNING - [641] CRASH: LIST | Payload: b'LIST \t\r\n'... | Error: 
+2025-12-28 16:30:24,770 - WARNING - [642] CRASH: MKD | Payload: b'MKD ../../../etc/passwd\r\n'... | Error: 
+2025-12-28 16:30:26,299 - WARNING - [644] CRASH: RETR | Payload: b'RETR ${env}\r\n'... | Error: 
+2025-12-28 16:30:27,828 - WARNING - [646] CRASH: RETR | Payload: b'RETR /etc/shadow\\\r\n'... | Error: 
+2025-12-28 16:30:29,359 - WARNING - [647] CRASH: STOR | Payload: b'STOR ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:30:30,888 - WARNING - [655] CRASH: PASS | Payload: b"PASS ' OR '1'='1; ls\r\n"... | Error: 
+2025-12-28 16:30:32,413 - WARNING - [656] CRASH: RETR | Payload: b"RETR '\\\r\n"... | Error: 
+2025-12-28 16:30:33,944 - WARNING - [657] CRASH: STOR | Payload: b'STOR 65536\r\n'... | Error: 
+2025-12-28 16:30:35,473 - WARNING - [658] CRASH: MLSD | Payload: b'MLSD /\r\n'... | Error: 
+2025-12-28 16:30:37,000 - WARNING - [659] CRASH: PASS | Payload: b'PASS ..\\..\\..\\..\\\r\n'... | Error: 
+2025-12-28 16:30:38,527 - WARNING - [660] CRASH: USER | Payload: b'USER ${\r\n'... | Error: 
+2025-12-28 16:30:40,053 - WARNING - [661] CRASH: STOR | Payload: b'STOR \\\\\\\\\\\\\r\n'... | Error: 
+2025-12-28 16:30:41,584 - WARNING - [663] CRASH: CWD | Payload: b'CWD 4294967295\r\n'... | Error: 
+2025-12-28 16:30:43,116 - WARNING - [664] CRASH: STOR | Payload: b'STOR ..\\\\\r\n'... | Error: 
+2025-12-28 16:30:44,648 - WARNING - [665] CRASH: RETR | Payload: b'RETR \xef\xbf\xbf\r\n'... | Error: 
+2025-12-28 16:30:46,178 - WARNING - [666] CRASH: LIST | Payload: b'LIST .\r\n'... | Error: 
+2025-12-28 16:30:47,709 - WARNING - [667] CRASH: PASS | Payload: b'PASS {{7*7}}\r\n'... | Error: 
+2025-12-28 16:30:49,238 - WARNING - [668] CRASH: MLSD | Payload: b'MLSD .\r\n'... | Error: 
+2025-12-28 16:30:50,770 - WARNING - [669] CRASH: CWD | Payload: b'CWD ../${env}\r\n'... | Error: 
+2025-12-28 16:30:52,300 - WARNING - [670] CRASH: DELE | Payload: b'DELE file.txt4294967296\r\n'... | Error: 
+2025-12-28 16:30:53,829 - WARNING - [671] CRASH: CWD | Payload: b'CWD \t\r\n'... | Error: 
+2025-12-28 16:30:55,356 - WARNING - [672] CRASH: USER | Payload: b"USER admin'--\r\n"... | Error: 
+2025-12-28 16:30:56,885 - WARNING - [673] CRASH: RETR | Payload: b'RETR ${config}\r\n'... | Error: 
+2025-12-28 16:30:58,416 - WARNING - [674] CRASH: RETR | Payload: b'RETR readme.txt\\\r\n'... | Error: 
+2025-12-28 16:30:59,947 - WARNING - [676] CRASH: MKD | Payload: b'MKD /dev/null1=1\r\n'... | Error: 
+2025-12-28 16:31:01,479 - WARNING - [680] CRASH: USER | Payload: b'USER "\r\n'... | Error: 
+2025-12-28 16:31:03,008 - WARNING - [682] CRASH: PASS | Payload: b"PASS '; --\r\n"... | Error: 
+2025-12-28 16:31:04,537 - WARNING - [683] CRASH: MKD | Payload: b'MKD dir\\\\\\\r\n'... | Error: 
+2025-12-28 16:31:06,065 - WARNING - [684] CRASH: RETR | Payload: b"RETR '''''''''''\r\n"... | Error: 
+2025-12-28 16:31:07,594 - WARNING - [686] CRASH: MKD | Payload: b'MKD ; ls\r\n'... | Error: 
+2025-12-28 16:31:09,128 - WARNING - [687] CRASH: MKD | Payload: b'MKD %{\r\n'... | Error: 
+2025-12-28 16:31:10,664 - WARNING - [688] CRASH: DELE | Payload: b'DELE admin\r\n'... | Error: 
+2025-12-28 16:31:12,225 - WARNING - [692] CRASH: PASS | Payload: b'PASS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:31:13,760 - WARNING - [693] CRASH: MKD | Payload: b'MKD PRN\r\n'... | Error: 
+2025-12-28 16:31:15,288 - WARNING - [694] CRASH: RETR | Payload: b'RETR root\r\n'... | Error: 
+2025-12-28 16:31:16,820 - WARNING - [695] CRASH: DELE | Payload: b'DELE 1=1\r\n'... | Error: 
+2025-12-28 16:31:18,352 - WARNING - [698] CRASH: CWD | Payload: b'CWD \xef\xbf\xbf;\r\n'... | Error: 
+2025-12-28 16:31:19,899 - WARNING - [699] CRASH: RETR | Payload: b'RETR /etc\r\n'... | Error: 
+2025-12-28 16:31:21,433 - WARNING - [700] CRASH: STOR | Payload: b"STOR ' OR ''='\r\n"... | Error: 
+2025-12-28 16:31:22,963 - WARNING - [701] CRASH: PASS | Payload: b'PASS test\\\r\n'... | Error: 
+2025-12-28 16:31:24,494 - WARNING - [702] CRASH: RMD | Payload: b'RMD CON\r\n'... | Error: 
+2025-12-28 16:31:26,024 - WARNING - [703] CRASH: MKD | Payload: b'MKD /dev/null../../../../../../../../../../../../../../\r\n'... | Error: 
+2025-12-28 16:31:27,558 - WARNING - [704] CRASH: MKD | Payload: b'MKD /tmp\r\n'... | Error: 
+2025-12-28 16:31:29,089 - WARNING - [708] CRASH: DELE | Payload: b'DELE /var\r\n'... | Error: 
+2025-12-28 16:31:30,626 - WARNING - [710] CRASH: CWD | Payload: b'CWD /.ssh/id_rsa\r\n'... | Error: 
+2025-12-28 16:31:32,160 - WARNING - [711] CRASH: DELE | Payload: b'DELE {{file\\}}\r\n'... | Error: 
+2025-12-28 16:31:36,698 - WARNING - [721] CRASH: USER | Payload: b"USER A\x00B'\\\r\n"... | Error: 
+2025-12-28 16:31:38,234 - WARNING - [725] CRASH: CWD | Payload: b'CWD \xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf|\r\n'... | Error: 
+2025-12-28 16:31:39,765 - WARNING - [726] CRASH: CWD | Payload: b'CWD users.xml../../../etc/passwd\r\n'... | Error: 
+2025-12-28 16:31:41,298 - WARNING - [728] CRASH: CWD | Payload: b"CWD ' OR ''='\r\n"... | Error: 
+2025-12-28 16:31:42,828 - WARNING - [729] CRASH: MKD | Payload: b"MKD GET / HTTP/1.0\r\n'\\\r\n"... | Error: 
+2025-12-28 16:31:44,359 - WARNING - [730] CRASH: STOR | Payload: b'STOR \xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3\x83\xc3'... | Error: 
+2025-12-28 16:31:45,889 - WARNING - [733] CRASH: RETR | Payload: b'RETR sessions.obj\r\n'... | Error: 
+2025-12-28 16:31:47,420 - WARNING - [734] CRASH: MLSD | Payload: b'MLSD \\\\\\\\\\\\\r\n'... | Error: 
+2025-12-28 16:31:48,966 - WARNING - [737] CRASH: MKD | Payload: b'MKD dir\\\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf\xc3\xbf'... | Error: 
+2025-12-28 16:31:56,506 - WARNING - [754] CRASH: PASS | Payload: b'PASS BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'... | Error: 
+2025-12-28 16:31:58,037 - WARNING - [755] CRASH: RETR | Payload: b'RETR \xef\xbf\xbf\r\n'... | Error: 
+2025-12-28 16:31:59,571 - WARNING - [756] CRASH: RETR | Payload: b'RETR "../../../../../\r\n'... | Error: 
+2025-12-28 16:32:01,105 - WARNING - [757] CRASH: MKD | Payload: b"MKD ' UNION SELECT' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:32:02,633 - WARNING - [758] CRASH: USER | Payload: b"USER 4294967295' OR '1'='1\r\n"... | Error: 
+2025-12-28 16:32:04,168 - WARNING - [760] CRASH: STOR | Payload: b"STOR %x%x%x%x%x%x%x%x%x%x'''''''''''''''\r\n"... | Error: 
+2025-12-28 16:32:08,735 - WARNING - [779] CRASH: MKD | Payload: b'MKD AUX\r\n'... | Error: 
+2025-12-28 16:32:10,266 - WARNING - [783] CRASH: DELE | Payload: b'DELE /.ssh/id_rsa\r\n'... | Error: 
+2025-12-28 16:32:11,799 - WARNING - [784] CRASH: CWD | Payload: b'CWD ../../../etc/passwd\r\n'... | Error: 
+2025-12-28 16:32:13,335 - WARNING - [807] CRASH: MKD | Payload: b"MKD ${T(java.lang.Runtime)}root'--\r\n"... | Error: 
+2025-12-28 16:32:14,867 - WARNING - [808] CRASH: STOR | Payload: b'STOR ..\\..\\..\\windows\\system32\\config\\sam$(ls)\r\n'... | Error: 
+2025-12-28 16:32:16,397 - WARNING - [809] CRASH: STOR | Payload: b'STOR }}admin\r\n'... | Error: 
+2025-12-28 16:32:17,931 - WARNING - [826] CRASH: USER | Payload: b'USER 65535\r\n'... | Error: 
+2025-12-28 16:32:19,463 - WARNING - [827] CRASH: CWD | Payload: b'CWD ${../../../etc/passwd}\r\n'... | Error: 
+2025-12-28 16:32:20,998 - WARNING - [828] CRASH: STOR | Payload: b'STOR ${env}\r\n'... | Error: 
+2025-12-28 16:32:22,532 - WARNING - [832] CRASH: PASS | Payload: b"PASS password' UNION SELECT\\\r\n"... | Error: 
+2025-12-28 16:32:24,065 - WARNING - [833] CRASH: RETR | Payload: b'RETR .%2e/test\\\r\n'... | Error: 
+2025-12-28 16:32:25,596 - WARNING - [834] CRASH: LIST | Payload: b"LIST .'\\\r\n"... | Error: 
+2025-12-28 16:32:27,133 - WARNING - [835] CRASH: CWD | Payload: b'CWD %252e%252e%252f\r\n'... | Error: 
+2025-12-28 16:32:28,667 - WARNING - [836] CRASH: MKD | Payload: b'MKD %2e%2e/\r\n'... | Error: 
+2025-12-28 16:32:30,201 - WARNING - [837] CRASH: RETR | Payload: b'RETR $(ls)\r\n'... | Error: 
+2025-12-28 16:32:31,734 - WARNING - [838] CRASH: MKD | Payload: b'MKD ${../../../etc/passwd}\r\n'... | Error: 
+2025-12-28 16:32:33,267 - WARNING - [840] CRASH: RMD | Payload: b'RMD {{7*7}}\r\n'... | Error: 
+2025-12-28 16:32:34,800 - WARNING - [841] CRASH: STOR | Payload: b'STOR \\AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:32:36,333 - WARNING - [843] CRASH: RMD | Payload: b'RMD /home` ls `\r\n'... | Error: 
+2025-12-28 16:32:37,867 - WARNING - [844] CRASH: DELE | Payload: b'DELE /\r\n'... | Error: 
+2025-12-28 16:32:39,399 - WARNING - [845] CRASH: PASS | Payload: b'PASS "0\r\n'... | Error: 
+2025-12-28 16:32:40,933 - WARNING - [847] CRASH: DELE | Payload: b'DELE /path"\\%n%n%n%n%n%n%n%n%n%n%n%n\r\n'... | Error: 
+2025-12-28 16:32:42,466 - WARNING - [848] CRASH: MKD | Payload: b'MKD .%2e/\r\n'... | Error: 
+2025-12-28 16:32:44,002 - WARNING - [849] CRASH: RETR | Payload: b'RETR AUX\r\n'... | Error: 
+2025-12-28 16:32:45,539 - WARNING - [850] CRASH: MKD | Payload: b'MKD .%2e/\r\n'... | Error: 
+2025-12-28 16:32:47,074 - WARNING - [851] CRASH: STOR | Payload: b'STOR %.65535s\r\n'... | Error: 
+2025-12-28 16:32:48,608 - WARNING - [852] CRASH: STOR | Payload: b'STOR ../{{config}}\r\n'... | Error: 
+2025-12-28 16:32:50,144 - WARNING - [853] CRASH: CWD | Payload: b'CWD users.xml\r\n'... | Error: 
+2025-12-28 16:32:51,683 - WARNING - [854] CRASH: MKD | Payload: b'MKD ${T(java.lang.Runtime)}\r\n'... | Error: 
+2025-12-28 16:32:53,189 - WARNING - [858] CRASH: SITE | Payload: b'SITE HELP\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:32:54,720 - WARNING - [860] CRASH: PASS | Payload: b'PASS "HTTP/1.1 200 OK\r\n\r\n'... | Error: 
+2025-12-28 16:32:56,255 - WARNING - [861] CRASH: RETR | Payload: b'RETR /tmp/file\\\r\n'... | Error: 
+2025-12-28 16:32:57,789 - WARNING - [863] CRASH: CWD | Payload: b'CWD . \r\n'... | Error: 
+2025-12-28 16:32:59,340 - WARNING - [865] CRASH: CWD | Payload: b'CWD ..%2f\r\n'... | Error: 
+2025-12-28 16:33:00,876 - WARNING - [867] CRASH: CWD | Payload: b'CWD GET / HTTP/1.0\r\n%2e%2e%2f\r\n'... | Error: 
+2025-12-28 16:33:02,383 - WARNING - [870] CRASH: MKD | Payload: b'MKD sessions.obj; sessions.obj\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:33:03,919 - WARNING - [878] CRASH: RETR | Payload: b'RETR ../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..'... | Error: 
+2025-12-28 16:33:05,454 - WARNING - [880] CRASH: USER | Payload: b"USER admin'--ftp\r\n"... | Error: 
+2025-12-28 16:33:06,988 - WARNING - [881] CRASH: CWD | Payload: b'CWD /\r\n'... | Error: 
+2025-12-28 16:33:08,522 - WARNING - [882] CRASH: RETR | Payload: b'RETR /etc/shadow| cat /etc/passwd\r\n'... | Error: 
+2025-12-28 16:33:10,058 - WARNING - [883] CRASH: LIST | Payload: b'LIST {{path}}\r\n'... | Error: 
+2025-12-28 16:33:11,594 - WARNING - [884] CRASH: CWD | Payload: b'CWD .\r\n'... | Error: 
+2025-12-28 16:33:13,130 - WARNING - [886] CRASH: MKD | Payload: b'MKD new_folderanonymous\r\n'... | Error: 
+2025-12-28 16:33:14,664 - WARNING - [888] CRASH: STOR | Payload: b'STOR ${env}AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:33:16,199 - WARNING - [889] CRASH: RETR | Payload: b'RETR ../\r\n'... | Error: 
+2025-12-28 16:33:17,732 - WARNING - [892] CRASH: PASS | Payload: b"PASS \xc3\x80\xc2\xae'''''\r\n"... | Error: 
+2025-12-28 16:33:19,266 - WARNING - [894] CRASH: USER | Payload: b"USER admin' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:33:20,801 - WARNING - [899] CRASH: CWD | Payload: b'CWD """""""""""<\r\n'... | Error: 
+2025-12-28 16:33:22,335 - WARNING - [901] CRASH: CWD | Payload: b'CWD /var\r\n'... | Error: 
+2025-12-28 16:33:23,872 - WARNING - [908] CRASH: MKD | Payload: b"MKD file'\\''''''''''\r\n"... | Error: 
+2025-12-28 16:33:25,406 - WARNING - [909] CRASH: STOR | Payload: b'STOR upload.txt\r\n'... | Error: 
+2025-12-28 16:33:26,940 - WARNING - [910] CRASH: RETR | Payload: b"RETR ' UNION SELECT\r\n"... | Error: 
+2025-12-28 16:33:28,474 - WARNING - [911] CRASH: MKD | Payload: b'MKD ..%2f\r\n'... | Error: 
+2025-12-28 16:33:30,011 - WARNING - [913] CRASH: LIST | Payload: b'LIST /\r\n'... | Error: 
+2025-12-28 16:33:31,551 - WARNING - [915] CRASH: DELE | Payload: b"DELE test'\\\r\n"... | Error: 
+2025-12-28 16:33:33,086 - WARNING - [916] CRASH: MKD | Payload: b'MKD GET / HTTP/1.0\r\nCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC'... | Error: 
+2025-12-28 16:33:34,621 - WARNING - [919] CRASH: PASS | Payload: b"PASS \n'\\\r\n"... | Error: 
+2025-12-28 16:33:36,158 - WARNING - [922] CRASH: CWD | Payload: b'CWD \\\\\\\\\\\\OR 1=1\r\n'... | Error: 
+2025-12-28 16:33:37,693 - WARNING - [923] CRASH: MKD | Payload: b"MKD new'\\\r\n"... | Error: 
+2025-12-28 16:33:39,230 - WARNING - [924] CRASH: LIST | Payload: b'LIST /**/\r\n'... | Error: 
+2025-12-28 16:33:40,771 - WARNING - [925] CRASH: MKD | Payload: b'MKD -2147483648\\\r\n'... | Error: 
+2025-12-28 16:33:42,307 - WARNING - [927] CRASH: STOR | Payload: b'STOR test\\\r\n'... | Error: 
+2025-12-28 16:33:43,846 - WARNING - [928] CRASH: MKD | Payload: b'MKD /proc/self/cmdline\r\n'... | Error: 
+2025-12-28 16:33:45,384 - WARNING - [941] CRASH: USER | Payload: b'USER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:33:46,923 - WARNING - [942] CRASH: PASS | Payload: b'PASS test\\\r\n'... | Error: 
+2025-12-28 16:33:48,458 - WARNING - [943] CRASH: STOR | Payload: b'STOR %2e%2e/\r\n'... | Error: 
+2025-12-28 16:33:49,994 - WARNING - [944] CRASH: USER | Payload: b'USER ../\r\n'... | Error: 
+2025-12-28 16:33:51,533 - WARNING - [949] CRASH: MKD | Payload: b'MKD ../../../../../../../../../../../../../../../\r\n'... | Error: 
+2025-12-28 16:33:53,069 - WARNING - [950] CRASH: STOR | Payload: b'STOR <INCLUDE>\r\n'... | Error: 
+2025-12-28 16:33:54,608 - WARNING - [953] CRASH: USER | Payload: b'USER {{ftp}}\r\n'... | Error: 
+2025-12-28 16:33:56,144 - WARNING - [954] CRASH: CWD | Payload: b'CWD /tmp\\..%2f\r\n'... | Error: 
+2025-12-28 16:33:57,681 - WARNING - [955] CRASH: CWD | Payload: b'CWD \r\n\r\n'... | Error: 
+2025-12-28 16:33:59,217 - WARNING - [956] CRASH: PASS | Payload: b'PASS users.xml\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\n'... | Error: 
+2025-12-28 16:34:00,754 - WARNING - [957] CRASH: MKD | Payload: b"MKD file'file'file'file'file'\r\n"... | Error: 
+2025-12-28 16:34:02,292 - WARNING - [958] CRASH: USER | Payload: b'USER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: 
+2025-12-28 16:34:03,798 - WARNING - [961] CRASH: SITE | Payload: b'SITE -1\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:34:05,335 - WARNING - [964] CRASH: RETR | Payload: b"RETR ' UNION SELECT' OR '1'='1\r\n"... | Error: 
+2025-12-28 16:34:06,871 - WARNING - [965] CRASH: USER | Payload: b'USER ..%2f\r\n'... | Error: 
+2025-12-28 16:34:08,375 - WARNING - [968] CRASH: SITE | Payload: b'SITE CHMOD 77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:34:09,912 - WARNING - [969] CRASH: RMD | Payload: b'RMD ../../../etc/shadow\r\n'... | Error: 
+2025-12-28 16:34:11,448 - WARNING - [970] CRASH: CWD | Payload: b'CWD {{7*7}}\r\n'... | Error: 
+2025-12-28 16:34:12,956 - WARNING - [973] CRASH: PASS | Payload: b'PASS >\r\n'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:34:14,493 - WARNING - [975] CRASH: RETR | Payload: b'RETR welcome.txt\\\r\n'... | Error: 
+2025-12-28 16:34:16,031 - WARNING - [976] CRASH: MKD | Payload: b'MKD ..\\..\\..\\windows\\system32\\config\\sam\r\n'... | Error: 
+2025-12-28 16:34:17,571 - WARNING - [977] CRASH: PASS | Payload: b'PASS ..%2f\r\n'... | Error: 
+2025-12-28 16:34:19,111 - WARNING - [980] CRASH: RETR | Payload: b'RETR /../%n\r\n'... | Error: 
+2025-12-28 16:34:20,652 - WARNING - [985] CRASH: RETR | Payload: b'RETR  \r\n'... | Error: 
+2025-12-28 16:34:22,189 - WARNING - [986] CRASH: USER | Payload: b"USER admin'--\r\n"... | Error: 
+2025-12-28 16:34:23,731 - WARNING - [987] CRASH: STOR | Payload: b"STOR ' UNION SELECT../../../../../../../../../../../../\r\n"... | Error: 
+2025-12-28 16:34:25,235 - WARNING - [990] CRASH: USER | Payload: b'USER AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... | Error: [Errno 32] Broken pipe
+2025-12-28 16:34:26,783 - WARNING - [996] CRASH: STOR | Payload: b'STOR /etc\r\n'... | Error: 
+2025-12-28 16:34:28,330 - WARNING - [997] CRASH: RETR | Payload: b'RETR %x%x%x%x%x%x%x%x%x%x\r\n'... | Error: 
+2025-12-28 16:34:29,868 - WARNING - [999] CRASH: MKD | Payload: b'MKD /var\r\n'... | Error: 

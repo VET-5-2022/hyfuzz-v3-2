@@ -364,44 +364,28 @@ class VulnerableHTTPServer:
             iteration=self._request_counter
         )
 
-        # Simulate different crash types
+        # Prepare response with CVE information
+        crash_response = {
+            "status": "crashed",
+            "crash_type": crash_type,
+            "message": f"Server crashed due to {crash_type}",
+            "triggered_cves": triggered_cves  # Include CVE information even in crash
+        }
+
+        # Simulate different crash types with JSON response
+        status_code = 500
         if crash_type == "server_crash":
-            # Simulate server crash by raising signal
-            # In real scenarios, this would crash the server
-            return Response(
-                "Internal Server Error: Server crashed",
-                status=500,
-                headers={"X-Crash-Type": crash_type}
-            )
-
+            status_code = 500
         elif crash_type == "resource_exhaustion":
-            return Response(
-                "Service Unavailable: Resource exhaustion",
-                status=503,
-                headers={"X-Crash-Type": crash_type}
-            )
-
+            status_code = 503
         elif crash_type == "segfault":
-            return Response(
-                "Internal Server Error: Segmentation fault",
-                status=500,
-                headers={"X-Crash-Type": crash_type}
-            )
-
+            status_code = 500
         elif crash_type == "connection_reset":
-            # For connection reset, we abort the response
-            return Response(
-                "",
-                status=502,
-                headers={"X-Crash-Type": crash_type, "Connection": "close"}
-            )
-
+            status_code = 502
         else:
-            return Response(
-                f"Internal Server Error: {crash_type}",
-                status=500,
-                headers={"X-Crash-Type": crash_type}
-            )
+            status_code = 500
+
+        return jsonify(crash_response), status_code, {"X-Crash-Type": crash_type}
 
     def start(self, threaded: bool = True) -> bool:
         """

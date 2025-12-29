@@ -1,0 +1,18 @@
+{
+  "crash_id": "cc54a1c31f30d294",
+  "timestamp": "2025-12-28T16:24:44.426836",
+  "crash_type": "cve_trigger",
+  "payload": "PASS ' OR ''='",
+  "payload_hex": "504153532027204f522027273d27",
+  "payload_size": 14,
+  "command": "PASS",
+  "arguments": "' OR ''='",
+  "cve_id": "CVE-2024-48651",
+  "cve_name": "ProFTPD mod_sql Privilege Escalation",
+  "error_message": "SQL injection for privilege escalation detected",
+  "stack_trace": "",
+  "server_state": {},
+  "fuzzer_type": "vuln_test",
+  "iteration": 0,
+  "session_id": "90f1cf3b"
+}

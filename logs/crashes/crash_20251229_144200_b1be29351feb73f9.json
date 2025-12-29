@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-29T14:42:09.549641",
+  "crash_type": "null_byte_injection",
+  "payload": "POST /.\u0000.//.\u0000.//.\u0000.//etc/passwd?\nHeaders: {'User-Agent': 'curl/7.68.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'close', 'Host': '127.0.0.1:8080', 'Content-Length': '@C:\\\\Windows\\\\System32\\\\config\\\\SAM', 'Cookie': '////'}",
+  "payload_hash": "b1be29351feb73f9",
+  "request_method": "POST",
+  "request_path": "/.\u0000.//.\u0000.//.\u0000.//etc/passwd?",
+  "request_headers": {
+    "User-Agent": "curl/7.68.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "close",
+    "Host": "127.0.0.1:8080",
+    "Content-Length": "@C:\\Windows\\System32\\config\\SAM",
+    "Cookie": "////"
+  },
+  "request_body": "",
+  "error_message": "Simulated null_byte_injection",
+  "stack_trace": null,
+  "fuzzer_variant": null,
+  "iteration": 127
+}

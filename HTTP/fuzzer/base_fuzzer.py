@@ -272,7 +272,8 @@ class BaseFuzzer(ABC):
             # Check response body for CVE triggers
             try:
                 body = response.json()
-                if body.get("status") == "vulnerable":
+                # Check for both "vulnerable" and "crashed" status (crashed may also contain CVE info)
+                if body.get("status") in ["vulnerable", "crashed"]:
                     for cve_info in body.get("triggered_cves", []):
                         cve_id = cve_info.get("cve_id")
                         if cve_id:
