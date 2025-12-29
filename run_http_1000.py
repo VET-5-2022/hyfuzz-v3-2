@@ -32,8 +32,7 @@ def main():
 
     # Start HTTP server
     print("\n[Step 1/3] Starting HTTP server on 127.0.0.1:8080...")
-    server = VulnerableHTTPServer(host="127.0.0.1", port=8080)
-    supervisor = ServerSupervisor(server)
+    supervisor = ServerSupervisor(host="127.0.0.1", port=8080)
 
     try:
         supervisor.start()
@@ -71,19 +70,19 @@ def main():
         print("HTTP VULNERABILITY TEST RESULTS")
         print(f"{'='*70}\n")
 
-        print(f"Iterations Completed: {result.iterations}")
-        print(f"Total Crashes: {result.crashes}")
-        print(f"CVE Triggers: {result.cve_count}")
-        print(f"Unique CVEs Found: {len(result.cve_breakdown)}")
-        print(f"Errors: {result.errors}")
-        print(f"Timeouts: {result.timeouts}")
-        print(f"Average Rate: {result.iterations/duration:.2f} req/s")
+        print(f"Iterations Completed: {result.total_iterations}")
+        print(f"Total Crashes: {result.crashes_found}")
+        print(f"CVE Triggers: {result.total_cve_triggers}")
+        print(f"Unique CVEs Found: {len(result.cve_triggers)}")
+        print(f"Errors: {result.error_count}")
+        print(f"Timeouts: {result.timeout_count}")
+        print(f"Average Rate: {result.requests_per_second:.2f} req/s")
 
-        if result.cve_breakdown:
+        if result.cve_triggers:
             print(f"\nCVE Breakdown:")
-            for cve, count in sorted(result.cve_breakdown.items(),
+            for cve, count in sorted(result.cve_triggers.items(),
                                     key=lambda x: x[1], reverse=True):
-                percentage = (count / result.cve_count * 100) if result.cve_count > 0 else 0
+                percentage = (count / result.total_cve_triggers * 100) if result.total_cve_triggers > 0 else 0
                 print(f"  {cve}: {count} triggers ({percentage:.1f}%)")
 
         # Save results to JSON
@@ -96,15 +95,15 @@ def main():
         result_data = {
             "target": "HTTP",
             "framework": "boofuzz",
-            "iterations": result.iterations,
+            "iterations": result.total_iterations,
             "duration_seconds": duration,
-            "crashes": result.crashes,
-            "cve_triggers": result.cve_count,
-            "unique_cves": len(result.cve_breakdown),
-            "cve_breakdown": result.cve_breakdown,
-            "errors": result.errors,
-            "timeouts": result.timeouts,
-            "rate_per_second": result.iterations/duration if duration > 0 else 0
+            "crashes": result.crashes_found,
+            "cve_triggers": result.total_cve_triggers,
+            "unique_cves": len(result.cve_triggers),
+            "cve_breakdown": result.cve_triggers,
+            "errors": result.error_count,
+            "timeouts": result.timeout_count,
+            "rate_per_second": result.requests_per_second
         }
 
         with open(result_file, 'w') as f:
